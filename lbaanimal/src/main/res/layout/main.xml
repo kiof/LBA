@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <!--xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"-->
+
+    <!--   <com.google.ads.AdView
+           android:id="@+id/adView"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           ads:adSize="BANNER"
+           ads:adUnitId="a14e6f849274582"
+           android:gravity="center"
+           ads:loadAdOnCreate="true" />-->
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14e6f849274582" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:fadingEdge="horizontal|vertical"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollingCache="false" />
+
+</LinearLayout>
