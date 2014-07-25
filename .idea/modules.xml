@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" />
     </modules>
   </component>
 </project>
