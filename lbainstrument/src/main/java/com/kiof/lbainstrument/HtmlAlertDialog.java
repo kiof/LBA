@@ -56,7 +56,6 @@ public class HtmlAlertDialog extends AlertDialog {
                 builder.append(buf, 0, numRead);
             }
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return builder.toString();
