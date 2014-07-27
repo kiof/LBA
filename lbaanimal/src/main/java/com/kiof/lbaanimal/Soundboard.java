@@ -432,8 +432,6 @@ public class Soundboard extends ListActivity implements SensorEventListener {
             public void onCompletion(MediaPlayer mp) {
                 mp.release();
             }
-
-            ;
         });
         mp.start();
         return mp.getDuration();

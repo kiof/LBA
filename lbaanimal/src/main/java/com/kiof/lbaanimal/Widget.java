@@ -20,9 +20,7 @@ public class Widget extends AppWidgetProvider {
         // Toast.makeText(context, "Widget onUpdate", Toast.LENGTH_SHORT).show();
 
         // Perform this loop procedure for each App Widget that belongs to this provider
-        for (int i = 0; i < N; i++) {
-            int appWidgetId = appWidgetIds[i];
-
+        for (int appWidgetId : appWidgetIds) {
             // Create an Intent to launch PlaySound
             Intent intentPlaySound = new Intent(context, PlaySound.class);
             PendingIntent pendingIntentPlaySound = PendingIntent.getActivity(context, 0, intentPlaySound, 0);
