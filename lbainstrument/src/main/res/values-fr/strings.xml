@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sons des Instruments pour Enfants</string>
+    <string name="widget_name">Sons des Instruments pour Enfants</string>
+
+    <string name="soundFile">SonsInstruments.mp3</string>
+    <string name="soundTitle">SonsInstruments</string>
+
+    <string name="Ok">Ok</string>
+    <string name="quit_title">Quitter ?</string>
+    <string name="quit_message">Voulez-vous quitter cette application?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="goingon">L\'application continue</string>
+
+    <string name="changelog_title">Nouveautés</string>
+    <string name="about_title">A propos</string>
+
+    <string name="volume_title">Volume ?</string>
+    <string name="volume_question">Le volume de votre téléphone est assez bas, voulez-vous mettre le son au MAX?</string>
+    <string name="volume_yes">Oui, mettre à fond!</string>
+    <string name="volume_no">Non, laisser comme il est...</string>
+
+    <string name="actions">Actions</string>
+    <string name="play">Jouer le son</string>
+    <string name="ringtone">Mettre en sonnerie</string>
+    <string name="ringtoneok">Votre sonnerie a été changé</string>
+    <string name="ringtoneko">Votre sonnerie n\'a pas été changé</string>
+    <string name="notification">Mettre en notification de SMS</string>
+    <string name="notificationok">Votre notification de SMS a été changé</string>
+    <string name="notificationko">Votre notification de SMS n\'a pas été changé</string>
+
+    <string name="share_with">Partager avec...</string>
+    <string name="share_title">Un ami vous recommande...</string>
+    <string name="share_link">http://market.android.com/details?id=com.kiof.lbainstrument</string>
+
+    <string name="other_link">market://search?q=pub:Kiof</string>
+
+    <string name="menuTitle1">Options</string>
+    <string name="menuTitleCondensed1">Options</string>
+    <string name="menuTitle2">Envoyer à un ami</string>
+    <string name="menuTitleCondensed2">Partager</string>
+    <string name="menuTitle3">Plus d\'applications gratuites</string>
+    <string name="menuTitleCondensed3">Plus d\'applications</string>
+    <string name="menuTitle4">A propos...</string>
+    <string name="menuTitleCondensed4">A propos</string>
+    <string name="menuTitle5">Quitter l\'application</string>
+    <string name="menuTitleCondensed5">Quitter</string>
+
+    <string name="preference_category_volume">Volume</string>
+    <string name="checkvolume_title">Vérifier le volume</string>
+    <string name="checkvolume_summary">Vérifier que le volume est suffisamment élevé au démarrage</string>
+    <string name="volumemax_title">Mettre au maximum</string>
+    <string name="volumemax_summary">Réglez le volume au maximum au démarrage</string>
+    <string name="volumerestore_title">Restaurer le volume</string>
+    <string name="volumerestore_summary">Restaurer le volume précédent lors de la sortie de l\'application</string>
+    <string name="preference_category_features">Fonctionnement</string>
+    <string name="lgclick_title">Appui long</string>
+    <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
+    <string name="shake_title">Boite à Meuh</string>
+    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
+    <string name="bgmusic_title">Musique d\'introduction</string>
+    <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
+    <string name="save_setting">Enregistrer les paramètres</string>
+    <string name="setting_saved">Paramètres enregistrés</string>
+
+    <string-array name="textSections">
+        <item>Bois</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Clavier</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Corde</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Cuivre</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Percussion</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Voix</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Divers</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="textButtons">
+        <item>Flute</item>
+        <item>Flute Traversiere</item>
+        <item>Flute De Pan</item>
+        <item>Orgue</item>
+        <item>Ocarina</item>
+        <item>Harmonica</item>
+        <item>Accordeon</item>
+        <item>Clarinette</item>
+        <item>Saxophone</item>
+        <item>Hautbois</item>
+        <item>Basson</item>
+        <item>Piano</item>
+        <item>Synthetiseur</item>
+        <item>Clavecin</item>
+        <item>Clavicorde</item>
+        <item>Tympanon</item>
+        <item>Cymbalum</item>
+        <item>Psalterion</item>
+        <item>Violon</item>
+        <item>Alto</item>
+        <item>Violoncelle</item>
+        <item>Contrebasse</item>
+        <item>Vielle A Roue</item>
+        <item>Guitare</item>
+        <item>Basse</item>
+        <item>Banjo</item>
+        <item>Mandoline</item>
+        <item>Luth</item>
+        <item>Ukulele</item>
+        <item>Balalaika</item>
+        <item>Sarangi</item>
+        <item>Harpe</item>
+        <item>Trompette</item>
+        <item>Trombone</item>
+        <item>Clairon</item>
+        <item>Tuba</item>
+        <item>Cornet A Pistons</item>
+        <item>Cor</item>
+        <item>Didgeridoo</item>
+        <item>Cor Des Alpes</item>
+        <item>Batterie</item>
+        <item>Djembe</item>
+        <item>Bongo</item>
+        <item>Grosse Caisse</item>
+        <item>Caisse Claire</item>
+        <item>Tambour</item>
+        <item>Tambourin</item>
+        <item>Timbale</item>
+        <item>Cuica</item>
+        <item>Triangle</item>
+        <item>Maracas</item>
+        <item>Xylophone</item>
+        <item>Glockenspiel</item>
+        <item>Cymbale</item>
+        <item>Gong</item>
+        <item>Marimba</item>
+        <item>Steel-Drum</item>
+        <item>Sopranos</item>
+        <item>Mezzo-Sopranos</item>
+        <item>Altos</item>
+        <item>Tenors</item>
+        <item>Barytons</item>
+        <item>Basses</item>
+        <item>Biniou</item>
+        <item>Cornemuse</item>
+        <item>Serinette</item>
+        <item>Boite A Musique</item>
+        <item>Orgue De Barbarie</item>
+        <item>Limonaire</item>
+        <item>Claviorganum</item>
+        <item>Vuvuzela</item>
+        <item>Serpent</item>
+        <item>Cithare</item>
+        <item>Guimbarde</item>
+    </string-array>
+
+</resources>

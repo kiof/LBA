@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lbainstrument/lbainstrument.iml" filepath="$PROJECT_DIR$/lbainstrument/lbainstrument.iml" />
     </modules>
   </component>
 </project>
