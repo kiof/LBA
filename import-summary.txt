@@ -1,36 +1,14 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
-Ignored Files:
---------------
-The following files were *not* copied into the new Gradle project; you
-should evaluate whether these are still needed in your project and if
-so manually move them:
-
-* .gitignore
-* .idea\
-* .idea\.name
-* .idea\LBATransport.iml
-* .idea\compiler.xml
-* .idea\copyright\
-* .idea\copyright\profiles_settings.xml
-* .idea\encodings.xml
-* .idea\misc.xml
-* .idea\modules.xml
-* .idea\scopes\
-* .idea\scopes\scope_settings.xml
-* .idea\vcs.xml
-* .idea\workspace.xml
-* proguard.cfg
-
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => lBATransport\src\main\AndroidManifest.xml
-* res\ => lBATransport\src\main\res\
-* src\ => lBATransport\src\main\java\
+* AndroidManifest.xml => lBAChien\src\main\AndroidManifest.xml
+* res\ => lBAChien\src\main\res\
+* src\ => lBAChien\src\main\java\
 
 Next Steps:
 -----------

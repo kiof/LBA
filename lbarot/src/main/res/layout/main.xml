@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14e452c2480ac1" />
+
+    <ScrollView
+        android:id="@+id/globaltab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg"
+        android:fadingEdge="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section0">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel0">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101143_awkwardbelch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101144_awkwardbelch4">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101150_belch14">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101151_belch15">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101160_classicbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101161_classicbelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101162_classicbelch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11811">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12730_pingel_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s26762_belch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s3116">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32661_burp_4">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s51803_kyles_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63472_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63473_burpclipped">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63474_burpgaie">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63475_burpgurgler">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63476_burpnice">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section1">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel1">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101177_talkbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101178_talkbelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101179_wetbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101180_wetbelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101181_wetbelch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101182_wetbelch4">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11809orgy">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11810_porte">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11812caverne">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s474yahourt">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s475boite">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s58020_burpgurgle">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s61934_imapig">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s61938_sessionburpsorry">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s66320_kaiodeleis_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section2">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel2">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32001_burp006_do">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32002_burp005_re">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32003_burp002_mi">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32004_burp003_fa">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32005_burp004_sol">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32006_burp001_la">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32007_burp007_si">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section3">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel3">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101145_belch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101146_belch10">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101147_belch11">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101148_belch12">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101149_belch13">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101152_belch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101153_belch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101154_belch4">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101155_belch5">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101156_belch6">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101157_belch7">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101158_belch8">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101159_belch9">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101164_longbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11805">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11806">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11807">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11808">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s61356_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section4">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel4">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101141_awkwardbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101163_doublebelch">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11814">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s26763_belch_3_wolves">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s3117">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s43884_zappburpingnoise">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s58983_burp_10">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63479_burpsequence">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63481_byrpserious">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section5">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel5">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101142_awkwardbelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101165_powerbelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101166_powerbelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101167_powerbelch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s57811_burp_camel">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s57867_burp_camel">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63478_burpreetarjay">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63480_burpslomo">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s66638_ccaaajf_burp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section6">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel6">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s15864_burpus">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s16753_belch_sample">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s3115">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s32660_burp_3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s476">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s477">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s478">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s479">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s63477_burpquick">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s64158_raceburp">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section7">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel7">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11815">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11816">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s11817">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s61577_0001b_burbs">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section8">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel8">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101168_strangebelch1">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101169_strangebelch2">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101170_strangebelch3">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101171_strangebelch43">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101172_strangebelch5">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101173_strangebelch6">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101174_strangebelch7">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101175_strangebelch8">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s101176_strangebelch9">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

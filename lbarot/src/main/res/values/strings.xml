@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Boite A Rot</string>
+    <string name="widget_name">La Boite A Rot</string>
+
+    <string name="soundFile">LaBoiteARot.mp3</string>
+    <string name="soundTitle">La Boite A Rot</string>
+
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="textHighColor">#FFFFFFFF</color>
+    <color name="textSectionColor">#FF000000</color>
+    <color name="textSectionShadow">#FF5c7c9f</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#FFB3B3B3</color>
+    <color name="button_pressed">#FF5c7c9f</color>
+    <color name="button_focused">#FF9bc0ec</color>
+    <color name="button_default">#FF7a98bb</color>
+
+    <string name="Ok">Ok</string>
+    <string name="quit_title">Quitter ?</string>
+    <string name="quit_message">Voulez-vous quitter cette application?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="goingon">L\'application continue</string>
+
+    <string name="changelog_title">Nouveautés</string>
+    <string name="about_title">A propos</string>
+
+    <string name="volume_title">Volume ?</string>
+    <string name="volume_question">Le volume de votre téléphone est assez bas, voulez-vous mettre le son au MAX?</string>
+    <string name="volume_yes">Oui, mettre à fond!</string>
+    <string name="volume_no">Non, laisser comme il est...</string>
+
+    <string name="actions">Actions</string>
+    <string name="play">Jouer le son</string>
+    <string name="ringtone">Mettre en sonnerie</string>
+    <string name="ringtoneok">Votre sonnerie a été changé</string>
+    <string name="ringtoneko">Votre sonnerie n\'a pas été changé</string>
+    <string name="notification">Mettre en notification de SMS</string>
+    <string name="notificationok">Votre notification de SMS a été changé</string>
+    <string name="notificationko">Votre notification de SMS n\'a pas été changé</string>
+
+    <string name="menuTitle1">Options</string>
+    <string name="menuTitleCondensed1">Options</string>
+    <string name="menuTitle2">A propos...</string>
+    <string name="menuTitleCondensed2">A propos</string>
+    <string name="menuTitle3">Quitter</string>
+    <string name="menuTitleCondensed3">Quitter</string>
+
+    <string name="preference_category_volume">Volume</string>
+    <string name="checkvolume_title">Vérifier le volume</string>
+    <string name="checkvolume_summary">Vérifier que le volume est suffisamment élevé au démarrage</string>
+    <string name="volumemax_title">Mettre au maximum</string>
+    <string name="volumemax_summary">Réglez le volume au maximum au démarrage</string>
+    <string name="volumerestore_title">Restaurer le volume</string>
+    <string name="volumerestore_summary">Restaurer le volume précédent lors de la sortie de l\'application</string>
+    <string name="preference_category_features">Fonctionnement</string>
+    <string name="lgclick_title">Appui long</string>
+    <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
+    <string name="shake_title">Boite à Meuh</string>
+    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
+    <string name="bgmusic_title">Musique d\'introduction</string>
+    <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
+    <string name="save_setting">Enregistrer les paramètres</string>
+    <string name="setting_saved">Paramètres enregistrés</string>
+
+    <string-array name="textSectionArray">
+        <item>Rots Classiques</item>
+        <item>Rots Spéciaux</item>
+        <item>La Gamme</item>
+        <item>Rots Longs</item>
+        <item>Rots Multiples</item>
+        <item>Rots Bruillants</item>
+        <item>Rots Courts</item>
+        <item>Chansons</item>
+        <item>Rots Bizarres</item>
+    </string-array>
+
+    <string-array name="buttonArray">
+        <item>s101143_awkwardbelch3</item>
+        <item>s101144_awkwardbelch4</item>
+        <item>s101150_belch14</item>
+        <item>s101151_belch15</item>
+        <item>s101160_classicbelch1</item>
+        <item>s101161_classicbelch2</item>
+        <item>s101162_classicbelch3</item>
+        <item>s11811</item>
+        <item>s12730_pingel_burp</item>
+        <item>s26762_belch1</item>
+        <item>s3116</item>
+        <item>s32661_burp_4</item>
+        <item>s51803_kyles_burp</item>
+        <item>s63472_burp</item>
+        <item>s63473_burpclipped</item>
+        <item>s63474_burpgaie</item>
+        <item>s63475_burpgurgler</item>
+        <item>s63476_burpnice</item>
+
+        <item>s101177_talkbelch1</item>
+        <item>s101178_talkbelch2</item>
+        <item>s101179_wetbelch1</item>
+        <item>s101180_wetbelch2</item>
+        <item>s101181_wetbelch3</item>
+        <item>s101182_wetbelch4</item>
+        <item>s11809orgy</item>
+        <item>s11810_porte</item>
+        <item>s11812caverne</item>
+        <item>s474yahourt</item>
+        <item>s475boite</item>
+        <item>s58020_burpgurgle</item>
+        <item>s61934_imapig</item>
+        <item>s61938_sessionburpsorry</item>
+        <item>s66320_kaiodeleis_burp</item>
+
+        <item>s32001_burp006_do</item>
+        <item>s32002_burp005_re</item>
+        <item>s32003_burp002_mi</item>
+        <item>s32004_burp003_fa</item>
+        <item>s32005_burp004_sol</item>
+        <item>s32006_burp001_la</item>
+        <item>s32007_burp007_si</item>
+
+        <item>s101145_belch1</item>
+        <item>s101146_belch10</item>
+        <item>s101147_belch11</item>
+        <item>s101148_belch12</item>
+        <item>s101149_belch13</item>
+        <item>s101152_belch2</item>
+        <item>s101153_belch3</item>
+        <item>s101154_belch4</item>
+        <item>s101155_belch5</item>
+        <item>s101156_belch6</item>
+        <item>s101157_belch7</item>
+        <item>s101158_belch8</item>
+        <item>s101159_belch9</item>
+        <item>s101164_longbelch1</item>
+        <item>s11805</item>
+        <item>s11806</item>
+        <item>s11807</item>
+        <item>s11808</item>
+        <item>s61356_burp</item>
+
+        <item>s101141_awkwardbelch1</item>
+        <item>s101163_doublebelch</item>
+        <item>s11814</item>
+        <item>s26763_belch_3_wolves</item>
+        <item>s3117</item>
+        <item>s43884_zappburpingnoise</item>
+        <item>s58983_burp_10</item>
+        <item>s63479_burpsequence</item>
+        <item>s63481_byrpserious</item>
+
+        <item>s101142_awkwardbelch2</item>
+        <item>s101165_powerbelch1</item>
+        <item>s101166_powerbelch2</item>
+        <item>s101167_powerbelch3</item>
+        <item>s57811_burp_camel</item>
+        <item>s57867_burp_camel</item>
+        <item>s63478_burpreetarjay</item>
+        <item>s63480_burpslomo</item>
+        <item>s66638_ccaaajf_burp</item>
+
+        <item>s15864_burpus</item>
+        <item>s16753_belch_sample</item>
+        <item>s3115</item>
+        <item>s32660_burp_3</item>
+        <item>s476</item>
+        <item>s477</item>
+        <item>s478</item>
+        <item>s479</item>
+        <item>s63477_burpquick</item>
+        <item>s64158_raceburp</item>
+
+        <item>s11815</item>
+        <item>s11816</item>
+        <item>s11817</item>
+        <item>s61577_0001b_burbs</item>
+
+        <item>s101168_strangebelch1</item>
+        <item>s101169_strangebelch2</item>
+        <item>s101170_strangebelch3</item>
+        <item>s101171_strangebelch43</item>
+        <item>s101172_strangebelch5</item>
+        <item>s101173_strangebelch6</item>
+        <item>s101174_strangebelch7</item>
+        <item>s101175_strangebelch8</item>
+        <item>s101176_strangebelch9</item>
+    </string-array>
+
+    <string-array name="textButtonArray">
+        <item>Rot 1</item>
+        <item>Rot 2</item>
+        <item>Trois Tons</item>
+        <item>Rot 3</item>
+        <item>Rot 4</item>
+        <item>Grenouille</item>
+        <item>Rot 5</item>
+        <item>Bien Rond</item>
+        <item>Rot 6</item>
+        <item>Coincé</item>
+        <item>Rebonds</item>
+        <item>Petit Rot</item>
+        <item>Rot 7</item>
+        <item>Rototo</item>
+        <item>Rot 8</item>
+        <item>Rot Gai</item>
+        <item>Rot Etranglé</item>
+        <item>Joli Rot</item>
+
+        <item>HooHaaaHe</item>
+        <item>HaaaHeyy</item>
+        <item>Mouillé</item>
+        <item>Long et Mouillé</item>
+        <item>Humide 1</item>
+        <item>Mouillé et Coincé</item>
+        <item>Orgie de Rot</item>
+        <item>Comme un Porte</item>
+        <item>Dans une Caverne</item>
+        <item>Pot de Yahourt</item>
+        <item>Dans une Boite</item>
+        <item>Rot Etranglé</item>
+        <item>I am a Pig</item>
+        <item>Ho, sorry</item>
+        <item>Rot du Reveil</item>
+
+        <item>DO</item>
+        <item>RE</item>
+        <item>MI</item>
+        <item>FA</item>
+        <item>SOL</item>
+        <item>LA</item>
+        <item>SI</item>
+
+        <item>Long 1</item>
+        <item>Long 2</item>
+        <item>Bavard</item>
+        <item>Interminable</item>
+        <item>Long 3</item>
+        <item>Long 4</item>
+        <item>Long 5</item>
+        <item>Basse</item>
+        <item>Ronronnement</item>
+        <item>Long 6</item>
+        <item>Long 7</item>
+        <item>Long 8</item>
+        <item>Long 9</item>
+        <item>En 2 Parties</item>
+        <item>Qui Couine</item>
+        <item>Grincant</item>
+        <item>Cochon qu\'on étrangle</item>
+        <item>Cochon qui agonise</item>
+        <item>Long et Montant</item>
+
+        <item>Suite de Rot</item>
+        <item>Double Rot</item>
+        <item>Rot Ah</item>
+        <item>Rot des 3 Loups</item>
+        <item>Rots Progressifs</item>
+        <item>Rots Oscillants</item>
+        <item>Rot Chouette</item>
+        <item>Rot Difficile a Faire</item>
+        <item>Rots Sévère</item>
+
+        <item>En Baillant</item>
+        <item>Lourd</item>
+        <item>Collant</item>
+        <item>Bruillant</item>
+        <item>Chameau pas Content</item>
+        <item>Chameau Content</item>
+        <item>Rot Esitant</item>
+        <item>Rot qui Soulage</item>
+        <item>Hyper Bruillant</item>
+
+        <item>Furtif</item>
+        <item>Concis</item>
+        <item>Hyper Classique</item>
+        <item>Court</item>
+        <item>Rapide</item>
+        <item>Classique</item>
+        <item>Beuhaa</item>
+        <item>Ahhh</item>
+        <item>Bref</item>
+        <item>Court et Montant</item>
+
+        <item>Concerto Mozart en Rot Majeur!</item>
+        <item>5eme de Beethoven en Rot mineurs!</item>
+        <item>Rot très Applaudi</item>
+        <item>Composition (très) Originale</item>
+
+        <item>Bizarre</item>
+        <item>Extravagant</item>
+        <item>Curieux</item>
+        <item>Insolite</item>
+        <item>Biscornu</item>
+        <item>Inhabituel</item>
+        <item>Saugrenu</item>
+        <item>Bizzaroide</item>
+        <item>Drole</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14e652846c029b" />
+
+    <ScrollView
+        android:id="@+id/globaltab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg"
+        android:fadingEdge="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section0">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel0">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2500">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2909">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2911">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s1807">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2919">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12557">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s3003">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section1">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel1">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s793">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s831">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s963">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s791">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s964">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s1653">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s821">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s1545">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center"></TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section2">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel2">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s306">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2908">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2910">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2912">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2913">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2915">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2916">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2917">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2920">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2921">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2922">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section3">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel3">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s966">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s967">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2918">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2924">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2925">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2926">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2927">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12729">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12735">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s965">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="collapseView"
+                android:orientation="horizontal"
+                android:tag="section4">
+
+                <include layout="@layout/section" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tag="buttonPanel4">
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s1463">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2000">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2907">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s2923">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12174">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12725">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow android:gravity="center">
+
+                    <FrameLayout
+                        android:layout_height="fill_parent"
+                        android:tag="s12730">
+
+                        <include layout="@layout/soundbutton" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

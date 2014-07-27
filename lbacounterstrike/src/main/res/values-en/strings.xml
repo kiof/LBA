@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Counter Strike Soundbox</string>
+    <string name="widget_name">Counter Strike Soundbox</string>
+
+    <string name="soundFile">CounterStrikeSoundbox.mp3</string>
+    <string name="soundTitle">Counter Strike Soundbox</string>
+
+    <string name="Ok">Ok</string>
+    <string name="quit_title">Quit ?</string>
+    <string name="quit_message">Do you want to leave this application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="goingon">The application goes on</string>
+
+    <string name="changelog_title">New</string>
+    <string name="about_title">About</string>
+
+    <string name="volume_title">Volume ?</string>
+    <string name="volume_question">The volume of your phone is low, do you want to set it to  MAX?</string>
+    <string name="volume_yes">Yes, set to max!</string>
+    <string name="volume_no">No, do not change volume...</string>
+
+    <string name="actions">Actions</string>
+    <string name="play">Play sound</string>
+    <string name="ringtone">Set as Ringtone</string>
+    <string name="ringtoneok">Your ringtone have been changed</string>
+    <string name="ringtoneko">Your ringtone have not been changed</string>
+    <string name="notification">Set as Notification</string>
+    <string name="notificationok">Your notification have been changed</string>
+    <string name="notificationko">Your notification have not been changed</string>
+
+    <string name="menuTitle1">Options</string>
+    <string name="menuTitleCondensed1">Options</string>
+    <string name="menuTitle2">About...</string>
+    <string name="menuTitleCondensed2">About</string>
+    <string name="menuTitle3">Quit</string>
+    <string name="menuTitleCondensed3">Quit</string>
+
+    <string name="preference_category_volume">Volume check</string>
+    <string name="checkvolume_title">Check Volume</string>
+    <string name="checkvolume_summary">Check that volume is high enough on startup</string>
+    <string name="volumemax_title">Volume Max</string>
+    <string name="volumemax_summary">Set volume to maximum on startup</string>
+    <string name="volumerestore_title">Volume Restore</string>
+    <string name="volumerestore_summary">Restore the previous volume level when exiting the application</string>
+    <string name="preference_category_features">Features</string>
+    <string name="lgclick_title">Long press feature</string>
+    <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
+    <string name="shake_title">Play on shake</string>
+    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
+    <string name="bgmusic_title">Startup music</string>
+    <string name="bgmusic_summary">Play a short music on startup</string>
+    <string name="save_setting">Save settings</string>
+    <string name="setting_saved">Settings saved</string>
+
+    <string-array name="textSectionArray">
+        <item>Weapon</item>
+        <item>Gun Game</item>
+        <item>Server</item>
+        <item>Comment</item>
+        <item>Player</item>
+        <item>Action</item>
+    </string-array>
+
+    <string-array name="textButtonArray">
+        <item>AK47</item>
+        <item>AUG</item>
+        <item>AWP</item>
+        <item>C4</item>
+        <item>Desert Eagle</item>
+        <item>5/7</item>
+        <item>G3 SG1</item>
+        <item>GLock</item>
+        <item>Knife</item>
+        <item>M249</item>
+        <item>M3</item>
+        <item>M4A1</item>
+        <item>MP5</item>
+        <item>P228</item>
+        <item>P90</item>
+        <item>Scout</item>
+        <item>UMP45</item>
+        <item>USP</item>
+
+        <item>Take lead</item>
+        <item>Tied lead</item>
+        <item>Lost lead</item>
+        <item>Next Weapon</item>
+        <item>Previous Weapon</item>
+        <item>Jump Weapon</item>
+
+        <item>French: 3x sans frais</item>
+        <item>Background Music</item>
+        <item>CSCargo -\n Hard to get out of its shell</item>
+        <item>CSCargo -\n Oh snail</item>
+        <item>CSCargo -\n Where are you my snail?</item>
+        <item>Stop Moannig</item>
+        <item>The worst of Counter-Strike</item>
+        <item>Micro</item>
+        <item>Red and Bleu</item>
+        <item>Hello everybody</item>
+
+        <item>Double kill</item>
+        <item>First blood</item>
+        <item>God like</item>
+        <item>Headshot</item>
+        <item>Humiliation</item>
+        <item>Killing spreed</item>
+        <item>May the force</item>
+        <item>Monster kill</item>
+        <item>Multi kill</item>
+        <item>I am the one and only</item>
+        <item>Prepare to fight</item>
+        <item>Rampage</item>
+        <item>Ultra kill</item>
+        <item>Unstoppable</item>
+
+        <item>Dead 1</item>
+        <item>Headshot</item>
+        <item>Headshot Gore</item>
+        <item>Dirty</item>
+        <item>Fall</item>
+        <item>Jump</item>
+        <item>Ladder</item>
+        <item>Shell</item>
+        <item>Shot</item>
+        <item>Snow</item>
+        <item>Spray</item>
+
+        <item>9mm clip 1</item>
+        <item>9mm clip 2</item>
+        <item>Ammo pickup</item>
+        <item>Clip Insert</item>
+        <item>Flashbang</item>
+        <item>Gun Cock</item>
+        <item>Gun Pick-up</item>
+        <item>Kevlar</item>
+        <item>Metal Ricochet</item>
+        <item>Explosion SG</item>
+        <item>Shell Sound</item>
+    </string-array>
+
+</resources>
