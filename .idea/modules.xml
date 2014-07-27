@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" />
       <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" />
       <module fileurl="file://$PROJECT_DIR$/lbainstrument/lbainstrument.iml" filepath="$PROJECT_DIR$/lbainstrument/lbainstrument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lbatransport/lbatransport.iml" filepath="$PROJECT_DIR$/lbatransport/lbatransport.iml" />
     </modules>
   </component>
 </project>

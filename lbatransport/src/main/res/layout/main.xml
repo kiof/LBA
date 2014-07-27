@@ -12,7 +12,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         ads:adSize="BANNER"
-        ads:adUnitId="a14e6f849274582" />
+        ads:adUnitId="a14f0dce7cbc5af" />
 
     <ListView
         android:id="@android:id/list"

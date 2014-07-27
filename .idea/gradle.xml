@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/lbaanimal" />
             <option value="$PROJECT_DIR$/lbainstrument" />
+            <option value="$PROJECT_DIR$/lbatransport" />
           </set>
         </option>
       </GradleProjectSettings>
