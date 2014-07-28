@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="buttons" translatable="false">
+        <item>s443</item>
+        <item>s444</item>
+        <item>s445</item>
+        <item>s446</item>
+        <item>s447</item>
+        <item>s442</item>
+        <item>s499</item>
+        <item>s500</item>
+        <item>s501</item>
+        <item>s503</item>
+        <item>s502</item>
+        <item>s498</item>
+        <item>s449</item>
+        <item>s1465</item>
+        <item>s1467</item>
+        <item>s1468</item>
+        <item>s1810</item>
+        <item>s439</item>
+        <item>s440</item>
+        <item>s441</item>
+        <item>s436</item>
+        <item>s20560</item>
+        <item>s20561</item>
+        <item>s20562</item>
+        <item>s1572</item>
+        <item>s1595</item>
+        <item>s1600</item>
+        <item>s1601</item>
+        <item>s1602</item>
+        <item>s1604</item>
+        <item>s1809</item>
+        <item>s1811</item>
+        <item>s1812</item>
+        <item>s1813</item>
+        <item>s1815</item>
+        <item>s1816</item>
+        <item>s12495</item>
+        <item>s1818</item>
+        <item>s1870</item>
+        <item>s1466</item>
+        <item>s11800</item>
+        <item>s12491</item>
+        <item>s12496</item>
+        <item>s12604</item>
+        <item>s1817</item>
+        <item>s11516</item>
+        <item>s11786</item>
+        <item>s8121</item>
+        <item>s2400</item>
+        <item>s2401</item>
+        <item>s2402</item>
+        <item>s2403</item>
+        <item>s2404</item>
+        <item>s2405</item>
+        <item>s2406</item>
+        <item>s2407</item>
+        <item>s2408</item>
+        <item>s2409</item>
+        <item>s2410</item>
+        <item>s2411</item>
+        <item>s2412</item>
+        <item>s2413</item>
+        <item>s2414</item>
+        <item>s2415</item>
+        <item>s2416</item>
+        <item>s2417</item>
+        <item>s2418</item>
+        <item>s2419</item>
+        <item>s2420</item>
+        <item>s2421</item>
+        <item>s2422</item>
+        <item>s11801</item>
+        <item>s11518</item>
+        <item>s11621</item>
+        <item>s12492</item>
+        <item>s12493</item>
+        <item>s12494</item>
+        <item>s21688</item>
+        <item>s21689</item>
+        <item>s1452</item>
+        <item>s1528</item>
+        <item>s11622</item>
+        <item>s1529</item>
+        <item>s1530</item>
+        <item>s1531</item>
+        <item>s1532</item>
+        <item>s1533</item>
+        <item>s1534</item>
+        <item>s1535</item>
+        <item>s3674</item>
+        <item>s3675</item>
+        <item>s3676</item>
+        <item>s1185</item>
+        <item>s798</item>
+        <item>s1184</item>
+        <item>s11620</item>
+        <item>s12629</item>
+        <item>s21691</item>
+        <item>s21692</item>
+    </string-array>
+    <string-array name="pictureSections" translatable="false">
+        <item>@drawable/section0</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section1</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section2</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section3</item>
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section4</item>
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section5</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section6</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section7</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section8</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+
+    <array name="pictures">
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+    </array>
+    <array name="sounds">
+        <item>@raw/s443</item>
+        <item>@raw/s444</item>
+        <item>@raw/s445</item>
+        <item>@raw/s446</item>
+        <item>@raw/s447</item>
+        <item>@raw/s442</item>
+        <item>@raw/s499</item>
+        <item>@raw/s500</item>
+        <item>@raw/s501</item>
+        <item>@raw/s503</item>
+        <item>@raw/s502</item>
+        <item>@raw/s498</item>
+        <item>@raw/s449</item>
+        <item>@raw/s1465</item>
+        <item>@raw/s1467</item>
+        <item>@raw/s1468</item>
+        <item>@raw/s1810</item>
+        <item>@raw/s439</item>
+        <item>@raw/s440</item>
+        <item>@raw/s441</item>
+        <item>@raw/s436</item>
+        <item>@raw/s20560</item>
+        <item>@raw/s20561</item>
+        <item>@raw/s20562</item>
+        <item>@raw/s1572</item>
+        <item>@raw/s1595</item>
+        <item>@raw/s1600</item>
+        <item>@raw/s1601</item>
+        <item>@raw/s1602</item>
+        <item>@raw/s1604</item>
+        <item>@raw/s1809</item>
+        <item>@raw/s1811</item>
+        <item>@raw/s1812</item>
+        <item>@raw/s1813</item>
+        <item>@raw/s1815</item>
+        <item>@raw/s1816</item>
+        <item>@raw/s12495</item>
+        <item>@raw/s1818</item>
+        <item>@raw/s1870</item>
+        <item>@raw/s1466</item>
+        <item>@raw/s11800</item>
+        <item>@raw/s12491</item>
+        <item>@raw/s12496</item>
+        <item>@raw/s12604</item>
+        <item>@raw/s1817</item>
+        <item>@raw/s11516</item>
+        <item>@raw/s11786</item>
+        <item>@raw/s8121</item>
+        <item>@raw/s2400</item>
+        <item>@raw/s2401</item>
+        <item>@raw/s2402</item>
+        <item>@raw/s2403</item>
+        <item>@raw/s2404</item>
+        <item>@raw/s2405</item>
+        <item>@raw/s2406</item>
+        <item>@raw/s2407</item>
+        <item>@raw/s2408</item>
+        <item>@raw/s2409</item>
+        <item>@raw/s2410</item>
+        <item>@raw/s2411</item>
+        <item>@raw/s2412</item>
+        <item>@raw/s2413</item>
+        <item>@raw/s2414</item>
+        <item>@raw/s2415</item>
+        <item>@raw/s2416</item>
+        <item>@raw/s2417</item>
+        <item>@raw/s2418</item>
+        <item>@raw/s2419</item>
+        <item>@raw/s2420</item>
+        <item>@raw/s2421</item>
+        <item>@raw/s2422</item>
+        <item>@raw/s11801</item>
+        <item>@raw/s11518</item>
+        <item>@raw/s11621</item>
+        <item>@raw/s12492</item>
+        <item>@raw/s12493</item>
+        <item>@raw/s12494</item>
+        <item>@raw/s21688</item>
+        <item>@raw/s21689</item>
+        <item>@raw/s1452</item>
+        <item>@raw/s1528</item>
+        <item>@raw/s11622</item>
+        <item>@raw/s1529</item>
+        <item>@raw/s1530</item>
+        <item>@raw/s1531</item>
+        <item>@raw/s1532</item>
+        <item>@raw/s1533</item>
+        <item>@raw/s1534</item>
+        <item>@raw/s1535</item>
+        <item>@raw/s3674</item>
+        <item>@raw/s3675</item>
+        <item>@raw/s3676</item>
+        <item>@raw/s1185</item>
+        <item>@raw/s798</item>
+        <item>@raw/s1184</item>
+        <item>@raw/s11620</item>
+        <item>@raw/s12629</item>
+        <item>@raw/s21691</item>
+        <item>@raw/s21692</item>
+    </array>
+
+</resources>

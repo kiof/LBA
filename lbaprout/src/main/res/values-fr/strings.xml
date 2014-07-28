@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Boite A Prout</string>
+    <string name="widget_name">La Boite A Prout</string>
+
+    <string name="soundFile">LBAProut.mp3</string>
+    <string name="soundTitle">LBA Prout</string>
+
+    <string name="Ok">OK</string>
+    <string name="quit_title">Quitter ?</string>
+    <string name="quit_message">Voulez-vous quitter cette application?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="goingon">L\'application continue</string>
+
+    <string name="changelog_title">Nouveautés</string>
+    <string name="about_title">A propos</string>
+
+    <string name="volume_title">Volume ?</string>
+    <string name="volume_question">Le volume de votre téléphone est assez bas, voulez-vous mettre le son au MAX?</string>
+    <string name="volume_yes">Oui, mettre à fond!</string>
+    <string name="volume_no">Non, laisser comme il est...</string>
+
+    <string name="actions">Actions</string>
+    <string name="play">Jouer le son</string>
+    <string name="ringtone">Mettre en sonnerie</string>
+    <string name="ringtoneok">Votre sonnerie a été changé</string>
+    <string name="ringtoneko">Votre sonnerie n\'a pas été changé</string>
+    <string name="notification">Mettre en notification de SMS</string>
+    <string name="notificationok">Votre notification de SMS a été changé</string>
+    <string name="notificationko">Votre notification de SMS n\'a pas été changé</string>
+
+    <string name="share_with">Partager avec...</string>
+    <string name="share_title">Un ami vous recommande...</string>
+    <string name="share_link">http://market.android.com/details?id=com.kiof.lbaprout</string>
+
+    <string name="other_link">market://search?q=pub:Kiof</string>
+
+    <string name="menuTitle1">Options</string>
+    <string name="menuTitleCondensed1">Options</string>
+    <string name="menuTitle2">Envoyer à un ami</string>
+    <string name="menuTitleCondensed2">Partager</string>
+    <string name="menuTitle3">Plus d\'applications gratuites</string>
+    <string name="menuTitleCondensed3">Plus d\'applications</string>
+    <string name="menuTitle4">A propos...</string>
+    <string name="menuTitleCondensed4">A propos</string>
+    <string name="menuTitle5">Quitter l\'application</string>
+    <string name="menuTitleCondensed5">Quitter</string>
+
+    <string name="preference_category_volume">Volume</string>
+    <string name="checkvolume_title">Vérifier le volume</string>
+    <string name="checkvolume_summary">Vérifier que le volume est suffisamment élevé au démarrage</string>
+    <string name="volumemax_title">Mettre au maximum</string>
+    <string name="volumemax_summary">Réglez le volume au maximum au démarrage</string>
+    <string name="volumerestore_title">Restaurer le volume</string>
+    <string name="volumerestore_summary">Restaurer le volume précédent lors de la sortie de l\'application</string>
+    <string name="preference_category_features">Fonctionnement</string>
+    <string name="lgclick_title">Appui long</string>
+    <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
+    <string name="shake_title">Boite à Meuh</string>
+    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
+    <string name="bgmusic_title">Musique d\'introduction</string>
+    <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
+    <string name="save_setting">Enregistrer les paramètres</string>
+    <string name="setting_saved">Paramètres enregistrés</string>
+
+    <string-array name="textSections">
+        <item>Pets Classique</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Pets dans l\'eau</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Pets spéciaux</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Chansons</item>
+        <item />
+        <item />
+        <item />
+        <item>Pets avec commentaires</item>
+        <item />
+        <item />
+        <item />
+        <item>Pets dédicacés</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Pets spéciaux 2</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Pets Anglais</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Diarrhée (n\'écoutez pas ces sons, ils sont horribles!)</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+
+    <string-array name="textButtons">
+        <item>Pet 1</item>
+        <item>Pet 2</item>
+        <item>Pet 3</item>
+        <item>Pet 4</item>
+        <item>Pet 5</item>
+        <item>Pet 6</item>
+        <item>Pet 7</item>
+        <item>Pet 8</item>
+        <item>Pet 9</item>
+        <item>Pet 10</item>
+        <item>Pet 11 (immonde)</item>
+        <item>Pet 12</item>
+        <item>Pet 13</item>
+        <item>Pet 14</item>
+        <item>Pet 15</item>
+        <item>Pet 16</item>
+        <item>Pet 17</item>
+        <item>Dans l\'eau 1</item>
+        <item>Dans l\'eau 2</item>
+        <item>Dans l\'eau 3</item>
+        <item>Dans l\'eau 4</item>
+        <item>Dans l\'eau 5</item>
+        <item>Dans l\'eau 6</item>
+        <item>Dans l\'eau 7</item>
+        <item>Pet foireux</item>
+        <item>Pet grenouille</item>
+        <item>Prout humide 1</item>
+        <item>Prout humide 2</item>
+        <item>Prout humide 3</item>
+        <item>Prout humide 4</item>
+        <item>Pet gazeux</item>
+        <item>Pet poussif</item>
+        <item>Pet musical</item>
+        <item>Pet baveux</item>
+        <item>Pet gazeux 2</item>
+        <item>Pet aigu</item>
+        <item>Pet trompette</item>
+        <item>Pet moto</item>
+        <item>Petit pet</item>
+        <item>Pet Moustique</item>
+        <item>Jingle bells en pétant</item>
+        <item>Musique de Noël en pétant</item>
+        <item>Vive le vent</item>
+        <item>La Chanson du Pet Noël</item>
+        <item>Hop la, j\'ai fait un ptit pet là!</item>
+        <item>Oups je croyais que çà s\'entendrait pas!</item>
+        <item>Je t\'en prie seigneur fais sortir ce démon!!!</item>
+        <item>Jeu de pets au lit</item>
+        <item>Henry (92)</item>
+        <item>Christophe 1 (75)</item>
+        <item>Albert (du 28)</item>
+        <item>Melissa (US)</item>
+        <item>Regis (06)</item>
+        <item>Mireille (02)</item>
+        <item>Albert (CA)</item>
+        <item>Serge</item>
+        <item>Caroline (34)</item>
+        <item>Lulu (91)</item>
+        <item>Nicolas (74)</item>
+        <item>Juliette (06)</item>
+        <item>Johanna (06)</item>
+        <item>Fred (Reunion)</item>
+        <item>Hubert (78)</item>
+        <item>Jacques (75)</item>
+        <item>Momo (93)</item>
+        <item>Maurice (17)</item>
+        <item>Christophe 2 (75)</item>
+        <item>Le gros Momo (94)</item>
+        <item>Florence (67)</item>
+        <item>Ginette (64)</item>
+        <item>Gilles (77)</item>
+        <item>Julie (33)</item>
+        <item>Pet de fille dans l\'eau</item>
+        <item>Plusieurs Pets</item>
+        <item>Pet de la mort !</item>
+        <item>Pet sourd très puant</item>
+        <item>Petit pet Hyper puant</item>
+        <item>Pet de bimbo</item>
+        <item>Pet au toilette</item>
+        <item>Gros mal de ventre</item>
+        <item>Homme qui pousse</item>
+        <item>Gros caca</item>
+        <item>Girls fart 1</item>
+        <item>Girls fart 2</item>
+        <item>Girls fart 3</item>
+        <item>Girls fart 4</item>
+        <item>Girls fart 5</item>
+        <item>Girls fart 6</item>
+        <item>Girls fart 7</item>
+        <item>Oh no, godness</item>
+        <item>Incoming...</item>
+        <item>Cat and Pig</item>
+        <item>Diarrhée 1</item>
+        <item>Diarrhée 2</item>
+        <item>Diarrhée 3</item>
+        <item>Diarrhée 4</item>
+        <item>Diarrhée 5</item>
+        <item>Diarrhée 6</item>
+        <item>Diarrhée 7</item>
+    </string-array>
+
+</resources>

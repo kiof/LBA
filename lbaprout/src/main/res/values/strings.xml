@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">La Boite A Prout</string>
-    <string name="widget_name">La Boite A Prout</string>
+    <string name="app_name">Fart Soundbox</string>
+    <string name="widget_name">Fart Soundbox</string>
 
-    <string name="soundFile">LBAProut.mp3</string>
-    <string name="soundTitle">LBA Prout</string>
+    <string name="soundFile">FartSoundbox.mp3</string>
+    <string name="soundTitle">Fart Soundbox</string>
 
-    <color name="textColor">#FFFFFFFF</color>
-    <color name="textHighColor">#FFFFFFFF</color>
-    <color name="textSectionColor">#FFFFFFFF</color>
-    <color name="textSectionShadow">#AAE0DE63</color>
+    <color name="buttonColor">#FF305080</color>
+    <color name="buttonShadow">#FF305080</color>
+    <color name="sectionColor">#FFFFFFFF</color>
+    <color name="sectionShadow">#AAE0DE63</color>
+    <color name="sectionBg">#66666666</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="grey">#FFB3B3B3</color>
@@ -17,217 +18,215 @@
     <color name="button_focused">#FF000000</color>
     <color name="button_default">#FF305080</color>
 
-    <string name="Ok">Ok</string>
-    <string name="quit_title">Quitter ?</string>
-    <string name="quit_message">Voulez-vous quitter cette application?</string>
-    <string name="yes">Oui</string>
-    <string name="no">Non</string>
-    <string name="goingon">L\'application continue</string>
+    <string name="Ok">OK</string>
+    <string name="quit_title">Quit ?</string>
+    <string name="quit_message">Do you want to leave this application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="goingon">The application goes on</string>
 
-    <string name="changelog_title">Nouveautés</string>
-    <string name="about_title">A propos</string>
+    <string name="changelog_title">New</string>
+    <string name="about_title">About</string>
 
     <string name="volume_title">Volume ?</string>
-    <string name="volume_question">Le volume de votre téléphone est assez bas, voulez-vous mettre le son au MAX?</string>
-    <string name="volume_yes">Oui, mettre à fond!</string>
-    <string name="volume_no">Non, laisser comme il est...</string>
+    <string name="volume_question">The volume of your phone is low, do you want to set it to  MAX?</string>
+    <string name="volume_yes">Yes, set to max!</string>
+    <string name="volume_no">No, do not change volume...</string>
 
     <string name="actions">Actions</string>
-    <string name="play">Jouer le son</string>
-    <string name="ringtone">Mettre en sonnerie</string>
-    <string name="ringtoneok">Votre sonnerie a été changé</string>
-    <string name="ringtoneko">Votre sonnerie n\'a pas été changé</string>
-    <string name="notification">Mettre en notification de SMS</string>
-    <string name="notificationok">Votre notification de SMS a été changé</string>
-    <string name="notificationko">Votre notification de SMS n\'a pas été changé</string>
+    <string name="play">Play sound</string>
+    <string name="ringtone">Set as Ringtone</string>
+    <string name="ringtoneok">Your ringtone have been changed</string>
+    <string name="ringtoneko">Your ringtone have not been changed</string>
+    <string name="notification">Set as Notification</string>
+    <string name="notificationok">Your notification have been changed</string>
+    <string name="notificationko">Your notification have not been changed</string>
+
+    <string name="share_with">Share with...</string>
+    <string name="share_title">A friend recommend you...</string>
+    <string name="share_link">http://market.android.com/details?id=com.kiof.lbaprout</string>
+
+    <string name="other_link">market://search?q=pub:Kiof</string>
 
     <string name="menuTitle1">Options</string>
     <string name="menuTitleCondensed1">Options</string>
-    <string name="menuTitle2">A propos...</string>
-    <string name="menuTitleCondensed2">A propos</string>
-    <string name="menuTitle3">Quitter</string>
-    <string name="menuTitleCondensed3">Quitter</string>
+    <string name="menuTitle2">Send to a friend</string>
+    <string name="menuTitleCondensed2">Share</string>
+    <string name="menuTitle3">More free applications</string>
+    <string name="menuTitleCondensed3">More apps</string>
+    <string name="menuTitle4">About...</string>
+    <string name="menuTitleCondensed4">About</string>
+    <string name="menuTitle5">Quit</string>
+    <string name="menuTitleCondensed5">Quit</string>
 
-    <string name="preference_category_volume">Volume</string>
-    <string name="checkvolume_title">Vérifier le volume</string>
-    <string name="checkvolume_summary">Vérifier que le volume est suffisamment élevé au démarrage</string>
-    <string name="volumemax_title">Mettre au maximum</string>
-    <string name="volumemax_summary">Réglez le volume au maximum au démarrage</string>
-    <string name="volumerestore_title">Restaurer le volume</string>
-    <string name="volumerestore_summary">Restaurer le volume précédent lors de la sortie de l\'application</string>
-    <string name="preference_category_features">Fonctionnement</string>
-    <string name="lgclick_title">Appui long</string>
-    <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
-    <string name="shake_title">Boite à Meuh</string>
-    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
-    <string name="bgmusic_title">Musique d\'introduction</string>
-    <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
-    <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
+    <string name="preference_category_volume">Volume check</string>
+    <string name="checkvolume_title">Check Volume</string>
+    <string name="checkvolume_summary">Check that volume is high enough on startup</string>
+    <string name="volumemax_title">Volume Max</string>
+    <string name="volumemax_summary">Set volume to maximum on startup</string>
+    <string name="volumerestore_title">Volume Restore</string>
+    <string name="volumerestore_summary">Restore the previous volume level when exiting the application</string>
+    <string name="preference_category_features">Features</string>
+    <string name="lgclick_title">Long press feature</string>
+    <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
+    <string name="shake_title">Play on shake</string>
+    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
+    <string name="bgmusic_title">Startup music</string>
+    <string name="bgmusic_summary">Play a short music on startup</string>
+    <string name="save_setting">Save settings</string>
+    <string name="setting_saved">Settings saved</string>
 
-    <string-array name="textSectionArray">
-        <item>Pets Classique</item>
-        <item>Pets dans l\'eau</item>
-        <item>Pets spéciaux</item>
-        <item>Chansons</item>
-        <item>Pets avec commentaires</item>
-        <item>Pets dédicacés</item>
-        <item>Pets spéciaux 2</item>
-        <item>Pets Anglais</item>
-        <item>Diarrhée (section cachée, n\'écoutez pas ces sons, ils sont horribles!)</item>
+    <string-array name="textSections">
+        <item>Classic Farts</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Farts in Water</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Special Farts</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Songs</item>
+        <item />
+        <item />
+        <item />
+        <item>Fart with comment</item>
+        <item />
+        <item />
+        <item />
+        <item>Autographed Farts</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Special Farts 2</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>English Farts</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>Diarrhea (do not listen, it\'s horrible!)</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
     </string-array>
 
-    <string-array name="buttonArray">
-        <item>s443</item>
-        <item>s444</item>
-        <item>s445</item>
-        <item>s446</item>
-        <item>s447</item>
-        <item>s442</item>
-        <item>s499</item>
-        <item>s500</item>
-        <item>s501</item>
-        <item>s503</item>
-        <item>s502</item>
-        <item>s498</item>
-        <item>s449</item>
-        <item>s1465</item>
-        <item>s1467</item>
-        <item>s1468</item>
-        <item>s1810</item>
-        <item>s439</item>
-        <item>s440</item>
-        <item>s441</item>
-        <item>s436</item>
-        <item>s20560</item>
-        <item>s20561</item>
-        <item>s20562</item>
-        <item>s1572</item>
-        <item>s1595</item>
-        <item>s1600</item>
-        <item>s1601</item>
-        <item>s1602</item>
-        <item>s1604</item>
-        <item>s1809</item>
-        <item>s1811</item>
-        <item>s1812</item>
-        <item>s1813</item>
-        <item>s1815</item>
-        <item>s1816</item>
-        <item>s12495</item>
-        <item>s1818</item>
-        <item>s1870</item>
-        <item>s1466</item>
-        <item>s11800</item>
-        <item>s12491</item>
-        <item>s12496</item>
-        <item>s12604</item>
-        <item>s1817</item>
-        <item>s11516</item>
-        <item>s11786</item>
-        <item>s8121</item>
-        <item>s2400</item>
-        <item>s2401</item>
-        <item>s2402</item>
-        <item>s2403</item>
-        <item>s2404</item>
-        <item>s2405</item>
-        <item>s2406</item>
-        <item>s2407</item>
-        <item>s2408</item>
-        <item>s2409</item>
-        <item>s2410</item>
-        <item>s2411</item>
-        <item>s2412</item>
-        <item>s2413</item>
-        <item>s2414</item>
-        <item>s2415</item>
-        <item>s2416</item>
-        <item>s2417</item>
-        <item>s2418</item>
-        <item>s2419</item>
-        <item>s2420</item>
-        <item>s2421</item>
-        <item>s2422</item>
-        <item>s11801</item>
-        <item>s11518</item>
-        <item>s11621</item>
-        <item>s12492</item>
-        <item>s12493</item>
-        <item>s12494</item>
-        <item>s21688</item>
-        <item>s21689</item>
-        <item>s1452</item>
-        <item>s1528</item>
-        <item>s11622</item>
-        <item>s1529</item>
-        <item>s1530</item>
-        <item>s1531</item>
-        <item>s1532</item>
-        <item>s1533</item>
-        <item>s1534</item>
-        <item>s1535</item>
-        <item>s3674</item>
-        <item>s3675</item>
-        <item>s3676</item>
-        <item>s1185</item>
-        <item>s798</item>
-        <item>s1184</item>
-        <item>s11620</item>
-        <item>s12629</item>
-        <item>s21691</item>
-        <item>s21692</item>
-    </string-array>
-
-    <string-array name="textButtonArray">
-        <item>Pet 1</item>
-        <item>Pet 2</item>
-        <item>Pet 3</item>
-        <item>Pet 4</item>
-        <item>Pet 5</item>
-        <item>Pet 6</item>
-        <item>Pet 7</item>
-        <item>Pet 8</item>
-        <item>Pet 9</item>
-        <item>Pet 10</item>
-        <item>Pet 11 (immonde)</item>
-        <item>Pet 12</item>
-        <item>Pet 13</item>
-        <item>Pet 14</item>
-        <item>Pet 15</item>
-        <item>Pet 16</item>
-        <item>Pet 17</item>
-        <item>Dans l\'eau 1</item>
-        <item>Dans l\'eau 2</item>
-        <item>Dans l\'eau 3</item>
-        <item>Dans l\'eau 4</item>
-        <item>Dans l\'eau 5</item>
-        <item>Dans l\'eau 6</item>
-        <item>Dans l\'eau 7</item>
-        <item>Pet foireux</item>
-        <item>Pet grenouille</item>
-        <item>Prout humide 1</item>
-        <item>Prout humide 2</item>
-        <item>Prout humide 3</item>
-        <item>Prout humide 4</item>
-        <item>Pet gazeux</item>
-        <item>Pet poussif</item>
-        <item>Pet musical</item>
-        <item>Pet baveux</item>
-        <item>Pet gazeux 2</item>
-        <item>Pet aigu</item>
-        <item>Pet trompette</item>
-        <item>Pet moto</item>
-        <item>Petit pet</item>
-        <item>Pet Moustique</item>
-        <item>Jingle bells en pétant</item>
-        <item>Musique de Noël en pétant</item>
-        <item>Vive le vent</item>
-        <item>La Chanson du Pet Noël</item>
-        <item>Hop la, j\'ai fait un ptit pet là!</item>
-        <item>Oups je croyais que çà s\'entendrait pas!</item>
-        <item>Je t\'en prie seigneur fais sortir ce démon!!!</item>
-        <item>Jeu de pets au lit</item>
+    <string-array name="textButtons">
+        <item>Fart 1</item>
+        <item>Fart 2</item>
+        <item>Fart 3</item>
+        <item>Fart 4</item>
+        <item>Fart 5</item>
+        <item>Fart 6</item>
+        <item>Fart 7</item>
+        <item>Fart 8</item>
+        <item>Fart 9</item>
+        <item>Fart 10</item>
+        <item>Fart 11 (foul)</item>
+        <item>Fart 12</item>
+        <item>Fart 13</item>
+        <item>Fart 14</item>
+        <item>Fart 15</item>
+        <item>Fart 16</item>
+        <item>Fart 17</item>
+        <item>In water 1</item>
+        <item>In water 2</item>
+        <item>In water 3</item>
+        <item>In water 4</item>
+        <item>In water 5</item>
+        <item>In water 6</item>
+        <item>In water 7</item>
+        <item>Fart foireux</item>
+        <item>Frog Fart</item>
+        <item>Wet Fart 1</item>
+        <item>Wet Fart 2</item>
+        <item>Wet Fart 3</item>
+        <item>Wet Fart 4</item>
+        <item>Gas Fart 1</item>
+        <item>Winded Fart </item>
+        <item>Music Fart</item>
+        <item>Drooling Fart</item>
+        <item>Gas Fart 2</item>
+        <item>Acute Fart </item>
+        <item>Trumpet Fart </item>
+        <item>Fart Motorbike</item>
+        <item>Little Fart</item>
+        <item>Mosquito Fart </item>
+        <item>Jingle bells</item>
+        <item>Christmas song</item>
+        <item>Jingle Bells</item>
+        <item>Santa Fart</item>
+        <item>Hop la, ... Fart!</item>
+        <item>Oups, I thought nobody heard ...</item>
+        <item>I beg you bring forth the demon lord!!!</item>
+        <item>Farts game in bed</item>
         <item>Henry (92)</item>
         <item>Christophe 1 (75)</item>
         <item>Albert (du 28)</item>
@@ -252,16 +251,16 @@
         <item>Ginette (64)</item>
         <item>Gilles (77)</item>
         <item>Julie (33)</item>
-        <item>Pet de fille dans l\'eau</item>
-        <item>Plusieurs Pets</item>
-        <item>Pet de la mort !</item>
-        <item>Pet sourd très puant</item>
-        <item>Petit pet Hyper puant</item>
-        <item>Pet de bimbo</item>
-        <item>Pet au toilette</item>
-        <item>Gros mal de ventre</item>
-        <item>Homme qui pousse</item>
-        <item>Gros caca</item>
+        <item>Girl fille in water</item>
+        <item>Several Farts</item>
+        <item>Fart of the death !</item>
+        <item>Fart Very Smelly</item>
+        <item>Little Fart Very Smelly</item>
+        <item>Bimbo Fart</item>
+        <item>Fart in toilet</item>
+        <item>Big bellyache</item>
+        <item>Man pushing</item>
+        <item>Big thing</item>
         <item>Girls fart 1</item>
         <item>Girls fart 2</item>
         <item>Girls fart 3</item>
@@ -272,13 +271,14 @@
         <item>Oh no, godness</item>
         <item>Incoming...</item>
         <item>Cat and Pig</item>
-        <item>Diarrhée 1</item>
-        <item>Diarrhée 2</item>
-        <item>Diarrhée 3</item>
-        <item>Diarrhée 4</item>
-        <item>Diarrhée 5</item>
-        <item>Diarrhée 6</item>
-        <item>Diarrhée 7</item>
+        <item>Diarrhea 1</item>
+        <item>Diarrhea 2</item>
+        <item>Diarrhea 3</item>
+        <item>Diarrhea 4</item>
+        <item>Diarrhea 5</item>
+        <item>Diarrhea 6</item>
+        <item>Diarrhea 7</item>
     </string-array>
+
 
 </resources>

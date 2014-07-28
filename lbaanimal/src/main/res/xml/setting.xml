@@ -4,7 +4,7 @@
     <PreferenceCategory android:title="@string/preference_category_volume">
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:disableDependentsState="true"
             android:key="checkvolume"
             android:summary="@string/checkvolume_summary"
@@ -18,7 +18,7 @@
             android:title="@string/volumemax_title" />
 
         <CheckBoxPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:dependency="volumemax"
             android:key="volumerestore"
             android:summary="@string/volumerestore_summary"

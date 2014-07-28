@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="buttons" translatable="false">
+        <item>ak47</item>
+        <item>aug</item>
+        <item>awp</item>
+        <item>c4</item>
+        <item>deagle</item>
+        <item>fiveseven</item>
+        <item>g3sg1</item>
+        <item>glock18</item>
+        <item>knife</item>
+        <item>m249</item>
+        <item>m3</item>
+        <item>m4a1</item>
+        <item>mp5</item>
+        <item>p228</item>
+        <item>p90</item>
+        <item>scout</item>
+        <item>ump45</item>
+        <item>usp</item>
+        <item>ggtakenlead</item>
+        <item>ggtiedlead</item>
+        <item>gglostlead</item>
+        <item>ggsmb3_powerup</item>
+        <item>ggsmb3_powerdown</item>
+        <item>ggsmb3_1_up</item>
+        <item>troisxsansfrais</item>
+        <item>downed_intro</item>
+        <item>escargot</item>
+        <item>escargot2f</item>
+        <item>escargotv10</item>
+        <item>finiraler</item>
+        <item>leplusmauvais</item>
+        <item>micro</item>
+        <item>rougbleu</item>
+        <item>salut_tout_le_monde</item>
+        <item>doublekill</item>
+        <item>firstblood</item>
+        <item>godlike</item>
+        <item>headshot</item>
+        <item>humiliation</item>
+        <item>killingspree</item>
+        <item>maytheforce</item>
+        <item>monsterkill</item>
+        <item>multikill</item>
+        <item>oneandonly</item>
+        <item>prepare</item>
+        <item>rampage</item>
+        <item>ultrakill</item>
+        <item>unstoppable</item>
+        <item>die1</item>
+        <item>headgore</item>
+        <item>headshot1</item>
+        <item>pl_dirt1</item>
+        <item>pl_fallpain1</item>
+        <item>pl_jump</item>
+        <item>pl_ladder</item>
+        <item>pl_shell3</item>
+        <item>pl_shot1</item>
+        <item>pl_snow</item>
+        <item>sprayer</item>
+        <item>neufmmclip1</item>
+        <item>neufmmclip2</item>
+        <item>ammopickup1</item>
+        <item>clipinsert1</item>
+        <item>flashbang</item>
+        <item>guncock1</item>
+        <item>gunpickup2</item>
+        <item>kevlar</item>
+        <item>ric_metal</item>
+        <item>sg_explode</item>
+        <item>sshell</item>
+    </string-array>
+    <string-array name="pictureSections" translatable="false">
+        <item>@drawable/section0</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section1</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section2</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section3</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section4</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>@drawable/section5</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+
+    <array name="pictures">
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+    </array>
+
+    <array name="sounds">
+        <item>@raw/ak47</item>
+        <item>@raw/aug</item>
+        <item>@raw/awp</item>
+        <item>@raw/c4</item>
+        <item>@raw/deagle</item>
+        <item>@raw/fiveseven</item>
+        <item>@raw/g3sg1</item>
+        <item>@raw/glock18</item>
+        <item>@raw/knife</item>
+        <item>@raw/m249</item>
+        <item>@raw/m3</item>
+        <item>@raw/m4a1</item>
+        <item>@raw/mp5</item>
+        <item>@raw/p228</item>
+        <item>@raw/p90</item>
+        <item>@raw/scout</item>
+        <item>@raw/ump45</item>
+        <item>@raw/usp</item>
+        <item>@raw/ggtakenlead</item>
+        <item>@raw/ggtiedlead</item>
+        <item>@raw/gglostlead</item>
+        <item>@raw/ggsmb3_powerup</item>
+        <item>@raw/ggsmb3_powerdown</item>
+        <item>@raw/ggsmb3_1_up</item>
+        <item>@raw/troisxsansfrais</item>
+        <item>@raw/downed_intro</item>
+        <item>@raw/escargot</item>
+        <item>@raw/escargot2f</item>
+        <item>@raw/escargotv10</item>
+        <item>@raw/finiraler</item>
+        <item>@raw/leplusmauvais</item>
+        <item>@raw/micro</item>
+        <item>@raw/rougbleu</item>
+        <item>@raw/salut_tout_le_monde</item>
+        <item>@raw/doublekill</item>
+        <item>@raw/firstblood</item>
+        <item>@raw/godlike</item>
+        <item>@raw/headshot</item>
+        <item>@raw/humiliation</item>
+        <item>@raw/killingspree</item>
+        <item>@raw/maytheforce</item>
+        <item>@raw/monsterkill</item>
+        <item>@raw/multikill</item>
+        <item>@raw/oneandonly</item>
+        <item>@raw/prepare</item>
+        <item>@raw/rampage</item>
+        <item>@raw/ultrakill</item>
+        <item>@raw/unstoppable</item>
+        <item>@raw/die1</item>
+        <item>@raw/headgore</item>
+        <item>@raw/headshot1</item>
+        <item>@raw/pl_dirt1</item>
+        <item>@raw/pl_fallpain1</item>
+        <item>@raw/pl_jump</item>
+        <item>@raw/pl_ladder</item>
+        <item>@raw/pl_shell3</item>
+        <item>@raw/pl_shot1</item>
+        <item>@raw/pl_snow</item>
+        <item>@raw/sprayer</item>
+        <item>@raw/neufmmclip1</item>
+        <item>@raw/neufmmclip2</item>
+        <item>@raw/ammopickup1</item>
+        <item>@raw/clipinsert1</item>
+        <item>@raw/flashbang</item>
+        <item>@raw/guncock1</item>
+        <item>@raw/gunpickup2</item>
+        <item>@raw/kevlar</item>
+        <item>@raw/ric_metal</item>
+        <item>@raw/sg_explode</item>
+        <item>@raw/sshell</item>
+    </array>
+
+</resources>

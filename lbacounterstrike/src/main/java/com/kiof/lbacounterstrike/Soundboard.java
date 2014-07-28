@@ -1,13 +1,14 @@
 package com.kiof.lbacounterstrike;
 
-import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ListActivity;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -21,9 +22,10 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
+import android.text.Html;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -31,9 +33,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Adapter;
+import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
@@ -44,20 +47,17 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Random;
 
-public class Soundboard extends Activity implements SensorEventListener {
-    public static final int TYPE_RINGTONE = 1;
-    public static final int TYPE_NOTIFICATION = 2;
+public class Soundboard extends ListActivity implements SensorEventListener {
     private static final String CHECK_VOLUME = "checkvolume";
     private static final String VOLUME_MAX = "volumemax";
     private static final String VOLUME_RESTORE = "volumerestore";
     private static final String SHAKE = "shake";
     private static final String BGMUSIC = "bgmusic";
     private static final String LGCLICK = "lgclick";
-    //	private AdapterContextMenuInfo lastMenuInfo = null;
-//	private static int currentSoundId;
-    private static String currentSoundName;
+    private static final String TAG = "Soundboard";
+    private static final int TYPE_RINGTONE = 1;
+    private static final int TYPE_NOTIFICATION = 2;
     private static int RETURN_SETTING = 1;
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
@@ -66,9 +66,8 @@ public class Soundboard extends Activity implements SensorEventListener {
     private Resources mResources;
     private SharedPreferences mSharedPreferences;
     private boolean rotationStatus = false;
-    private String[] textSectionArray;
-    private String[] buttonArray;
-    private String[] textButtonArray;
+    private String[] buttons;
+    private TypedArray sounds;
     private int initVolume, maxVolume;
 
     @Override
@@ -85,25 +84,12 @@ public class Soundboard extends Activity implements SensorEventListener {
 
         mContext = getApplicationContext();
         mResources = mContext.getResources();
-        textSectionArray = mResources.getStringArray(R.array.textSectionArray);
-        buttonArray = mResources.getStringArray(R.array.buttonArray);
-        textButtonArray = mResources.getStringArray(R.array.textButtonArray);
+        sounds = mResources.obtainTypedArray(R.array.sounds);
+        buttons = mResources.getStringArray(R.array.buttons);
 
         // Get Preferences
         PreferenceManager.setDefaultValues(mContext, R.xml.setting, false);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(mContext);
-
-//		Editor edit = mSharedPreferences.edit();
-//		edit.putBoolean(CHECK_VOLUME, false);
-//		edit.commit();
-
-//		String s = mSharedPreferences.getString("text1", "essai2");
-//		Toast.makeText(this, "Shared Text : " + s, Toast.LENGTH_LONG).show();
-
-//		boolean a = mSharedPreferences.getBoolean(CHECK_VOLUME, true);
-//		Toast.makeText(this, "Shared True : " + a, Toast.LENGTH_SHORT).show();
-//		boolean b = mSharedPreferences.getBoolean(CHECK_VOLUME, false);
-//		Toast.makeText(this, "Shared False : " + b, Toast.LENGTH_SHORT).show();
 
         setContentView(R.layout.main);
 
@@ -113,36 +99,11 @@ public class Soundboard extends Activity implements SensorEventListener {
 //                .addTestDevice("53356E870D99B80A68F8E2DBBFCD28FB")
                 .build();
         adView.loadAd(adRequest);
-        View globalTab = findViewById(R.id.globaltab);
 
-        // Initialize text and animations of sections
-        for (int sectionNb = 0; sectionNb < textSectionArray.length; sectionNb++) {
-            // Find the text view component in the layout
-            View section = (View) globalTab.findViewWithTag("section"
-                    + String.valueOf(sectionNb));
-            TextView textSection = (TextView) section
-                    .findViewById(R.id.textView);
-            // Set the text
-            textSection.setText(textSectionArray[sectionNb]);
-            // Animation of section
-            section.startAnimation(AnimationUtils.loadAnimation(this, R.anim.slidefromright));
-        }
+        setListAdapter(new SoundboardAdapter(this, buttons));
 
-        // Initialize text and animations of buttons
-        for (int soundNb = 0; soundNb < buttonArray.length; soundNb++) {
-            // Find the button in the layout
-            View buttonView = globalTab.findViewWithTag(buttonArray[soundNb]);
-            Button button = (Button) buttonView.findViewById(R.id.button);
-            // Set the text of the button
-            button.setText(textButtonArray[soundNb]);
-            // Set random animation on buttons
-            Animation animButton = AnimationUtils.loadAnimation(this, R.anim.zoomin);
-            animButton.setStartOffset(new Random().nextInt(500));
-            button.startAnimation(animButton);
-            // Register for long click action
-            registerForContextMenu(button);
-        }
-        ;
+        ListView list = getListView();
+        registerForContextMenu(list);
 
         // Audio management for initVolume control
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
@@ -185,6 +146,21 @@ public class Soundboard extends Activity implements SensorEventListener {
         if (mSharedPreferences.getBoolean(BGMUSIC, false)) {
 //			playSound(R.raw.bgmusic);
             startActivity(new Intent(Soundboard.this, PlaySound.class).putExtra("soundId", R.raw.bgmusic));
+        }
+    }
+
+    @Override
+    protected void onListItemClick(ListView listView, View view, int position, long id) {
+        Log.d(TAG, "onListItemClick");
+        super.onListItemClick(listView, view, position, id);
+        Button button = (Button) view.findViewById(R.id.button);
+        // Play sound and start animation on the button
+        if (button != null) {
+            Animation animClick = AnimationUtils.loadAnimation(this, R.anim.bounce);
+            animClick.setDuration(playSound(sounds.getResourceId(position, 0)));
+            button.startAnimation(animClick);
+        } else {
+            playSound(sounds.getResourceId(position, 0));
         }
     }
 
@@ -245,8 +221,22 @@ public class Soundboard extends Activity implements SensorEventListener {
             case R.id.setting:
                 startActivityForResult(new Intent(Soundboard.this, Setting.class), RETURN_SETTING);
                 return true;
+            case R.id.share:
+                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                sharingIntent.putExtra(Intent.EXTRA_TITLE, getString(R.string.share_title));
+                sharingIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.share_title));
+                sharingIntent.putExtra(Intent.EXTRA_TEMPLATE, Html.fromHtml(getString(R.string.share_link)));
+                sharingIntent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(getString(R.string.share_link)));
+                startActivity(Intent.createChooser(sharingIntent, getString(R.string.share_with)));
+                return true;
             case R.id.about:
                 new HtmlAlertDialog(this, R.raw.about, getString(R.string.about_title), android.R.drawable.ic_menu_info_details).show();
+                return true;
+            case R.id.other:
+                Intent otherIntent = new Intent(Intent.ACTION_VIEW);
+                otherIntent.setData(Uri.parse(getString(R.string.other_link)));
+                startActivity(otherIntent);
                 return true;
             case R.id.quit:
                 // Create out AlterDialog
@@ -281,9 +271,14 @@ public class Soundboard extends Activity implements SensorEventListener {
         if (mSharedPreferences.getBoolean(LGCLICK, false)) {
             super.onCreateContextMenu(menu, view, menuInfo);
 
-            // Keep track of the current MenuInfo
-//			lastMenuInfo = (AdapterContextMenuInfo) menuInfo;
-            currentSoundName = (((View) view.getParent()).getTag().toString());
+            // Get the info on which item was selected
+            AdapterContextMenuInfo info = (AdapterContextMenuInfo) menuInfo;
+            // Get the Adapter behind your ListView (this assumes you're using
+            // a ListActivity; if you're not, you'll have to store the Adapter yourself
+            // in some way that can be accessed here.)
+            Adapter adapter = getListAdapter();
+            // Retrieve the item that was clicked on
+//			Object listItem = adapter.getItem(info.position);
 
             menu.setHeaderTitle(R.string.actions);
             menu.setHeaderIcon(android.R.drawable.ic_menu_set_as);
@@ -295,31 +290,17 @@ public class Soundboard extends Activity implements SensorEventListener {
 
     @Override
     public void onContextMenuClosed(Menu menu) {
-        // We don't need it anymore
-//		lastMenuInfo = null;
-        currentSoundName = null;
+//		currentSoundId = -1;
     }
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
-        String soundName = currentSoundName;
-        int soundId;
-        try {
-            soundId = getResources().getIdentifier(soundName, "raw", getPackageName());
-        } catch (Exception e) {
-            return false;
-        }
-
+        // Here's how you can get the correct item in onContextItemSelected()
+        AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
+//	    Object listItem = getListAdapter().getItem(info.position);
+        int soundId = sounds.getResourceId(info.position, 0);
         switch (item.getItemId()) {
             case 0:
-//			playSound(soundId);
-//			String[] buttonArray = mResources.getStringArray(R.array.buttonArray);
-//			String[] textButtonArray = mResources.getStringArray(R.array.textButtonArray);
-//			int soundNb = 0;
-//			for (int i = 0; i < buttonArray.length; i++) {
-//				if (buttonArray[i].equals(soundName)) soundNb = i;
-//			}
-//			Toast.makeText(mContext, textButtonArray[soundNb], Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(Soundboard.this, PlaySound.class).putExtra("soundId", soundId));
                 break;
             case 1:
@@ -342,16 +323,6 @@ public class Soundboard extends Activity implements SensorEventListener {
         return true;
     }
 
-    public void clickButton(View view) {
-        String soundName = ((View) view.getParent()).getTag().toString();
-        // Toast.makeText(getApplicationContext(), "Sound name : " + soundName, Toast.LENGTH_SHORT).show();
-        // Play sound and start animation on the button
-        Animation animClick = AnimationUtils.loadAnimation(this, R.anim.bounce);
-        animClick.setDuration(playSound(soundName));
-//		startActivity(new Intent(Soundboard.this, PlaySound.class).putExtra("soundName", soundName));
-        view.startAnimation(animClick);
-    }
-
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (event.sensor.getType() != Sensor.TYPE_ACCELEROMETER) return;
@@ -364,10 +335,6 @@ public class Soundboard extends Activity implements SensorEventListener {
 
         if (rotationStatus) {
             if (pitch > 0) {
-                // ToDo: Same code as PlaySound.java -> To merge
-//				int soundNb = new Random().nextInt(buttonArray.length);
-//				Toast.makeText(mContext, textButtonArray[soundNb], Toast.LENGTH_SHORT).show();
-//				playSound(buttonArray[soundNb]);
                 startActivity(new Intent(Soundboard.this, PlaySound.class));
                 rotationStatus = false;
             }
@@ -382,39 +349,6 @@ public class Soundboard extends Activity implements SensorEventListener {
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
     }
-
-
-    public void collapseView(View view) {
-        String sectionNb = view.getTag().toString()
-                .substring("section".length());
-        // Toast.makeText(this, "Section nb : " + sectionNb, Toast.LENGTH_SHORT).show();
-        View globalTab = findViewById(R.id.globaltab);
-        View buttonPanel = (View) globalTab.findViewWithTag("buttonPanel"
-                + String.valueOf(sectionNb));
-        LinearLayout section = (LinearLayout) globalTab
-                .findViewWithTag("section" + String.valueOf(sectionNb));
-        if (buttonPanel != null) {
-            if (buttonPanel.getVisibility() == View.GONE) {
-                section.startAnimation(AnimationUtils.loadAnimation(this,
-                        R.anim.slidefromright));
-                section.setBackgroundColor(android.R.color.transparent);
-                section.setGravity(Gravity.CENTER);
-                buttonPanel.startAnimation(AnimationUtils.loadAnimation(this,
-                        R.anim.expand));
-                buttonPanel.setVisibility(View.VISIBLE);
-            } else {
-                buttonPanel.startAnimation(AnimationUtils.loadAnimation(this,
-                        R.anim.collapse));
-                buttonPanel.setVisibility(View.GONE);
-                section.startAnimation(AnimationUtils.loadAnimation(this,
-                        R.anim.slidetoright));
-                section.setBackgroundColor(android.R.color.background_light);
-                section.setGravity(Gravity.RIGHT);
-            }
-        }
-        return;
-    }
-
 
     public boolean setAs(int soundId, int type) {
         byte[] buffer = null;
@@ -491,17 +425,6 @@ public class Soundboard extends Activity implements SensorEventListener {
         return true;
     }
 
-
-    int playSound(String soundName) {
-        int soundId;
-        try {
-            soundId = mResources.getIdentifier(soundName, "raw", getPackageName());
-        } catch (Exception e) {
-            return 0;
-        }
-        return playSound(soundId);
-    }
-
     int playSound(int soundId) {
         MediaPlayer mp = MediaPlayer.create(mContext, soundId);
         if (mp == null) return 0;
@@ -509,12 +432,8 @@ public class Soundboard extends Activity implements SensorEventListener {
             public void onCompletion(MediaPlayer mp) {
                 mp.release();
             }
-
-            ;
         });
         mp.start();
         return mp.getDuration();
     }
-
 }
-

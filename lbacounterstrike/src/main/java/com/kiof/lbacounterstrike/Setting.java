@@ -7,30 +7,30 @@ import android.view.MenuItem;
 
 public class Setting extends PreferenceActivity {
 
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		addPreferencesFromResource(R.xml.setting);
-	}
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.setting);
+    }
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.setting, menu);
-		return super.onCreateOptionsMenu(menu);
-	}
-	
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		if(item.getItemId() == R.id.savesetting) {
-			setResult(RESULT_OK);
-			finish();
-		}
-		return super.onOptionsItemSelected(item);
-	}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.setting, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
-	@Override
-	protected void onDestroy() {
-		setResult(RESULT_OK);
-		super.onDestroy();
-	}
-	
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.savesetting) {
+            setResult(RESULT_OK);
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onDestroy() {
+        setResult(RESULT_OK);
+        super.onDestroy();
+    }
+
 }
