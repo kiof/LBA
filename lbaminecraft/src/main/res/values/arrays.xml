@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="buttons" translatable="false">
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+        <item>sound</item>
+    </string-array>
+    <string-array name="pictureSections" translatable="false">
+        <item>@drawable/section0</item>
+        <item />
+        <item>@drawable/section1</item>
+        <item />
+        <item>@drawable/section2</item>
+        <item />
+        <item>@drawable/section3</item>
+        <item />
+        <item>@drawable/section4</item>
+        <item />
+        <item>@drawable/section5</item>
+        <item />
+        <item>@drawable/section6</item>
+        <item />
+        <item>@drawable/section7</item>
+        <item />
+        <item>@drawable/section8</item>
+        <item />
+        <item>@drawable/section9</item>
+        <item />
+    </string-array>
+
+    <array name="pictures">
+        <item>@drawable/button0</item>
+        <item>@drawable/button0</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button2</item>
+        <item>@drawable/button2</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button4</item>
+        <item>@drawable/button4</item>
+        <item>@drawable/button5</item>
+        <item>@drawable/button5</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+    </array>
+    <array name="sounds">
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+        <item>@raw/sound</item>
+    </array>
+
+</resources>
