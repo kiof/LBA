@@ -62,51 +62,965 @@
     <string name="bgmusic_title">Musique d\'introduction</string>
     <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
     <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
-
     <string-array name="textSections">
-        <item>Section 0</item>
+        <item>AMBIENT</item>
         <item />
-        <item>Section 1</item>
         <item />
-        <item>Section 2</item>
         <item />
-        <item>Section 3</item>
         <item />
-        <item>Section 4</item>
         <item />
-        <item>Section 5</item>
         <item />
-        <item>Section 6</item>
         <item />
-        <item>Section 7</item>
         <item />
-        <item>Section 8</item>
         <item />
-        <item>Section 9</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>BAT</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>BLAZE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>CAT</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>CHICKEN</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>COW</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>CREEPER</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>DAMAGE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>DIG</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>ENDERDRAGON</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>ENDERMEN</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>FIRE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>GHAST</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>IRONGOLEM</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>LIQUID</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>MAGMACUBE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>NOTE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>PIG</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>RANDOM</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>SHEEP</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>SILVERFISH</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>SKELETON</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>SLIME</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>SPIDER</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>STEP</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>WITHER</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>WOLF</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>ZOMBIEPIG</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>ZOMBIE</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item />
     </string-array>
 
+    <string name="setting_saved">Paramètres enregistrés</string>
+
     <string-array name="textButtons">
-        <item>Son 1</item>
-        <item>Son 2</item>
-        <item>Son 3</item>
-        <item>Son 4</item>
-        <item>Son 5</item>
-        <item>Son 6</item>
-        <item>Son 7</item>
-        <item>Son 8</item>
-        <item>Son 9</item>
-        <item>Son 10</item>
-        <item>Son 11</item>
-        <item>Son 12</item>
-        <item>Son 13</item>
-        <item>Son 14</item>
-        <item>Son 15</item>
-        <item>Son 16</item>
-        <item>Son 17</item>
-        <item>Son 18</item>
-        <item>Son 19</item>
-        <item>Son 20</item>
+        <item>Ambient - Cave1</item>
+        <item>Ambient - Cave2</item>
+        <item>Ambient - Cave3</item>
+        <item>Ambient - Cave4</item>
+        <item>Ambient - Cave5</item>
+        <item>Ambient - Cave6</item>
+        <item>Ambient - Cave7</item>
+        <item>Ambient - Cave8</item>
+        <item>Ambient - Cave9</item>
+        <item>Ambient - Cave10</item>
+        <item>Ambient - Cave11</item>
+        <item>Ambient - Cave12</item>
+        <item>Ambient - Cave13</item>
+        <item>Ambient - Rain1</item>
+        <item>Ambient - Rain2</item>
+        <item>Ambient - Rain3</item>
+        <item>Ambient - Rain4</item>
+        <item>Ambient - Thunder1</item>
+        <item>Ambient - Thunder2</item>
+        <item>Ambient - Thunder3</item>
+        <item>Bat - Death</item>
+        <item>Bat - Hurt1</item>
+        <item>Bat - Hurt2</item>
+        <item>Bat - Hurt3</item>
+        <item>Bat - Hurt4</item>
+        <item>Bat - Idle1</item>
+        <item>Bat - Idle2</item>
+        <item>Bat - Idle3</item>
+        <item>Bat - Idle4</item>
+        <item>Bat - Loop</item>
+        <item>Bat - Takeoff</item>
+        <item>Blaze - Breathe1</item>
+        <item>Blaze - Breathe2</item>
+        <item>Blaze - Breathe3</item>
+        <item>Blaze - Breathe4</item>
+        <item>Blaze - Death</item>
+        <item>Blaze - Hit1</item>
+        <item>Blaze - Hit2</item>
+        <item>Blaze - Hit3</item>
+        <item>Blaze - Hit4</item>
+        <item>Cat - Hiss1</item>
+        <item>Cat - Hiss2</item>
+        <item>Cat - Hiss3</item>
+        <item>Cat - Hitt1</item>
+        <item>Cat - Hitt2</item>
+        <item>Cat - Hitt3</item>
+        <item>Cat - Meow1</item>
+        <item>Cat - Meow2</item>
+        <item>Cat - Meow3</item>
+        <item>Cat - Meow4</item>
+        <item>Cat - Purr1</item>
+        <item>Cat - Purr2</item>
+        <item>Cat - Purr3</item>
+        <item>Cat - Purreow1</item>
+        <item>Cat - Purreow2</item>
+        <item>Chicken - Chicken1</item>
+        <item>Chicken - Chicken2</item>
+        <item>Chicken - Chicken3</item>
+        <item>Chicken - Chickenhurt1</item>
+        <item>Chicken - Chickenhurt2</item>
+        <item>Chicken - Chickenplop</item>
+        <item>Chicken - Hurt1</item>
+        <item>Chicken - Hurt2</item>
+        <item>Chicken - Plop</item>
+        <item>Chicken - Say1</item>
+        <item>Chicken - Say2</item>
+        <item>Chicken - Say3</item>
+        <item>Chicken - Step1</item>
+        <item>Chicken - Step2</item>
+        <item>Cow - Cow1</item>
+        <item>Cow - Cow2</item>
+        <item>Cow - Cow3</item>
+        <item>Cow - Cow4</item>
+        <item>Cow - Cowhurt1</item>
+        <item>Cow - Cowhurt2</item>
+        <item>Cow - Cowhurt3</item>
+        <item>Cow - Hurt1</item>
+        <item>Cow - Hurt2</item>
+        <item>Cow - Hurt3</item>
+        <item>Cow - Say1</item>
+        <item>Cow - Say2</item>
+        <item>Cow - Say3</item>
+        <item>Cow - Say4</item>
+        <item>Cow - Step1</item>
+        <item>Cow - Step2</item>
+        <item>Cow - Step3</item>
+        <item>Cow - Step4</item>
+        <item>Creeper - Creeper1</item>
+        <item>Creeper - Creeper2</item>
+        <item>Creeper - Creeper3</item>
+        <item>Creeper - Creeper4</item>
+        <item>Creeper - Creeperdeath</item>
+        <item>Creeper - Death</item>
+        <item>Creeper - Say1</item>
+        <item>Creeper - Say2</item>
+        <item>Creeper - Say3</item>
+        <item>Creeper - Say4</item>
+        <item>Damage - Fallbig</item>
+        <item>Damage - Fallbig1</item>
+        <item>Damage - Fallbig2</item>
+        <item>Damage - Fallsmall</item>
+        <item>Damage - Hit1</item>
+        <item>Damage - Hit2</item>
+        <item>Damage - Hit3</item>
+        <item>Damage - Hurtflesh1</item>
+        <item>Damage - Hurtflesh2</item>
+        <item>Damage - Hurtflesh3</item>
+        <item>Dig - Cloth1</item>
+        <item>Dig - Cloth2</item>
+        <item>Dig - Cloth3</item>
+        <item>Dig - Cloth4</item>
+        <item>Dig - Grass1</item>
+        <item>Dig - Grass2</item>
+        <item>Dig - Grass3</item>
+        <item>Dig - Grass4</item>
+        <item>Dig - Gravel1</item>
+        <item>Dig - Gravel2</item>
+        <item>Dig - Gravel3</item>
+        <item>Dig - Gravel4</item>
+        <item>Dig - Sand1</item>
+        <item>Dig - Sand2</item>
+        <item>Dig - Sand3</item>
+        <item>Dig - Sand4</item>
+        <item>Dig - Snow1</item>
+        <item>Dig - Snow2</item>
+        <item>Dig - Snow3</item>
+        <item>Dig - Snow4</item>
+        <item>Dig - Stone1</item>
+        <item>Dig - Stone2</item>
+        <item>Dig - Stone3</item>
+        <item>Dig - Stone4</item>
+        <item>Dig - Wood1</item>
+        <item>Dig - Wood2</item>
+        <item>Dig - Wood3</item>
+        <item>Dig - Wood4</item>
+        <item>Enderdragon - End</item>
+        <item>Enderdragon - Growl1</item>
+        <item>Enderdragon - Growl2</item>
+        <item>Enderdragon - Growl3</item>
+        <item>Enderdragon - Growl4</item>
+        <item>Enderdragon - Hit1</item>
+        <item>Enderdragon - Hit2</item>
+        <item>Enderdragon - Hit3</item>
+        <item>Enderdragon - Hit4</item>
+        <item>Enderdragon - Wings1</item>
+        <item>Enderdragon - Wings2</item>
+        <item>Enderdragon - Wings3</item>
+        <item>Enderdragon - Wings4</item>
+        <item>Enderdragon - Wings5</item>
+        <item>Enderdragon - Wings6</item>
+        <item>Endermen - Death</item>
+        <item>Endermen - Hit1</item>
+        <item>Endermen - Hit2</item>
+        <item>Endermen - Hit3</item>
+        <item>Endermen - Hit4</item>
+        <item>Endermen - Idle1</item>
+        <item>Endermen - Idle2</item>
+        <item>Endermen - Idle3</item>
+        <item>Endermen - Idle4</item>
+        <item>Endermen - Idle5</item>
+        <item>Endermen - Portal</item>
+        <item>Endermen - Portal2</item>
+        <item>Endermen - Scream1</item>
+        <item>Endermen - Scream2</item>
+        <item>Endermen - Scream3</item>
+        <item>Endermen - Scream4</item>
+        <item>Endermen - Stare</item>
+        <item>Fire - Blast1</item>
+        <item>Fire - Blast_far1</item>
+        <item>Fire - Fire</item>
+        <item>Fire - Ignite</item>
+        <item>Fire - Largeblast1</item>
+        <item>Fire - Largeblast_far1</item>
+        <item>Fire - Launch1</item>
+        <item>Fire - Twinkle1</item>
+        <item>Fire - Twinkle_far1</item>
+        <item>Ghast - Affectionatescream</item>
+        <item>Ghast - Charge</item>
+        <item>Ghast - Death</item>
+        <item>Ghast - Fireball4</item>
+        <item>Ghast - Moan1</item>
+        <item>Ghast - Moan2</item>
+        <item>Ghast - Moan3</item>
+        <item>Ghast - Moan4</item>
+        <item>Ghast - Moan5</item>
+        <item>Ghast - Moan6</item>
+        <item>Ghast - Moan7</item>
+        <item>Ghast - Scream1</item>
+        <item>Ghast - Scream2</item>
+        <item>Ghast - Scream3</item>
+        <item>Ghast - Scream4</item>
+        <item>Ghast - Scream5</item>
+        <item>Irongolem - Death</item>
+        <item>Irongolem - Hit1</item>
+        <item>Irongolem - Hit2</item>
+        <item>Irongolem - Hit3</item>
+        <item>Irongolem - Hit4</item>
+        <item>Irongolem - Throw</item>
+        <item>Irongolem - Walk1</item>
+        <item>Irongolem - Walk2</item>
+        <item>Irongolem - Walk3</item>
+        <item>Irongolem - Walk4</item>
+        <item>Liquid - Lava</item>
+        <item>Liquid - Lavapop</item>
+        <item>Liquid - Splash</item>
+        <item>Liquid - Splash2</item>
+        <item>Liquid - Swim1</item>
+        <item>Liquid - Swim2</item>
+        <item>Liquid - Swim3</item>
+        <item>Liquid - Swim4</item>
+        <item>Liquid - Water</item>
+        <item>Magmacube - Big1</item>
+        <item>Magmacube - Big2</item>
+        <item>Magmacube - Big3</item>
+        <item>Magmacube - Big4</item>
+        <item>Magmacube - Jump1</item>
+        <item>Magmacube - Jump2</item>
+        <item>Magmacube - Jump3</item>
+        <item>Magmacube - Jump4</item>
+        <item>Magmacube - Small1</item>
+        <item>Magmacube - Small2</item>
+        <item>Magmacube - Small3</item>
+        <item>Magmacube - Small4</item>
+        <item>Magmacube - Small5</item>
+        <item>Note - Bass</item>
+        <item>Note - Bassattack</item>
+        <item>Note - Bd</item>
+        <item>Note - Harp</item>
+        <item>Note - Hat</item>
+        <item>Note - Pling</item>
+        <item>Note - Snare</item>
+        <item>Pig - Death</item>
+        <item>Pig - Pig1</item>
+        <item>Pig - Pig2</item>
+        <item>Pig - Pig3</item>
+        <item>Pig - Pigdeath</item>
+        <item>Pig - Say1</item>
+        <item>Pig - Say2</item>
+        <item>Pig - Say3</item>
+        <item>Pig - Step1</item>
+        <item>Pig - Step2</item>
+        <item>Pig - Step3</item>
+        <item>Pig - Step4</item>
+        <item>Pig - Step5</item>
+        <item>Random - Anvil_break</item>
+        <item>Random - Anvil_land</item>
+        <item>Random - Anvil_use</item>
+        <item>Random - Bow</item>
+        <item>Random - Bowhit1</item>
+        <item>Random - Bowhit2</item>
+        <item>Random - Bowhit3</item>
+        <item>Random - Bowhit4</item>
+        <item>Random - Break</item>
+        <item>Random - Breath</item>
+        <item>Random - Burp</item>
+        <item>Random - Chestclosed</item>
+        <item>Random - Chestopen</item>
+        <item>Random - Classic_hurt</item>
+        <item>Random - Click</item>
+        <item>Random - Door_close</item>
+        <item>Random - Door_open</item>
+        <item>Random - Drink</item>
+        <item>Random - Drr</item>
+        <item>Random - Eat1</item>
+        <item>Random - Eat2</item>
+        <item>Random - Eat3</item>
+        <item>Random - Explode</item>
+        <item>Random - Explode1</item>
+        <item>Random - Explode2</item>
+        <item>Random - Explode3</item>
+        <item>Random - Explode4</item>
+        <item>Random - Fizz</item>
+        <item>Random - Fuse</item>
+        <item>Random - Glass1</item>
+        <item>Random - Glass2</item>
+        <item>Random - Glass3</item>
+        <item>Random - Hurt</item>
+        <item>Random - Levelup</item>
+        <item>Random - Minecartbase</item>
+        <item>Random - Minecartinside</item>
+        <item>Random - Old_explode</item>
+        <item>Random - Orb</item>
+        <item>Random - Pistonin</item>
+        <item>Random - Pistonout</item>
+        <item>Random - Pop</item>
+        <item>Random - Portalportal</item>
+        <item>Random - Portaltravel</item>
+        <item>Random - Portaltrigger</item>
+        <item>Random - Splash</item>
+        <item>Random - Successful_hit</item>
+        <item>Random - Woodclick</item>
+        <item>Sheep - Say1</item>
+        <item>Sheep - Say2</item>
+        <item>Sheep - Say3</item>
+        <item>Sheep - Shear</item>
+        <item>Sheep - Sheep1</item>
+        <item>Sheep - Sheep2</item>
+        <item>Sheep - Sheep3</item>
+        <item>Sheep - Step1</item>
+        <item>Sheep - Step2</item>
+        <item>Sheep - Step3</item>
+        <item>Sheep - Step4</item>
+        <item>Sheep - Step5</item>
+        <item>Silverfish - Hit1</item>
+        <item>Silverfish - Hit2</item>
+        <item>Silverfish - Hit3</item>
+        <item>Silverfish - Kill</item>
+        <item>Silverfish - Say1</item>
+        <item>Silverfish - Say2</item>
+        <item>Silverfish - Say3</item>
+        <item>Silverfish - Say4</item>
+        <item>Silverfish - Step1</item>
+        <item>Silverfish - Step2</item>
+        <item>Silverfish - Step3</item>
+        <item>Silverfish - Step4</item>
+        <item>Skeleton - Death</item>
+        <item>Skeleton - Hurt1</item>
+        <item>Skeleton - Hurt2</item>
+        <item>Skeleton - Hurt3</item>
+        <item>Skeleton - Hurt4</item>
+        <item>Skeleton - Say1</item>
+        <item>Skeleton - Say2</item>
+        <item>Skeleton - Say3</item>
+        <item>Skeleton - Skeleton1</item>
+        <item>Skeleton - Skeleton2</item>
+        <item>Skeleton - Skeleton3</item>
+        <item>Skeleton - Skeletondeath</item>
+        <item>Skeleton - Skeletonhurt1</item>
+        <item>Skeleton - Skeletonhurt2</item>
+        <item>Skeleton - Skeletonhurt3</item>
+        <item>Skeleton - Skeletonhurt4</item>
+        <item>Skeleton - Step1</item>
+        <item>Skeleton - Step2</item>
+        <item>Skeleton - Step3</item>
+        <item>Skeleton - Step4</item>
+        <item>Slime - Attack1</item>
+        <item>Slime - Attack2</item>
+        <item>Slime - Big1</item>
+        <item>Slime - Big2</item>
+        <item>Slime - Big3</item>
+        <item>Slime - Big4</item>
+        <item>Slime - Slime1</item>
+        <item>Slime - Slime2</item>
+        <item>Slime - Slime3</item>
+        <item>Slime - Slime4</item>
+        <item>Slime - Slime5</item>
+        <item>Slime - Slimeattack1</item>
+        <item>Slime - Slimeattack2</item>
+        <item>Slime - Small1</item>
+        <item>Slime - Small2</item>
+        <item>Slime - Small3</item>
+        <item>Slime - Small4</item>
+        <item>Slime - Small5</item>
+        <item>Spider - Death</item>
+        <item>Spider - Say1</item>
+        <item>Spider - Say2</item>
+        <item>Spider - Say3</item>
+        <item>Spider - Say4</item>
+        <item>Spider - Spider1</item>
+        <item>Spider - Spider2</item>
+        <item>Spider - Spider3</item>
+        <item>Spider - Spider4</item>
+        <item>Spider - Spiderdeath</item>
+        <item>Spider - Step1</item>
+        <item>Spider - Step2</item>
+        <item>Spider - Step3</item>
+        <item>Spider - Step4</item>
+        <item>Step - Cloth1</item>
+        <item>Step - Cloth2</item>
+        <item>Step - Cloth3</item>
+        <item>Step - Cloth4</item>
+        <item>Step - Grass1</item>
+        <item>Step - Grass2</item>
+        <item>Step - Grass3</item>
+        <item>Step - Grass4</item>
+        <item>Step - Grass5</item>
+        <item>Step - Grass6</item>
+        <item>Step - Gravel1</item>
+        <item>Step - Gravel2</item>
+        <item>Step - Gravel3</item>
+        <item>Step - Gravel4</item>
+        <item>Step - Ladder1</item>
+        <item>Step - Ladder2</item>
+        <item>Step - Ladder3</item>
+        <item>Step - Ladder4</item>
+        <item>Step - Ladder5</item>
+        <item>Step - Sand1</item>
+        <item>Step - Sand2</item>
+        <item>Step - Sand3</item>
+        <item>Step - Sand4</item>
+        <item>Step - Sand5</item>
+        <item>Step - Snow1</item>
+        <item>Step - Snow2</item>
+        <item>Step - Snow3</item>
+        <item>Step - Snow4</item>
+        <item>Step - Stone1</item>
+        <item>Step - Stone2</item>
+        <item>Step - Stone3</item>
+        <item>Step - Stone4</item>
+        <item>Step - Stone5</item>
+        <item>Step - Stone6</item>
+        <item>Step - Wood1</item>
+        <item>Step - Wood2</item>
+        <item>Step - Wood3</item>
+        <item>Step - Wood4</item>
+        <item>Step - Wood5</item>
+        <item>Step - Wood6</item>
+        <item>Wither - Death</item>
+        <item>Wither - Hurt1</item>
+        <item>Wither - Hurt2</item>
+        <item>Wither - Hurt3</item>
+        <item>Wither - Hurt4</item>
+        <item>Wither - Idle1</item>
+        <item>Wither - Idle2</item>
+        <item>Wither - Idle3</item>
+        <item>Wither - Idle4</item>
+        <item>Wither - Shoot</item>
+        <item>Wither - Spawn</item>
+        <item>Wolf - Bark1</item>
+        <item>Wolf - Bark2</item>
+        <item>Wolf - Bark3</item>
+        <item>Wolf - Death</item>
+        <item>Wolf - Growl1</item>
+        <item>Wolf - Growl2</item>
+        <item>Wolf - Growl3</item>
+        <item>Wolf - Howl1</item>
+        <item>Wolf - Howl2</item>
+        <item>Wolf - Hurt1</item>
+        <item>Wolf - Hurt2</item>
+        <item>Wolf - Hurt3</item>
+        <item>Wolf - Panting</item>
+        <item>Wolf - Shake</item>
+        <item>Wolf - Step1</item>
+        <item>Wolf - Step2</item>
+        <item>Wolf - Step3</item>
+        <item>Wolf - Step4</item>
+        <item>Wolf - Step5</item>
+        <item>Wolf - Whine</item>
+        <item>Zombiepig - Zpig1</item>
+        <item>Zombiepig - Zpig2</item>
+        <item>Zombiepig - Zpig3</item>
+        <item>Zombiepig - Zpig4</item>
+        <item>Zombiepig - Zpigangry1</item>
+        <item>Zombiepig - Zpigangry2</item>
+        <item>Zombiepig - Zpigangry3</item>
+        <item>Zombiepig - Zpigangry4</item>
+        <item>Zombiepig - Zpigdeath</item>
+        <item>Zombiepig - Zpighurt1</item>
+        <item>Zombiepig - Zpighurt2</item>
+        <item>Zombie - Death</item>
+        <item>Zombie - Hurt1</item>
+        <item>Zombie - Hurt2</item>
+        <item>Zombie - Infect</item>
+        <item>Zombie - Metal1</item>
+        <item>Zombie - Metal2</item>
+        <item>Zombie - Metal3</item>
+        <item>Zombie - Remedy</item>
+        <item>Zombie - Say1</item>
+        <item>Zombie - Say2</item>
+        <item>Zombie - Say3</item>
+        <item>Zombie - Step1</item>
+        <item>Zombie - Step2</item>
+        <item>Zombie - Step3</item>
+        <item>Zombie - Step4</item>
+        <item>Zombie - Step5</item>
+        <item>Zombie - Unfect</item>
+        <item>Zombie - Wood1</item>
+        <item>Zombie - Wood2</item>
+        <item>Zombie - Wood3</item>
+        <item>Zombie - Wood4</item>
+        <item>Zombie - Woodbreak</item>
+        <item>Zombie - Zombie1</item>
+        <item>Zombie - Zombie2</item>
+        <item>Zombie - Zombie3</item>
+        <item>Zombie - Zombiedeath</item>
+        <item>Zombie - Zombiehurt1</item>
+        <item>Zombie - Zombiehurt2</item>
     </string-array>
 </resources>
