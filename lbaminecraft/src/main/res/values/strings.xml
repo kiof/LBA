@@ -6,6 +6,8 @@
     <string name="soundFile">MinecraftSoundboard.mp3</string>
     <string name="soundTitle">Minecraft Soundboard</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/2245071206</string>
+
     <color name="buttonColor">#ff5c5c5c</color>
     <color name="buttonShadow">#ffb7b7b7</color>
     <color name="sectionColor">#ff4bc3c3</color>

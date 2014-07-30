@@ -6,6 +6,8 @@
     <string name="soundFile">CounterStrikeSoundbox.mp3</string>
     <string name="soundTitle">Counter Strike Soundbox</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/1381230806</string>
+
     <color name="buttonColor">#FFFFFFFF</color>
     <color name="buttonShadow">#AA768C6C</color>
     <color name="sectionColor">#FFFFFFFF</color>

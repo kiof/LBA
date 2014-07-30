@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="a14e6a2451051ec" />
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_unit_id" />
 
     <ListView
         android:id="@android:id/list"

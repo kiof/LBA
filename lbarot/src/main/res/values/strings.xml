@@ -6,6 +6,8 @@
     <string name="soundFile">BurpSoundbox.mp3</string>
     <string name="soundTitle">Burp Soundbox</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/1241630005</string>
+
     <color name="buttonColor">#FFFFFFFF</color>
     <color name="buttonShadow">#FFFFFFFF</color>
     <color name="sectionColor">#FF000000</color>

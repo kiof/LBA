@@ -6,6 +6,8 @@
     <string name="soundFile">AnimalsSound.mp3</string>
     <string name="soundTitle">Animals Sound</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/2857964001</string>
+
     <color name="buttonColor">#AAAAAAAA</color>
     <color name="buttonShadow">#AAAAAAAA</color>
     <color name="sectionColor">#AAAAAAAA</color>

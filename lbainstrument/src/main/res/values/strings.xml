@@ -6,6 +6,8 @@
     <string name="soundFile">InstrumentsSound.mp3</string>
     <string name="soundTitle">Instruments Sound</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/5811430402</string>
+
     <color name="buttonColor">#FF000000</color>
     <color name="buttonShadow">#FFFFFFFF</color>
     <color name="sectionColor">#FF111111</color>

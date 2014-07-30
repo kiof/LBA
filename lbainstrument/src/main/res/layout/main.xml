@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/bg"
@@ -12,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        ads:adSize="BANNER"
-        ads:adUnitId="a14f0dce7cbc5af" />
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_unit_id" />
 
     <ListView
         android:id="@android:id/list"

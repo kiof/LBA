@@ -6,6 +6,8 @@
     <string name="soundFile">FartSoundbox.mp3</string>
     <string name="soundTitle">Fart Soundbox</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/4474298008</string>
+
     <color name="buttonColor">#FF305080</color>
     <color name="buttonShadow">#FF305080</color>
     <color name="sectionColor">#FFFFFFFF</color>

@@ -6,6 +6,8 @@
     <string name="soundFile">Dogs.mp3</string>
     <string name="soundTitle">Dogs</string>
 
+    <string name="ad_unit_id">ca-app-pub-3294765052683520/8904497602</string>
+
     <color name="buttonColor">#AAAAAAAA</color>
     <color name="buttonShadow">#AAAAAAAA</color>
     <color name="sectionColor">#FF93646c</color>

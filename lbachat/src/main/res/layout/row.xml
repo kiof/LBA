@@ -36,14 +36,14 @@
         android:layout_margin="5dp"
         android:clickable="false"
         android:focusable="false"
-        android:gravity="center"
+        android:gravity="bottom|center_horizontal"
         android:padding="10dp"
         android:shadowColor="@color/buttonShadow"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
         android:textColor="@color/buttonColor"
-        android:textSize="48px"
+        android:textSize="36px"
         android:textStyle="bold" />
 
 </LinearLayout>
