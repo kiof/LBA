@@ -6,7 +6,7 @@
     <string name="soundFile">CatRingtones.mp3</string>
     <string name="soundTitle">Cat Ringtones</string>
 
-    <string name="ad_unit_id">ca-app-pub-3294765052683520/2997564809</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/2997564809</string>
 
     <color name="buttonColor">#FFFFFFFF</color>
     <color name="buttonShadow">#FF000000</color>

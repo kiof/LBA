@@ -58,7 +58,6 @@ public class ChangeLog {
      * returned by <code>getThisVersion()</code> from the second time
      * this version of the app is launched (more precisely: the second
      * time ChangeLog is instantiated).
-     * @see AndroidManifest.xml#android:versionName
      */
     public String getLastVersion() {
         return this.lastVersion;
@@ -75,7 +74,6 @@ public class ChangeLog {
 
     /**
      * @return The version name of this app as described in the manifest.
-     * @see AndroidManifest.xml#android:versionName
      */
     public String getThisVersion() {
         return this.thisVersion;

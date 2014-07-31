@@ -6,7 +6,7 @@
     <string name="soundFile">AirHorn.mp3</string>
     <string name="soundTitle">Air Horn</string>
 
-    <string name="ad_unit_id">ca-app-pub-3294765052683520/8764896802</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/8764896802</string>
 
     <color name="buttonColor">#FFFFFFFF</color>
     <color name="buttonShadow">#FFFFFFFF</color>

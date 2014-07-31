@@ -6,7 +6,7 @@
     <string name="soundFile">VehiclesSound.mp3</string>
     <string name="soundTitle">Vehicles Sound</string>
 
-    <string name="ad_unit_id">ca-app-pub-3294765052683520/7427764402</string>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/7427764402</string>
 
     <color name="buttonColor">#AACCCCCC</color>
     <color name="buttonShadow">#AA333333</color>
