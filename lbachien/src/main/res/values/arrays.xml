@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons">
+    <string-array name="buttons" translatable="false">
         <item>s433212</item>
         <item>s433215</item>
         <item>s403150</item>
@@ -50,7 +50,7 @@
         <item>s1573</item>
         <item>s1283</item>
     </string-array>
-    <string-array name="pictureSections">
+    <string-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
         <item></item>
         <item></item>
@@ -100,7 +100,7 @@
         <item></item>
     </string-array>
 
-    <array name="pictures">
+    <array name="pictures" translatable="false">
         <item>@drawable/s433212</item>
         <item>@drawable/s433215</item>
         <item>@drawable/s403150</item>
@@ -149,7 +149,7 @@
         <item>@drawable/s1573</item>
         <item>@drawable/s1283</item>
     </array>
-    <array name="sounds">
+    <array name="sounds" translatable="false">
         <item>@raw/s433212</item>
         <item>@raw/s433215</item>
         <item>@raw/s403150</item>

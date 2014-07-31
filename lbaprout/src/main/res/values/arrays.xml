@@ -204,7 +204,7 @@
         <item />
     </string-array>
 
-    <array name="pictures">
+    <array name="pictures" translatable="false">
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -305,7 +305,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
     </array>
-    <array name="sounds">
+    <array name="sounds" translatable="false">
         <item>@raw/s443</item>
         <item>@raw/s444</item>
         <item>@raw/s445</item>

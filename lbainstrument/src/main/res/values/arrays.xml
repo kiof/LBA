@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons">
+    <string-array name="buttons" translatable="false">
         <item>flute</item>
         <item>flute_traversiere</item>
         <item>flute_de_pan</item>
@@ -78,7 +78,7 @@
         <item>guimbarde</item>
     </string-array>
 
-    <array name="pictureSections">
+    <array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
         <item></item>
         <item></item>

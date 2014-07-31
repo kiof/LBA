@@ -9,9 +9,9 @@
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/2245071206</string>
 
     <color name="buttonColor">#ffffffff</color>
-    <color name="buttonShadow">#cc494949</color>
+    <color name="buttonShadow">#de2a2a2a</color>
     <color name="sectionColor">#ff5bdcdc</color>
-    <color name="sectionShadow">#de59f4f4</color>
+    <color name="sectionShadow">#e6dffffa</color>
     <color name="sectionBg">#dc236969</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>

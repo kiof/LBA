@@ -24,7 +24,7 @@
         android:shadowDy="2"
         android:shadowRadius="2"
         android:textColor="@color/sectionColor"
-        android:textSize="52px"
+        android:textSize="36sp"
         android:textStyle="bold"
         android:typeface="normal"
         android:visibility="gone" />
@@ -43,7 +43,7 @@
         android:shadowDy="2"
         android:shadowRadius="2"
         android:textColor="@color/buttonColor"
-        android:textSize="36px"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
 </LinearLayout>

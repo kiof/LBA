@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons">
+    <string-array name="buttons" translatable="false">
         <item>voitureancienne</item>
         <item>voitureluxe</item>
         <item>voitureviper</item>
@@ -58,7 +58,7 @@
         <item>espacexwing</item>
     </string-array>
 
-    <string-array name="pictureSections">
+    <string-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
         <item></item>
         <item></item>
