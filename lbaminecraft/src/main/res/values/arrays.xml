@@ -2,6 +2,243 @@
 <resources>
 
     <string-array name="buttons" translatable="false">
+        <item>bat_death</item>
+        <item>bat_hurt1</item>
+        <item>bat_hurt2</item>
+        <item>bat_hurt3</item>
+        <item>bat_hurt4</item>
+        <item>bat_idle1</item>
+        <item>bat_idle2</item>
+        <item>bat_idle3</item>
+        <item>bat_idle4</item>
+        <item>bat_loop</item>
+        <item>bat_takeoff</item>
+        <item>cat_hiss1</item>
+        <item>cat_hiss2</item>
+        <item>cat_hiss3</item>
+        <item>cat_hitt1</item>
+        <item>cat_hitt2</item>
+        <item>cat_hitt3</item>
+        <item>cat_meow1</item>
+        <item>cat_meow2</item>
+        <item>cat_meow3</item>
+        <item>cat_meow4</item>
+        <item>cat_purr1</item>
+        <item>cat_purr2</item>
+        <item>cat_purr3</item>
+        <item>cat_purreow1</item>
+        <item>cat_purreow2</item>
+        <item>chicken_hurt1</item>
+        <item>chicken_hurt2</item>
+        <item>chicken_plop</item>
+        <item>chicken_say1</item>
+        <item>chicken_say2</item>
+        <item>chicken_say3</item>
+        <item>chicken_step1</item>
+        <item>chicken_step2</item>
+        <item>cow_hurt1</item>
+        <item>cow_hurt2</item>
+        <item>cow_hurt3</item>
+        <item>cow_say1</item>
+        <item>cow_say2</item>
+        <item>cow_say3</item>
+        <item>cow_say4</item>
+        <item>cow_step1</item>
+        <item>cow_step2</item>
+        <item>cow_step3</item>
+        <item>cow_step4</item>
+        <item>pig_death</item>
+        <item>pig_say1</item>
+        <item>pig_say2</item>
+        <item>pig_say3</item>
+        <item>pig_step1</item>
+        <item>pig_step2</item>
+        <item>pig_step3</item>
+        <item>pig_step4</item>
+        <item>pig_step5</item>
+        <item>sheep_say1</item>
+        <item>sheep_say2</item>
+        <item>sheep_say3</item>
+        <item>sheep_shear</item>
+        <item>sheep_step1</item>
+        <item>sheep_step2</item>
+        <item>sheep_step3</item>
+        <item>sheep_step4</item>
+        <item>sheep_step5</item>
+        <item>silverfish_hit1</item>
+        <item>silverfish_hit2</item>
+        <item>silverfish_hit3</item>
+        <item>silverfish_kill</item>
+        <item>silverfish_say1</item>
+        <item>silverfish_say2</item>
+        <item>silverfish_say3</item>
+        <item>silverfish_say4</item>
+        <item>silverfish_step1</item>
+        <item>silverfish_step2</item>
+        <item>silverfish_step3</item>
+        <item>silverfish_step4</item>
+        <item>spider_death</item>
+        <item>spider_say1</item>
+        <item>spider_say2</item>
+        <item>spider_say3</item>
+        <item>spider_say4</item>
+        <item>spider_step1</item>
+        <item>spider_step2</item>
+        <item>spider_step3</item>
+        <item>spider_step4</item>
+        <item>wolf_bark1</item>
+        <item>wolf_bark2</item>
+        <item>wolf_bark3</item>
+        <item>wolf_death</item>
+        <item>wolf_growl1</item>
+        <item>wolf_growl2</item>
+        <item>wolf_growl3</item>
+        <item>wolf_howl1</item>
+        <item>wolf_howl2</item>
+        <item>wolf_hurt1</item>
+        <item>wolf_hurt2</item>
+        <item>wolf_hurt3</item>
+        <item>wolf_panting</item>
+        <item>wolf_shake</item>
+        <item>wolf_step1</item>
+        <item>wolf_step2</item>
+        <item>wolf_step3</item>
+        <item>wolf_step4</item>
+        <item>wolf_step5</item>
+        <item>wolf_whine</item>
+        <item>blaze_breathe1</item>
+        <item>blaze_breathe2</item>
+        <item>blaze_breathe3</item>
+        <item>blaze_breathe4</item>
+        <item>blaze_death</item>
+        <item>blaze_hit1</item>
+        <item>blaze_hit2</item>
+        <item>blaze_hit3</item>
+        <item>blaze_hit4</item>
+        <item>creeper_death</item>
+        <item>creeper_say1</item>
+        <item>creeper_say2</item>
+        <item>creeper_say3</item>
+        <item>creeper_say4</item>
+        <item>enderdragon_end</item>
+        <item>enderdragon_growl1</item>
+        <item>enderdragon_growl2</item>
+        <item>enderdragon_growl3</item>
+        <item>enderdragon_growl4</item>
+        <item>enderdragon_hit1</item>
+        <item>enderdragon_hit2</item>
+        <item>enderdragon_hit3</item>
+        <item>enderdragon_hit4</item>
+        <item>enderdragon_wings1</item>
+        <item>enderdragon_wings2</item>
+        <item>enderdragon_wings3</item>
+        <item>enderdragon_wings4</item>
+        <item>enderdragon_wings5</item>
+        <item>enderdragon_wings6</item>
+        <item>endermen_death</item>
+        <item>endermen_hit1</item>
+        <item>endermen_hit2</item>
+        <item>endermen_hit3</item>
+        <item>endermen_hit4</item>
+        <item>endermen_idle1</item>
+        <item>endermen_idle2</item>
+        <item>endermen_idle3</item>
+        <item>endermen_idle4</item>
+        <item>endermen_idle5</item>
+        <item>endermen_portal</item>
+        <item>endermen_portal2</item>
+        <item>endermen_scream1</item>
+        <item>endermen_scream2</item>
+        <item>endermen_scream3</item>
+        <item>endermen_scream4</item>
+        <item>endermen_stare</item>
+        <item>ghast_affectionatescream</item>
+        <item>ghast_charge</item>
+        <item>ghast_death</item>
+        <item>ghast_fireball4</item>
+        <item>ghast_moan1</item>
+        <item>ghast_moan2</item>
+        <item>ghast_moan3</item>
+        <item>ghast_moan4</item>
+        <item>ghast_moan5</item>
+        <item>ghast_moan6</item>
+        <item>ghast_moan7</item>
+        <item>ghast_scream1</item>
+        <item>ghast_scream2</item>
+        <item>ghast_scream3</item>
+        <item>ghast_scream4</item>
+        <item>ghast_scream5</item>
+        <item>irongolem_death</item>
+        <item>irongolem_hit1</item>
+        <item>irongolem_hit2</item>
+        <item>irongolem_hit3</item>
+        <item>irongolem_hit4</item>
+        <item>irongolem_throw</item>
+        <item>irongolem_walk1</item>
+        <item>irongolem_walk2</item>
+        <item>irongolem_walk3</item>
+        <item>irongolem_walk4</item>
+        <item>skeleton_death</item>
+        <item>skeleton_hurt1</item>
+        <item>skeleton_hurt2</item>
+        <item>skeleton_hurt3</item>
+        <item>skeleton_hurt4</item>
+        <item>skeleton_say1</item>
+        <item>skeleton_say2</item>
+        <item>skeleton_say3</item>
+        <item>skeleton_skeletondeath</item>
+        <item>skeleton_skeletonhurt1</item>
+        <item>skeleton_skeletonhurt2</item>
+        <item>skeleton_skeletonhurt3</item>
+        <item>skeleton_skeletonhurt4</item>
+        <item>skeleton_step1</item>
+        <item>skeleton_step2</item>
+        <item>skeleton_step3</item>
+        <item>skeleton_step4</item>
+        <item>wither_death</item>
+        <item>wither_hurt1</item>
+        <item>wither_hurt2</item>
+        <item>wither_hurt3</item>
+        <item>wither_hurt4</item>
+        <item>wither_idle1</item>
+        <item>wither_idle2</item>
+        <item>wither_idle3</item>
+        <item>wither_idle4</item>
+        <item>wither_shoot</item>
+        <item>wither_spawn</item>
+        <item>zombie_death</item>
+        <item>zombie_hurt1</item>
+        <item>zombie_hurt2</item>
+        <item>zombie_infect</item>
+        <item>zombie_metal1</item>
+        <item>zombie_metal2</item>
+        <item>zombie_metal3</item>
+        <item>zombie_remedy</item>
+        <item>zombie_say1</item>
+        <item>zombie_say2</item>
+        <item>zombie_say3</item>
+        <item>zombie_step1</item>
+        <item>zombie_step2</item>
+        <item>zombie_step3</item>
+        <item>zombie_step4</item>
+        <item>zombie_step5</item>
+        <item>zombie_unfect</item>
+        <item>zombie_wood1</item>
+        <item>zombie_wood2</item>
+        <item>zombie_wood3</item>
+        <item>zombie_wood4</item>
+        <item>zombie_woodbreak</item>
+        <item>zombiepig_zpig1</item>
+        <item>zombiepig_zpig2</item>
+        <item>zombiepig_zpig3</item>
+        <item>zombiepig_zpig4</item>
+        <item>zombiepig_zpigangry1</item>
+        <item>zombiepig_zpigangry2</item>
+        <item>zombiepig_zpigangry3</item>
+        <item>zombiepig_zpigangry4</item>
+        <item>zombiepig_zpigdeath</item>
+        <item>zombiepig_zpighurt1</item>
+        <item>zombiepig_zpighurt2</item>
         <item>ambient_cave1</item>
         <item>ambient_cave2</item>
         <item>ambient_cave3</item>
@@ -22,83 +259,6 @@
         <item>ambient_thunder1</item>
         <item>ambient_thunder2</item>
         <item>ambient_thunder3</item>
-        <item>bat_death</item>
-        <item>bat_hurt1</item>
-        <item>bat_hurt2</item>
-        <item>bat_hurt3</item>
-        <item>bat_hurt4</item>
-        <item>bat_idle1</item>
-        <item>bat_idle2</item>
-        <item>bat_idle3</item>
-        <item>bat_idle4</item>
-        <item>bat_loop</item>
-        <item>bat_takeoff</item>
-        <item>blaze_breathe1</item>
-        <item>blaze_breathe2</item>
-        <item>blaze_breathe3</item>
-        <item>blaze_breathe4</item>
-        <item>blaze_death</item>
-        <item>blaze_hit1</item>
-        <item>blaze_hit2</item>
-        <item>blaze_hit3</item>
-        <item>blaze_hit4</item>
-        <item>cat_hiss1</item>
-        <item>cat_hiss2</item>
-        <item>cat_hiss3</item>
-        <item>cat_hitt1</item>
-        <item>cat_hitt2</item>
-        <item>cat_hitt3</item>
-        <item>cat_meow1</item>
-        <item>cat_meow2</item>
-        <item>cat_meow3</item>
-        <item>cat_meow4</item>
-        <item>cat_purr1</item>
-        <item>cat_purr2</item>
-        <item>cat_purr3</item>
-        <item>cat_purreow1</item>
-        <item>cat_purreow2</item>
-        <item>chicken_chicken1</item>
-        <item>chicken_chicken2</item>
-        <item>chicken_chicken3</item>
-        <item>chicken_chickenhurt1</item>
-        <item>chicken_chickenhurt2</item>
-        <item>chicken_chickenplop</item>
-        <item>chicken_hurt1</item>
-        <item>chicken_hurt2</item>
-        <item>chicken_plop</item>
-        <item>chicken_say1</item>
-        <item>chicken_say2</item>
-        <item>chicken_say3</item>
-        <item>chicken_step1</item>
-        <item>chicken_step2</item>
-        <item>cow_cow1</item>
-        <item>cow_cow2</item>
-        <item>cow_cow3</item>
-        <item>cow_cow4</item>
-        <item>cow_cowhurt1</item>
-        <item>cow_cowhurt2</item>
-        <item>cow_cowhurt3</item>
-        <item>cow_hurt1</item>
-        <item>cow_hurt2</item>
-        <item>cow_hurt3</item>
-        <item>cow_say1</item>
-        <item>cow_say2</item>
-        <item>cow_say3</item>
-        <item>cow_say4</item>
-        <item>cow_step1</item>
-        <item>cow_step2</item>
-        <item>cow_step3</item>
-        <item>cow_step4</item>
-        <item>creeper_creeper1</item>
-        <item>creeper_creeper2</item>
-        <item>creeper_creeper3</item>
-        <item>creeper_creeper4</item>
-        <item>creeper_creeperdeath</item>
-        <item>creeper_death</item>
-        <item>creeper_say1</item>
-        <item>creeper_say2</item>
-        <item>creeper_say3</item>
-        <item>creeper_say4</item>
         <item>damage_fallbig</item>
         <item>damage_fallbig1</item>
         <item>damage_fallbig2</item>
@@ -137,73 +297,15 @@
         <item>dig_wood2</item>
         <item>dig_wood3</item>
         <item>dig_wood4</item>
-        <item>enderdragon_end</item>
-        <item>enderdragon_growl1</item>
-        <item>enderdragon_growl2</item>
-        <item>enderdragon_growl3</item>
-        <item>enderdragon_growl4</item>
-        <item>enderdragon_hit1</item>
-        <item>enderdragon_hit2</item>
-        <item>enderdragon_hit3</item>
-        <item>enderdragon_hit4</item>
-        <item>enderdragon_wings1</item>
-        <item>enderdragon_wings2</item>
-        <item>enderdragon_wings3</item>
-        <item>enderdragon_wings4</item>
-        <item>enderdragon_wings5</item>
-        <item>enderdragon_wings6</item>
-        <item>endermen_death</item>
-        <item>endermen_hit1</item>
-        <item>endermen_hit2</item>
-        <item>endermen_hit3</item>
-        <item>endermen_hit4</item>
-        <item>endermen_idle1</item>
-        <item>endermen_idle2</item>
-        <item>endermen_idle3</item>
-        <item>endermen_idle4</item>
-        <item>endermen_idle5</item>
-        <item>endermen_portal</item>
-        <item>endermen_portal2</item>
-        <item>endermen_scream1</item>
-        <item>endermen_scream2</item>
-        <item>endermen_scream3</item>
-        <item>endermen_scream4</item>
-        <item>endermen_stare</item>
-        <item>fire_blast1</item>
         <item>fire_blast_far1</item>
+        <item>fire_blast1</item>
         <item>fire_fire</item>
         <item>fire_ignite</item>
-        <item>fire_largeblast1</item>
         <item>fire_largeblast_far1</item>
+        <item>fire_largeblast1</item>
         <item>fire_launch1</item>
-        <item>fire_twinkle1</item>
         <item>fire_twinkle_far1</item>
-        <item>ghast_affectionatescream</item>
-        <item>ghast_charge</item>
-        <item>ghast_death</item>
-        <item>ghast_fireball4</item>
-        <item>ghast_moan1</item>
-        <item>ghast_moan2</item>
-        <item>ghast_moan3</item>
-        <item>ghast_moan4</item>
-        <item>ghast_moan5</item>
-        <item>ghast_moan6</item>
-        <item>ghast_moan7</item>
-        <item>ghast_scream1</item>
-        <item>ghast_scream2</item>
-        <item>ghast_scream3</item>
-        <item>ghast_scream4</item>
-        <item>ghast_scream5</item>
-        <item>irongolem_death</item>
-        <item>irongolem_hit1</item>
-        <item>irongolem_hit2</item>
-        <item>irongolem_hit3</item>
-        <item>irongolem_hit4</item>
-        <item>irongolem_throw</item>
-        <item>irongolem_walk1</item>
-        <item>irongolem_walk2</item>
-        <item>irongolem_walk3</item>
-        <item>irongolem_walk4</item>
+        <item>fire_twinkle1</item>
         <item>liquid_lava</item>
         <item>liquid_lavapop</item>
         <item>liquid_splash</item>
@@ -233,19 +335,54 @@
         <item>note_hat</item>
         <item>note_pling</item>
         <item>note_snare</item>
-        <item>pig_death</item>
-        <item>pig_pig1</item>
-        <item>pig_pig2</item>
-        <item>pig_pig3</item>
-        <item>pig_pigdeath</item>
-        <item>pig_say1</item>
-        <item>pig_say2</item>
-        <item>pig_say3</item>
-        <item>pig_step1</item>
-        <item>pig_step2</item>
-        <item>pig_step3</item>
-        <item>pig_step4</item>
-        <item>pig_step5</item>
+        <item>slime_attack1</item>
+        <item>slime_attack2</item>
+        <item>slime_big1</item>
+        <item>slime_big2</item>
+        <item>slime_big3</item>
+        <item>slime_big4</item>
+        <item>slime_slime1</item>
+        <item>slime_slime2</item>
+        <item>slime_slime3</item>
+        <item>slime_slime4</item>
+        <item>slime_slime5</item>
+        <item>slime_small1</item>
+        <item>slime_small2</item>
+        <item>slime_small3</item>
+        <item>slime_small4</item>
+        <item>slime_small5</item>
+        <item>step_grass1</item>
+        <item>step_grass2</item>
+        <item>step_grass3</item>
+        <item>step_grass4</item>
+        <item>step_grass5</item>
+        <item>step_grass6</item>
+        <item>step_gravel1</item>
+        <item>step_gravel2</item>
+        <item>step_gravel3</item>
+        <item>step_gravel4</item>
+        <item>step_ladder1</item>
+        <item>step_ladder2</item>
+        <item>step_ladder3</item>
+        <item>step_ladder4</item>
+        <item>step_ladder5</item>
+        <item>step_sand1</item>
+        <item>step_sand2</item>
+        <item>step_sand3</item>
+        <item>step_sand4</item>
+        <item>step_sand5</item>
+        <item>step_stone1</item>
+        <item>step_stone2</item>
+        <item>step_stone3</item>
+        <item>step_stone4</item>
+        <item>step_stone5</item>
+        <item>step_stone6</item>
+        <item>step_wood1</item>
+        <item>step_wood2</item>
+        <item>step_wood3</item>
+        <item>step_wood4</item>
+        <item>step_wood5</item>
+        <item>step_wood6</item>
         <item>random_anvil_break</item>
         <item>random_anvil_land</item>
         <item>random_anvil_use</item>
@@ -268,7 +405,6 @@
         <item>random_eat1</item>
         <item>random_eat2</item>
         <item>random_eat3</item>
-        <item>random_explode</item>
         <item>random_explode1</item>
         <item>random_explode2</item>
         <item>random_explode3</item>
@@ -278,7 +414,6 @@
         <item>random_glass1</item>
         <item>random_glass2</item>
         <item>random_glass3</item>
-        <item>random_hurt</item>
         <item>random_levelup</item>
         <item>random_minecartbase</item>
         <item>random_minecartinside</item>
@@ -291,194 +426,7 @@
         <item>random_portaltravel</item>
         <item>random_portaltrigger</item>
         <item>random_splash</item>
-        <item>random_successful_hit</item>
         <item>random_woodclick</item>
-        <item>sheep_say1</item>
-        <item>sheep_say2</item>
-        <item>sheep_say3</item>
-        <item>sheep_shear</item>
-        <item>sheep_sheep1</item>
-        <item>sheep_sheep2</item>
-        <item>sheep_sheep3</item>
-        <item>sheep_step1</item>
-        <item>sheep_step2</item>
-        <item>sheep_step3</item>
-        <item>sheep_step4</item>
-        <item>sheep_step5</item>
-        <item>silverfish_hit1</item>
-        <item>silverfish_hit2</item>
-        <item>silverfish_hit3</item>
-        <item>silverfish_kill</item>
-        <item>silverfish_say1</item>
-        <item>silverfish_say2</item>
-        <item>silverfish_say3</item>
-        <item>silverfish_say4</item>
-        <item>silverfish_step1</item>
-        <item>silverfish_step2</item>
-        <item>silverfish_step3</item>
-        <item>silverfish_step4</item>
-        <item>skeleton_death</item>
-        <item>skeleton_hurt1</item>
-        <item>skeleton_hurt2</item>
-        <item>skeleton_hurt3</item>
-        <item>skeleton_hurt4</item>
-        <item>skeleton_say1</item>
-        <item>skeleton_say2</item>
-        <item>skeleton_say3</item>
-        <item>skeleton_skeleton1</item>
-        <item>skeleton_skeleton2</item>
-        <item>skeleton_skeleton3</item>
-        <item>skeleton_skeletondeath</item>
-        <item>skeleton_skeletonhurt1</item>
-        <item>skeleton_skeletonhurt2</item>
-        <item>skeleton_skeletonhurt3</item>
-        <item>skeleton_skeletonhurt4</item>
-        <item>skeleton_step1</item>
-        <item>skeleton_step2</item>
-        <item>skeleton_step3</item>
-        <item>skeleton_step4</item>
-        <item>slime_attack1</item>
-        <item>slime_attack2</item>
-        <item>slime_big1</item>
-        <item>slime_big2</item>
-        <item>slime_big3</item>
-        <item>slime_big4</item>
-        <item>slime_slime1</item>
-        <item>slime_slime2</item>
-        <item>slime_slime3</item>
-        <item>slime_slime4</item>
-        <item>slime_slime5</item>
-        <item>slime_slimeattack1</item>
-        <item>slime_slimeattack2</item>
-        <item>slime_small1</item>
-        <item>slime_small2</item>
-        <item>slime_small3</item>
-        <item>slime_small4</item>
-        <item>slime_small5</item>
-        <item>spider_death</item>
-        <item>spider_say1</item>
-        <item>spider_say2</item>
-        <item>spider_say3</item>
-        <item>spider_say4</item>
-        <item>spider_spider1</item>
-        <item>spider_spider2</item>
-        <item>spider_spider3</item>
-        <item>spider_spider4</item>
-        <item>spider_spiderdeath</item>
-        <item>spider_step1</item>
-        <item>spider_step2</item>
-        <item>spider_step3</item>
-        <item>spider_step4</item>
-        <item>step_cloth1</item>
-        <item>step_cloth2</item>
-        <item>step_cloth3</item>
-        <item>step_cloth4</item>
-        <item>step_grass1</item>
-        <item>step_grass2</item>
-        <item>step_grass3</item>
-        <item>step_grass4</item>
-        <item>step_grass5</item>
-        <item>step_grass6</item>
-        <item>step_gravel1</item>
-        <item>step_gravel2</item>
-        <item>step_gravel3</item>
-        <item>step_gravel4</item>
-        <item>step_ladder1</item>
-        <item>step_ladder2</item>
-        <item>step_ladder3</item>
-        <item>step_ladder4</item>
-        <item>step_ladder5</item>
-        <item>step_sand1</item>
-        <item>step_sand2</item>
-        <item>step_sand3</item>
-        <item>step_sand4</item>
-        <item>step_sand5</item>
-        <item>step_snow1</item>
-        <item>step_snow2</item>
-        <item>step_snow3</item>
-        <item>step_snow4</item>
-        <item>step_stone1</item>
-        <item>step_stone2</item>
-        <item>step_stone3</item>
-        <item>step_stone4</item>
-        <item>step_stone5</item>
-        <item>step_stone6</item>
-        <item>step_wood1</item>
-        <item>step_wood2</item>
-        <item>step_wood3</item>
-        <item>step_wood4</item>
-        <item>step_wood5</item>
-        <item>step_wood6</item>
-        <item>wither_death</item>
-        <item>wither_hurt1</item>
-        <item>wither_hurt2</item>
-        <item>wither_hurt3</item>
-        <item>wither_hurt4</item>
-        <item>wither_idle1</item>
-        <item>wither_idle2</item>
-        <item>wither_idle3</item>
-        <item>wither_idle4</item>
-        <item>wither_shoot</item>
-        <item>wither_spawn</item>
-        <item>wolf_bark1</item>
-        <item>wolf_bark2</item>
-        <item>wolf_bark3</item>
-        <item>wolf_death</item>
-        <item>wolf_growl1</item>
-        <item>wolf_growl2</item>
-        <item>wolf_growl3</item>
-        <item>wolf_howl1</item>
-        <item>wolf_howl2</item>
-        <item>wolf_hurt1</item>
-        <item>wolf_hurt2</item>
-        <item>wolf_hurt3</item>
-        <item>wolf_panting</item>
-        <item>wolf_shake</item>
-        <item>wolf_step1</item>
-        <item>wolf_step2</item>
-        <item>wolf_step3</item>
-        <item>wolf_step4</item>
-        <item>wolf_step5</item>
-        <item>wolf_whine</item>
-        <item>zombiepig_zpig1</item>
-        <item>zombiepig_zpig2</item>
-        <item>zombiepig_zpig3</item>
-        <item>zombiepig_zpig4</item>
-        <item>zombiepig_zpigangry1</item>
-        <item>zombiepig_zpigangry2</item>
-        <item>zombiepig_zpigangry3</item>
-        <item>zombiepig_zpigangry4</item>
-        <item>zombiepig_zpigdeath</item>
-        <item>zombiepig_zpighurt1</item>
-        <item>zombiepig_zpighurt2</item>
-        <item>zombie_death</item>
-        <item>zombie_hurt1</item>
-        <item>zombie_hurt2</item>
-        <item>zombie_infect</item>
-        <item>zombie_metal1</item>
-        <item>zombie_metal2</item>
-        <item>zombie_metal3</item>
-        <item>zombie_remedy</item>
-        <item>zombie_say1</item>
-        <item>zombie_say2</item>
-        <item>zombie_say3</item>
-        <item>zombie_step1</item>
-        <item>zombie_step2</item>
-        <item>zombie_step3</item>
-        <item>zombie_step4</item>
-        <item>zombie_step5</item>
-        <item>zombie_unfect</item>
-        <item>zombie_wood1</item>
-        <item>zombie_wood2</item>
-        <item>zombie_wood3</item>
-        <item>zombie_wood4</item>
-        <item>zombie_woodbreak</item>
-        <item>zombie_zombie1</item>
-        <item>zombie_zombie2</item>
-        <item>zombie_zombie3</item>
-        <item>zombie_zombiedeath</item>
-        <item>zombie_zombiehurt1</item>
-        <item>zombie_zombiehurt2</item>
     </string-array>
     <string-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
@@ -492,16 +440,11 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section1</item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item />
         <item />
         <item />
@@ -520,12 +463,7 @@
         <item />
         <item />
         <item />
-        <item />
         <item>@drawable/section3</item>
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -545,21 +483,7 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section5</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -578,6 +502,8 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
         <item>@drawable/section7</item>
         <item />
         <item />
@@ -587,16 +513,7 @@
         <item />
         <item />
         <item />
-        <item />
         <item>@drawable/section8</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -625,25 +542,7 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section0</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -657,7 +556,14 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section2</item>
+        <item />
         <item />
         <item />
         <item />
@@ -683,7 +589,14 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section4</item>
+        <item />
         <item />
         <item />
         <item />
@@ -705,7 +618,15 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section6</item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item />
         <item />
         <item />
@@ -725,43 +646,16 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section8</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -784,9 +678,15 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section0</item>
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -816,6 +716,14 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section2</item>
         <item />
         <item />
@@ -825,21 +733,7 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section3</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -861,33 +755,6 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section5</item>
         <item />
         <item />
@@ -895,15 +762,7 @@
         <item />
         <item />
         <item />
-        <item />
-        <item />
-        <item />
-        <item />
         <item>@drawable/section6</item>
-        <item />
-        <item />
-        <item />
-        <item />
         <item />
         <item />
         <item />
@@ -930,7 +789,44 @@
         <item />
         <item />
         <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>@drawable/section8</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item />
         <item />
         <item />
@@ -972,15 +868,10 @@
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
@@ -1000,11 +891,6 @@
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
@@ -1025,20 +911,6 @@
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
@@ -1058,6 +930,8 @@
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
@@ -1067,15 +941,6 @@
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
-        <item>@drawable/button7</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
@@ -1105,29 +970,17 @@
         <item>@drawable/button9</item>
         <item>@drawable/button9</item>
         <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
-        <item>@drawable/button9</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
@@ -1153,6 +1006,13 @@
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
+        <item>@drawable/button2</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
+        <item>@drawable/button3</item>
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
@@ -1172,6 +1032,11 @@
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
+        <item>@drawable/button4</item>
+        <item>@drawable/button5</item>
+        <item>@drawable/button5</item>
+        <item>@drawable/button5</item>
+        <item>@drawable/button5</item>
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
@@ -1192,6 +1057,10 @@
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
+        <item>@drawable/button6</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
@@ -1205,42 +1074,15 @@
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
-        <item>@drawable/button8</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
@@ -1264,6 +1106,14 @@
         <item>@drawable/button9</item>
         <item>@drawable/button9</item>
         <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
+        <item>@drawable/button9</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
@@ -1274,8 +1124,6 @@
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
         <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
-        <item>@drawable/button0</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
@@ -1296,15 +1144,14 @@
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
         <item>@drawable/button1</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
-        <item>@drawable/button2</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
+        <item>@drawable/button1</item>
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
         <item>@drawable/button2</item>
@@ -1323,38 +1170,6 @@
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
         <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button3</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
-        <item>@drawable/button4</item>
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
         <item>@drawable/button4</item>
@@ -1375,14 +1190,6 @@
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
         <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button5</item>
-        <item>@drawable/button6</item>
-        <item>@drawable/button6</item>
-        <item>@drawable/button6</item>
-        <item>@drawable/button6</item>
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
         <item>@drawable/button6</item>
@@ -1410,6 +1217,43 @@
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
         <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button7</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
+        <item>@drawable/button8</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
         <item>@drawable/button8</item>
@@ -1440,6 +1284,243 @@
         <item>@drawable/button8</item>
     </array>
     <array name="sounds">
+        <item>@raw/bat_death</item>
+        <item>@raw/bat_hurt1</item>
+        <item>@raw/bat_hurt2</item>
+        <item>@raw/bat_hurt3</item>
+        <item>@raw/bat_hurt4</item>
+        <item>@raw/bat_idle1</item>
+        <item>@raw/bat_idle2</item>
+        <item>@raw/bat_idle3</item>
+        <item>@raw/bat_idle4</item>
+        <item>@raw/bat_loop</item>
+        <item>@raw/bat_takeoff</item>
+        <item>@raw/cat_hiss1</item>
+        <item>@raw/cat_hiss2</item>
+        <item>@raw/cat_hiss3</item>
+        <item>@raw/cat_hitt1</item>
+        <item>@raw/cat_hitt2</item>
+        <item>@raw/cat_hitt3</item>
+        <item>@raw/cat_meow1</item>
+        <item>@raw/cat_meow2</item>
+        <item>@raw/cat_meow3</item>
+        <item>@raw/cat_meow4</item>
+        <item>@raw/cat_purr1</item>
+        <item>@raw/cat_purr2</item>
+        <item>@raw/cat_purr3</item>
+        <item>@raw/cat_purreow1</item>
+        <item>@raw/cat_purreow2</item>
+        <item>@raw/chicken_hurt1</item>
+        <item>@raw/chicken_hurt2</item>
+        <item>@raw/chicken_plop</item>
+        <item>@raw/chicken_say1</item>
+        <item>@raw/chicken_say2</item>
+        <item>@raw/chicken_say3</item>
+        <item>@raw/chicken_step1</item>
+        <item>@raw/chicken_step2</item>
+        <item>@raw/cow_hurt1</item>
+        <item>@raw/cow_hurt2</item>
+        <item>@raw/cow_hurt3</item>
+        <item>@raw/cow_say1</item>
+        <item>@raw/cow_say2</item>
+        <item>@raw/cow_say3</item>
+        <item>@raw/cow_say4</item>
+        <item>@raw/cow_step1</item>
+        <item>@raw/cow_step2</item>
+        <item>@raw/cow_step3</item>
+        <item>@raw/cow_step4</item>
+        <item>@raw/pig_death</item>
+        <item>@raw/pig_say1</item>
+        <item>@raw/pig_say2</item>
+        <item>@raw/pig_say3</item>
+        <item>@raw/pig_step1</item>
+        <item>@raw/pig_step2</item>
+        <item>@raw/pig_step3</item>
+        <item>@raw/pig_step4</item>
+        <item>@raw/pig_step5</item>
+        <item>@raw/sheep_say1</item>
+        <item>@raw/sheep_say2</item>
+        <item>@raw/sheep_say3</item>
+        <item>@raw/sheep_shear</item>
+        <item>@raw/sheep_step1</item>
+        <item>@raw/sheep_step2</item>
+        <item>@raw/sheep_step3</item>
+        <item>@raw/sheep_step4</item>
+        <item>@raw/sheep_step5</item>
+        <item>@raw/silverfish_hit1</item>
+        <item>@raw/silverfish_hit2</item>
+        <item>@raw/silverfish_hit3</item>
+        <item>@raw/silverfish_kill</item>
+        <item>@raw/silverfish_say1</item>
+        <item>@raw/silverfish_say2</item>
+        <item>@raw/silverfish_say3</item>
+        <item>@raw/silverfish_say4</item>
+        <item>@raw/silverfish_step1</item>
+        <item>@raw/silverfish_step2</item>
+        <item>@raw/silverfish_step3</item>
+        <item>@raw/silverfish_step4</item>
+        <item>@raw/spider_death</item>
+        <item>@raw/spider_say1</item>
+        <item>@raw/spider_say2</item>
+        <item>@raw/spider_say3</item>
+        <item>@raw/spider_say4</item>
+        <item>@raw/spider_step1</item>
+        <item>@raw/spider_step2</item>
+        <item>@raw/spider_step3</item>
+        <item>@raw/spider_step4</item>
+        <item>@raw/wolf_bark1</item>
+        <item>@raw/wolf_bark2</item>
+        <item>@raw/wolf_bark3</item>
+        <item>@raw/wolf_death</item>
+        <item>@raw/wolf_growl1</item>
+        <item>@raw/wolf_growl2</item>
+        <item>@raw/wolf_growl3</item>
+        <item>@raw/wolf_howl1</item>
+        <item>@raw/wolf_howl2</item>
+        <item>@raw/wolf_hurt1</item>
+        <item>@raw/wolf_hurt2</item>
+        <item>@raw/wolf_hurt3</item>
+        <item>@raw/wolf_panting</item>
+        <item>@raw/wolf_shake</item>
+        <item>@raw/wolf_step1</item>
+        <item>@raw/wolf_step2</item>
+        <item>@raw/wolf_step3</item>
+        <item>@raw/wolf_step4</item>
+        <item>@raw/wolf_step5</item>
+        <item>@raw/wolf_whine</item>
+        <item>@raw/blaze_breathe1</item>
+        <item>@raw/blaze_breathe2</item>
+        <item>@raw/blaze_breathe3</item>
+        <item>@raw/blaze_breathe4</item>
+        <item>@raw/blaze_death</item>
+        <item>@raw/blaze_hit1</item>
+        <item>@raw/blaze_hit2</item>
+        <item>@raw/blaze_hit3</item>
+        <item>@raw/blaze_hit4</item>
+        <item>@raw/creeper_death</item>
+        <item>@raw/creeper_say1</item>
+        <item>@raw/creeper_say2</item>
+        <item>@raw/creeper_say3</item>
+        <item>@raw/creeper_say4</item>
+        <item>@raw/enderdragon_end</item>
+        <item>@raw/enderdragon_growl1</item>
+        <item>@raw/enderdragon_growl2</item>
+        <item>@raw/enderdragon_growl3</item>
+        <item>@raw/enderdragon_growl4</item>
+        <item>@raw/enderdragon_hit1</item>
+        <item>@raw/enderdragon_hit2</item>
+        <item>@raw/enderdragon_hit3</item>
+        <item>@raw/enderdragon_hit4</item>
+        <item>@raw/enderdragon_wings1</item>
+        <item>@raw/enderdragon_wings2</item>
+        <item>@raw/enderdragon_wings3</item>
+        <item>@raw/enderdragon_wings4</item>
+        <item>@raw/enderdragon_wings5</item>
+        <item>@raw/enderdragon_wings6</item>
+        <item>@raw/endermen_death</item>
+        <item>@raw/endermen_hit1</item>
+        <item>@raw/endermen_hit2</item>
+        <item>@raw/endermen_hit3</item>
+        <item>@raw/endermen_hit4</item>
+        <item>@raw/endermen_idle1</item>
+        <item>@raw/endermen_idle2</item>
+        <item>@raw/endermen_idle3</item>
+        <item>@raw/endermen_idle4</item>
+        <item>@raw/endermen_idle5</item>
+        <item>@raw/endermen_portal</item>
+        <item>@raw/endermen_portal2</item>
+        <item>@raw/endermen_scream1</item>
+        <item>@raw/endermen_scream2</item>
+        <item>@raw/endermen_scream3</item>
+        <item>@raw/endermen_scream4</item>
+        <item>@raw/endermen_stare</item>
+        <item>@raw/ghast_affectionatescream</item>
+        <item>@raw/ghast_charge</item>
+        <item>@raw/ghast_death</item>
+        <item>@raw/ghast_fireball4</item>
+        <item>@raw/ghast_moan1</item>
+        <item>@raw/ghast_moan2</item>
+        <item>@raw/ghast_moan3</item>
+        <item>@raw/ghast_moan4</item>
+        <item>@raw/ghast_moan5</item>
+        <item>@raw/ghast_moan6</item>
+        <item>@raw/ghast_moan7</item>
+        <item>@raw/ghast_scream1</item>
+        <item>@raw/ghast_scream2</item>
+        <item>@raw/ghast_scream3</item>
+        <item>@raw/ghast_scream4</item>
+        <item>@raw/ghast_scream5</item>
+        <item>@raw/irongolem_death</item>
+        <item>@raw/irongolem_hit1</item>
+        <item>@raw/irongolem_hit2</item>
+        <item>@raw/irongolem_hit3</item>
+        <item>@raw/irongolem_hit4</item>
+        <item>@raw/irongolem_throw</item>
+        <item>@raw/irongolem_walk1</item>
+        <item>@raw/irongolem_walk2</item>
+        <item>@raw/irongolem_walk3</item>
+        <item>@raw/irongolem_walk4</item>
+        <item>@raw/skeleton_death</item>
+        <item>@raw/skeleton_hurt1</item>
+        <item>@raw/skeleton_hurt2</item>
+        <item>@raw/skeleton_hurt3</item>
+        <item>@raw/skeleton_hurt4</item>
+        <item>@raw/skeleton_say1</item>
+        <item>@raw/skeleton_say2</item>
+        <item>@raw/skeleton_say3</item>
+        <item>@raw/skeleton_skeletondeath</item>
+        <item>@raw/skeleton_skeletonhurt1</item>
+        <item>@raw/skeleton_skeletonhurt2</item>
+        <item>@raw/skeleton_skeletonhurt3</item>
+        <item>@raw/skeleton_skeletonhurt4</item>
+        <item>@raw/skeleton_step1</item>
+        <item>@raw/skeleton_step2</item>
+        <item>@raw/skeleton_step3</item>
+        <item>@raw/skeleton_step4</item>
+        <item>@raw/wither_death</item>
+        <item>@raw/wither_hurt1</item>
+        <item>@raw/wither_hurt2</item>
+        <item>@raw/wither_hurt3</item>
+        <item>@raw/wither_hurt4</item>
+        <item>@raw/wither_idle1</item>
+        <item>@raw/wither_idle2</item>
+        <item>@raw/wither_idle3</item>
+        <item>@raw/wither_idle4</item>
+        <item>@raw/wither_shoot</item>
+        <item>@raw/wither_spawn</item>
+        <item>@raw/zombie_death</item>
+        <item>@raw/zombie_hurt1</item>
+        <item>@raw/zombie_hurt2</item>
+        <item>@raw/zombie_infect</item>
+        <item>@raw/zombie_metal1</item>
+        <item>@raw/zombie_metal2</item>
+        <item>@raw/zombie_metal3</item>
+        <item>@raw/zombie_remedy</item>
+        <item>@raw/zombie_say1</item>
+        <item>@raw/zombie_say2</item>
+        <item>@raw/zombie_say3</item>
+        <item>@raw/zombie_step1</item>
+        <item>@raw/zombie_step2</item>
+        <item>@raw/zombie_step3</item>
+        <item>@raw/zombie_step4</item>
+        <item>@raw/zombie_step5</item>
+        <item>@raw/zombie_unfect</item>
+        <item>@raw/zombie_wood1</item>
+        <item>@raw/zombie_wood2</item>
+        <item>@raw/zombie_wood3</item>
+        <item>@raw/zombie_wood4</item>
+        <item>@raw/zombie_woodbreak</item>
+        <item>@raw/zombiepig_zpig1</item>
+        <item>@raw/zombiepig_zpig2</item>
+        <item>@raw/zombiepig_zpig3</item>
+        <item>@raw/zombiepig_zpig4</item>
+        <item>@raw/zombiepig_zpigangry1</item>
+        <item>@raw/zombiepig_zpigangry2</item>
+        <item>@raw/zombiepig_zpigangry3</item>
+        <item>@raw/zombiepig_zpigangry4</item>
+        <item>@raw/zombiepig_zpigdeath</item>
+        <item>@raw/zombiepig_zpighurt1</item>
+        <item>@raw/zombiepig_zpighurt2</item>
         <item>@raw/ambient_cave1</item>
         <item>@raw/ambient_cave2</item>
         <item>@raw/ambient_cave3</item>
@@ -1460,83 +1541,6 @@
         <item>@raw/ambient_thunder1</item>
         <item>@raw/ambient_thunder2</item>
         <item>@raw/ambient_thunder3</item>
-        <item>@raw/bat_death</item>
-        <item>@raw/bat_hurt1</item>
-        <item>@raw/bat_hurt2</item>
-        <item>@raw/bat_hurt3</item>
-        <item>@raw/bat_hurt4</item>
-        <item>@raw/bat_idle1</item>
-        <item>@raw/bat_idle2</item>
-        <item>@raw/bat_idle3</item>
-        <item>@raw/bat_idle4</item>
-        <item>@raw/bat_loop</item>
-        <item>@raw/bat_takeoff</item>
-        <item>@raw/blaze_breathe1</item>
-        <item>@raw/blaze_breathe2</item>
-        <item>@raw/blaze_breathe3</item>
-        <item>@raw/blaze_breathe4</item>
-        <item>@raw/blaze_death</item>
-        <item>@raw/blaze_hit1</item>
-        <item>@raw/blaze_hit2</item>
-        <item>@raw/blaze_hit3</item>
-        <item>@raw/blaze_hit4</item>
-        <item>@raw/cat_hiss1</item>
-        <item>@raw/cat_hiss2</item>
-        <item>@raw/cat_hiss3</item>
-        <item>@raw/cat_hitt1</item>
-        <item>@raw/cat_hitt2</item>
-        <item>@raw/cat_hitt3</item>
-        <item>@raw/cat_meow1</item>
-        <item>@raw/cat_meow2</item>
-        <item>@raw/cat_meow3</item>
-        <item>@raw/cat_meow4</item>
-        <item>@raw/cat_purr1</item>
-        <item>@raw/cat_purr2</item>
-        <item>@raw/cat_purr3</item>
-        <item>@raw/cat_purreow1</item>
-        <item>@raw/cat_purreow2</item>
-        <item>@raw/chicken_chicken1</item>
-        <item>@raw/chicken_chicken2</item>
-        <item>@raw/chicken_chicken3</item>
-        <item>@raw/chicken_chickenhurt1</item>
-        <item>@raw/chicken_chickenhurt2</item>
-        <item>@raw/chicken_chickenplop</item>
-        <item>@raw/chicken_hurt1</item>
-        <item>@raw/chicken_hurt2</item>
-        <item>@raw/chicken_plop</item>
-        <item>@raw/chicken_say1</item>
-        <item>@raw/chicken_say2</item>
-        <item>@raw/chicken_say3</item>
-        <item>@raw/chicken_step1</item>
-        <item>@raw/chicken_step2</item>
-        <item>@raw/cow_cow1</item>
-        <item>@raw/cow_cow2</item>
-        <item>@raw/cow_cow3</item>
-        <item>@raw/cow_cow4</item>
-        <item>@raw/cow_cowhurt1</item>
-        <item>@raw/cow_cowhurt2</item>
-        <item>@raw/cow_cowhurt3</item>
-        <item>@raw/cow_hurt1</item>
-        <item>@raw/cow_hurt2</item>
-        <item>@raw/cow_hurt3</item>
-        <item>@raw/cow_say1</item>
-        <item>@raw/cow_say2</item>
-        <item>@raw/cow_say3</item>
-        <item>@raw/cow_say4</item>
-        <item>@raw/cow_step1</item>
-        <item>@raw/cow_step2</item>
-        <item>@raw/cow_step3</item>
-        <item>@raw/cow_step4</item>
-        <item>@raw/creeper_creeper1</item>
-        <item>@raw/creeper_creeper2</item>
-        <item>@raw/creeper_creeper3</item>
-        <item>@raw/creeper_creeper4</item>
-        <item>@raw/creeper_creeperdeath</item>
-        <item>@raw/creeper_death</item>
-        <item>@raw/creeper_say1</item>
-        <item>@raw/creeper_say2</item>
-        <item>@raw/creeper_say3</item>
-        <item>@raw/creeper_say4</item>
         <item>@raw/damage_fallbig</item>
         <item>@raw/damage_fallbig1</item>
         <item>@raw/damage_fallbig2</item>
@@ -1575,73 +1579,15 @@
         <item>@raw/dig_wood2</item>
         <item>@raw/dig_wood3</item>
         <item>@raw/dig_wood4</item>
-        <item>@raw/enderdragon_end</item>
-        <item>@raw/enderdragon_growl1</item>
-        <item>@raw/enderdragon_growl2</item>
-        <item>@raw/enderdragon_growl3</item>
-        <item>@raw/enderdragon_growl4</item>
-        <item>@raw/enderdragon_hit1</item>
-        <item>@raw/enderdragon_hit2</item>
-        <item>@raw/enderdragon_hit3</item>
-        <item>@raw/enderdragon_hit4</item>
-        <item>@raw/enderdragon_wings1</item>
-        <item>@raw/enderdragon_wings2</item>
-        <item>@raw/enderdragon_wings3</item>
-        <item>@raw/enderdragon_wings4</item>
-        <item>@raw/enderdragon_wings5</item>
-        <item>@raw/enderdragon_wings6</item>
-        <item>@raw/endermen_death</item>
-        <item>@raw/endermen_hit1</item>
-        <item>@raw/endermen_hit2</item>
-        <item>@raw/endermen_hit3</item>
-        <item>@raw/endermen_hit4</item>
-        <item>@raw/endermen_idle1</item>
-        <item>@raw/endermen_idle2</item>
-        <item>@raw/endermen_idle3</item>
-        <item>@raw/endermen_idle4</item>
-        <item>@raw/endermen_idle5</item>
-        <item>@raw/endermen_portal</item>
-        <item>@raw/endermen_portal2</item>
-        <item>@raw/endermen_scream1</item>
-        <item>@raw/endermen_scream2</item>
-        <item>@raw/endermen_scream3</item>
-        <item>@raw/endermen_scream4</item>
-        <item>@raw/endermen_stare</item>
-        <item>@raw/fire_blast1</item>
         <item>@raw/fire_blast_far1</item>
+        <item>@raw/fire_blast1</item>
         <item>@raw/fire_fire</item>
         <item>@raw/fire_ignite</item>
-        <item>@raw/fire_largeblast1</item>
         <item>@raw/fire_largeblast_far1</item>
+        <item>@raw/fire_largeblast1</item>
         <item>@raw/fire_launch1</item>
-        <item>@raw/fire_twinkle1</item>
         <item>@raw/fire_twinkle_far1</item>
-        <item>@raw/ghast_affectionatescream</item>
-        <item>@raw/ghast_charge</item>
-        <item>@raw/ghast_death</item>
-        <item>@raw/ghast_fireball4</item>
-        <item>@raw/ghast_moan1</item>
-        <item>@raw/ghast_moan2</item>
-        <item>@raw/ghast_moan3</item>
-        <item>@raw/ghast_moan4</item>
-        <item>@raw/ghast_moan5</item>
-        <item>@raw/ghast_moan6</item>
-        <item>@raw/ghast_moan7</item>
-        <item>@raw/ghast_scream1</item>
-        <item>@raw/ghast_scream2</item>
-        <item>@raw/ghast_scream3</item>
-        <item>@raw/ghast_scream4</item>
-        <item>@raw/ghast_scream5</item>
-        <item>@raw/irongolem_death</item>
-        <item>@raw/irongolem_hit1</item>
-        <item>@raw/irongolem_hit2</item>
-        <item>@raw/irongolem_hit3</item>
-        <item>@raw/irongolem_hit4</item>
-        <item>@raw/irongolem_throw</item>
-        <item>@raw/irongolem_walk1</item>
-        <item>@raw/irongolem_walk2</item>
-        <item>@raw/irongolem_walk3</item>
-        <item>@raw/irongolem_walk4</item>
+        <item>@raw/fire_twinkle1</item>
         <item>@raw/liquid_lava</item>
         <item>@raw/liquid_lavapop</item>
         <item>@raw/liquid_splash</item>
@@ -1671,19 +1617,54 @@
         <item>@raw/note_hat</item>
         <item>@raw/note_pling</item>
         <item>@raw/note_snare</item>
-        <item>@raw/pig_death</item>
-        <item>@raw/pig_pig1</item>
-        <item>@raw/pig_pig2</item>
-        <item>@raw/pig_pig3</item>
-        <item>@raw/pig_pigdeath</item>
-        <item>@raw/pig_say1</item>
-        <item>@raw/pig_say2</item>
-        <item>@raw/pig_say3</item>
-        <item>@raw/pig_step1</item>
-        <item>@raw/pig_step2</item>
-        <item>@raw/pig_step3</item>
-        <item>@raw/pig_step4</item>
-        <item>@raw/pig_step5</item>
+        <item>@raw/slime_attack1</item>
+        <item>@raw/slime_attack2</item>
+        <item>@raw/slime_big1</item>
+        <item>@raw/slime_big2</item>
+        <item>@raw/slime_big3</item>
+        <item>@raw/slime_big4</item>
+        <item>@raw/slime_slime1</item>
+        <item>@raw/slime_slime2</item>
+        <item>@raw/slime_slime3</item>
+        <item>@raw/slime_slime4</item>
+        <item>@raw/slime_slime5</item>
+        <item>@raw/slime_small1</item>
+        <item>@raw/slime_small2</item>
+        <item>@raw/slime_small3</item>
+        <item>@raw/slime_small4</item>
+        <item>@raw/slime_small5</item>
+        <item>@raw/step_grass1</item>
+        <item>@raw/step_grass2</item>
+        <item>@raw/step_grass3</item>
+        <item>@raw/step_grass4</item>
+        <item>@raw/step_grass5</item>
+        <item>@raw/step_grass6</item>
+        <item>@raw/step_gravel1</item>
+        <item>@raw/step_gravel2</item>
+        <item>@raw/step_gravel3</item>
+        <item>@raw/step_gravel4</item>
+        <item>@raw/step_ladder1</item>
+        <item>@raw/step_ladder2</item>
+        <item>@raw/step_ladder3</item>
+        <item>@raw/step_ladder4</item>
+        <item>@raw/step_ladder5</item>
+        <item>@raw/step_sand1</item>
+        <item>@raw/step_sand2</item>
+        <item>@raw/step_sand3</item>
+        <item>@raw/step_sand4</item>
+        <item>@raw/step_sand5</item>
+        <item>@raw/step_stone1</item>
+        <item>@raw/step_stone2</item>
+        <item>@raw/step_stone3</item>
+        <item>@raw/step_stone4</item>
+        <item>@raw/step_stone5</item>
+        <item>@raw/step_stone6</item>
+        <item>@raw/step_wood1</item>
+        <item>@raw/step_wood2</item>
+        <item>@raw/step_wood3</item>
+        <item>@raw/step_wood4</item>
+        <item>@raw/step_wood5</item>
+        <item>@raw/step_wood6</item>
         <item>@raw/random_anvil_break</item>
         <item>@raw/random_anvil_land</item>
         <item>@raw/random_anvil_use</item>
@@ -1706,7 +1687,6 @@
         <item>@raw/random_eat1</item>
         <item>@raw/random_eat2</item>
         <item>@raw/random_eat3</item>
-        <item>@raw/random_explode</item>
         <item>@raw/random_explode1</item>
         <item>@raw/random_explode2</item>
         <item>@raw/random_explode3</item>
@@ -1716,7 +1696,6 @@
         <item>@raw/random_glass1</item>
         <item>@raw/random_glass2</item>
         <item>@raw/random_glass3</item>
-        <item>@raw/random_hurt</item>
         <item>@raw/random_levelup</item>
         <item>@raw/random_minecartbase</item>
         <item>@raw/random_minecartinside</item>
@@ -1729,194 +1708,7 @@
         <item>@raw/random_portaltravel</item>
         <item>@raw/random_portaltrigger</item>
         <item>@raw/random_splash</item>
-        <item>@raw/random_successful_hit</item>
         <item>@raw/random_woodclick</item>
-        <item>@raw/sheep_say1</item>
-        <item>@raw/sheep_say2</item>
-        <item>@raw/sheep_say3</item>
-        <item>@raw/sheep_shear</item>
-        <item>@raw/sheep_sheep1</item>
-        <item>@raw/sheep_sheep2</item>
-        <item>@raw/sheep_sheep3</item>
-        <item>@raw/sheep_step1</item>
-        <item>@raw/sheep_step2</item>
-        <item>@raw/sheep_step3</item>
-        <item>@raw/sheep_step4</item>
-        <item>@raw/sheep_step5</item>
-        <item>@raw/silverfish_hit1</item>
-        <item>@raw/silverfish_hit2</item>
-        <item>@raw/silverfish_hit3</item>
-        <item>@raw/silverfish_kill</item>
-        <item>@raw/silverfish_say1</item>
-        <item>@raw/silverfish_say2</item>
-        <item>@raw/silverfish_say3</item>
-        <item>@raw/silverfish_say4</item>
-        <item>@raw/silverfish_step1</item>
-        <item>@raw/silverfish_step2</item>
-        <item>@raw/silverfish_step3</item>
-        <item>@raw/silverfish_step4</item>
-        <item>@raw/skeleton_death</item>
-        <item>@raw/skeleton_hurt1</item>
-        <item>@raw/skeleton_hurt2</item>
-        <item>@raw/skeleton_hurt3</item>
-        <item>@raw/skeleton_hurt4</item>
-        <item>@raw/skeleton_say1</item>
-        <item>@raw/skeleton_say2</item>
-        <item>@raw/skeleton_say3</item>
-        <item>@raw/skeleton_skeleton1</item>
-        <item>@raw/skeleton_skeleton2</item>
-        <item>@raw/skeleton_skeleton3</item>
-        <item>@raw/skeleton_skeletondeath</item>
-        <item>@raw/skeleton_skeletonhurt1</item>
-        <item>@raw/skeleton_skeletonhurt2</item>
-        <item>@raw/skeleton_skeletonhurt3</item>
-        <item>@raw/skeleton_skeletonhurt4</item>
-        <item>@raw/skeleton_step1</item>
-        <item>@raw/skeleton_step2</item>
-        <item>@raw/skeleton_step3</item>
-        <item>@raw/skeleton_step4</item>
-        <item>@raw/slime_attack1</item>
-        <item>@raw/slime_attack2</item>
-        <item>@raw/slime_big1</item>
-        <item>@raw/slime_big2</item>
-        <item>@raw/slime_big3</item>
-        <item>@raw/slime_big4</item>
-        <item>@raw/slime_slime1</item>
-        <item>@raw/slime_slime2</item>
-        <item>@raw/slime_slime3</item>
-        <item>@raw/slime_slime4</item>
-        <item>@raw/slime_slime5</item>
-        <item>@raw/slime_slimeattack1</item>
-        <item>@raw/slime_slimeattack2</item>
-        <item>@raw/slime_small1</item>
-        <item>@raw/slime_small2</item>
-        <item>@raw/slime_small3</item>
-        <item>@raw/slime_small4</item>
-        <item>@raw/slime_small5</item>
-        <item>@raw/spider_death</item>
-        <item>@raw/spider_say1</item>
-        <item>@raw/spider_say2</item>
-        <item>@raw/spider_say3</item>
-        <item>@raw/spider_say4</item>
-        <item>@raw/spider_spider1</item>
-        <item>@raw/spider_spider2</item>
-        <item>@raw/spider_spider3</item>
-        <item>@raw/spider_spider4</item>
-        <item>@raw/spider_spiderdeath</item>
-        <item>@raw/spider_step1</item>
-        <item>@raw/spider_step2</item>
-        <item>@raw/spider_step3</item>
-        <item>@raw/spider_step4</item>
-        <item>@raw/step_cloth1</item>
-        <item>@raw/step_cloth2</item>
-        <item>@raw/step_cloth3</item>
-        <item>@raw/step_cloth4</item>
-        <item>@raw/step_grass1</item>
-        <item>@raw/step_grass2</item>
-        <item>@raw/step_grass3</item>
-        <item>@raw/step_grass4</item>
-        <item>@raw/step_grass5</item>
-        <item>@raw/step_grass6</item>
-        <item>@raw/step_gravel1</item>
-        <item>@raw/step_gravel2</item>
-        <item>@raw/step_gravel3</item>
-        <item>@raw/step_gravel4</item>
-        <item>@raw/step_ladder1</item>
-        <item>@raw/step_ladder2</item>
-        <item>@raw/step_ladder3</item>
-        <item>@raw/step_ladder4</item>
-        <item>@raw/step_ladder5</item>
-        <item>@raw/step_sand1</item>
-        <item>@raw/step_sand2</item>
-        <item>@raw/step_sand3</item>
-        <item>@raw/step_sand4</item>
-        <item>@raw/step_sand5</item>
-        <item>@raw/step_snow1</item>
-        <item>@raw/step_snow2</item>
-        <item>@raw/step_snow3</item>
-        <item>@raw/step_snow4</item>
-        <item>@raw/step_stone1</item>
-        <item>@raw/step_stone2</item>
-        <item>@raw/step_stone3</item>
-        <item>@raw/step_stone4</item>
-        <item>@raw/step_stone5</item>
-        <item>@raw/step_stone6</item>
-        <item>@raw/step_wood1</item>
-        <item>@raw/step_wood2</item>
-        <item>@raw/step_wood3</item>
-        <item>@raw/step_wood4</item>
-        <item>@raw/step_wood5</item>
-        <item>@raw/step_wood6</item>
-        <item>@raw/wither_death</item>
-        <item>@raw/wither_hurt1</item>
-        <item>@raw/wither_hurt2</item>
-        <item>@raw/wither_hurt3</item>
-        <item>@raw/wither_hurt4</item>
-        <item>@raw/wither_idle1</item>
-        <item>@raw/wither_idle2</item>
-        <item>@raw/wither_idle3</item>
-        <item>@raw/wither_idle4</item>
-        <item>@raw/wither_shoot</item>
-        <item>@raw/wither_spawn</item>
-        <item>@raw/wolf_bark1</item>
-        <item>@raw/wolf_bark2</item>
-        <item>@raw/wolf_bark3</item>
-        <item>@raw/wolf_death</item>
-        <item>@raw/wolf_growl1</item>
-        <item>@raw/wolf_growl2</item>
-        <item>@raw/wolf_growl3</item>
-        <item>@raw/wolf_howl1</item>
-        <item>@raw/wolf_howl2</item>
-        <item>@raw/wolf_hurt1</item>
-        <item>@raw/wolf_hurt2</item>
-        <item>@raw/wolf_hurt3</item>
-        <item>@raw/wolf_panting</item>
-        <item>@raw/wolf_shake</item>
-        <item>@raw/wolf_step1</item>
-        <item>@raw/wolf_step2</item>
-        <item>@raw/wolf_step3</item>
-        <item>@raw/wolf_step4</item>
-        <item>@raw/wolf_step5</item>
-        <item>@raw/wolf_whine</item>
-        <item>@raw/zombiepig_zpig1</item>
-        <item>@raw/zombiepig_zpig2</item>
-        <item>@raw/zombiepig_zpig3</item>
-        <item>@raw/zombiepig_zpig4</item>
-        <item>@raw/zombiepig_zpigangry1</item>
-        <item>@raw/zombiepig_zpigangry2</item>
-        <item>@raw/zombiepig_zpigangry3</item>
-        <item>@raw/zombiepig_zpigangry4</item>
-        <item>@raw/zombiepig_zpigdeath</item>
-        <item>@raw/zombiepig_zpighurt1</item>
-        <item>@raw/zombiepig_zpighurt2</item>
-        <item>@raw/zombie_death</item>
-        <item>@raw/zombie_hurt1</item>
-        <item>@raw/zombie_hurt2</item>
-        <item>@raw/zombie_infect</item>
-        <item>@raw/zombie_metal1</item>
-        <item>@raw/zombie_metal2</item>
-        <item>@raw/zombie_metal3</item>
-        <item>@raw/zombie_remedy</item>
-        <item>@raw/zombie_say1</item>
-        <item>@raw/zombie_say2</item>
-        <item>@raw/zombie_say3</item>
-        <item>@raw/zombie_step1</item>
-        <item>@raw/zombie_step2</item>
-        <item>@raw/zombie_step3</item>
-        <item>@raw/zombie_step4</item>
-        <item>@raw/zombie_step5</item>
-        <item>@raw/zombie_unfect</item>
-        <item>@raw/zombie_wood1</item>
-        <item>@raw/zombie_wood2</item>
-        <item>@raw/zombie_wood3</item>
-        <item>@raw/zombie_wood4</item>
-        <item>@raw/zombie_woodbreak</item>
-        <item>@raw/zombie_zombie1</item>
-        <item>@raw/zombie_zombie2</item>
-        <item>@raw/zombie_zombie3</item>
-        <item>@raw/zombie_zombiedeath</item>
-        <item>@raw/zombie_zombiehurt1</item>
-        <item>@raw/zombie_zombiehurt2</item>
     </array>
 
 </resources>
