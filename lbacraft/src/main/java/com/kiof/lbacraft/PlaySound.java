@@ -1,4 +1,4 @@
-package com.kiof.lbaminecraft;
+package com.kiof.lbacraft;
 
 import android.app.Activity;
 import android.content.Context;

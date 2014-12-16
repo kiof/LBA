@@ -1,4 +1,4 @@
-package com.kiof.lbaminecraft;
+package com.kiof.lbacraft;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

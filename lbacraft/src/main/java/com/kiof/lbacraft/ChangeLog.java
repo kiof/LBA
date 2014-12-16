@@ -9,7 +9,7 @@
  * @see: http://code.google.com/p/android-change-log/
  */
 
-package com.kiof.lbaminecraft;
+package com.kiof.lbacraft;
 
 import android.content.Context;
 import android.content.SharedPreferences;
