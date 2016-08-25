@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.1'
+    buildToolsVersion '24.0.2'
     defaultConfig {
         applicationId 'com.kiof.lbachien'
         minSdkVersion 10
@@ -18,5 +18,13 @@ android {
 }
 
 dependencies {
+    // AdMob
     compile 'com.google.android.gms:play-services-ads:9.4.0'
+    // Firebase
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-ads:9.4.0'
+    // Analytics
+    compile 'com.google.android.gms:play-services-analytics:9.4.0'
 }
+// Firebase & Analytics
+apply plugin: 'com.google.gms.google-services'

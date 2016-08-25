@@ -41,6 +41,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -93,6 +94,8 @@ public class Soundboard extends ListActivity implements SensorEventListener {
 
         setContentView(R.layout.main);
 
+        // AdMob
+        MobileAds.initialize(getApplicationContext(), getString(R.string.ad_unit_id));
         AdView adView = (AdView) this.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
