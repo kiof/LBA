@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sonneries de Chat</string>
-    <string name="widget_name">Sonneries de Chat</string>
+    <string name="app_name">Sons de Chat</string>
+    <string name="widget_name">Sons de Chat</string>
 
-    <string name="soundFile">SonneriesDeChat.mp3</string>
-    <string name="soundTitle">Sonneries de Chat</string>
+    <string name="soundFile">SonsDeChat.mp3</string>
+    <string name="soundTitle">Son de Chat</string>
 
     <string name="Ok">Ok</string>
     <string name="quit_title">Quitter ?</string>

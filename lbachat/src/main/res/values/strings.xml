@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cat Ringtones</string>
-    <string name="widget_name">Cat Ringtones</string>
+    <string name="app_name">Cat Sounds</string>
+    <string name="widget_name">Cat Sounds</string>
 
-    <string name="soundFile">CatRingtones.mp3</string>
-    <string name="soundTitle">Cat Ringtones</string>
+    <string name="soundFile">CatSounds.mp3</string>
+    <string name="soundTitle">Cat Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/2997564809</string>
 
