@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/widget"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/widget_bg"
     android:focusable="true"
     android:minHeight="52dip"
     android:minWidth="126dip"
-    android:padding="5dp">
+    android:padding="5dp"
+    tools:ignore="Overdraw">
 
     <ImageView
         android:id="@+id/widgeticon"
@@ -15,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:contentDescription="@string/widget_name"
         android:src="@drawable/widgeticon" />
 
     <ImageView
@@ -23,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:contentDescription="@string/widget_name"
         android:src="@drawable/widgetbutton_bg" />
 
 </LinearLayout>

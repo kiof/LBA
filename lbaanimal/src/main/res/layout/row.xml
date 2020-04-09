@@ -27,6 +27,9 @@
         android:textSize="36sp"
         android:textStyle="bold"
         android:typeface="normal"
+        android:drawableStart="@drawable/section"
+        android:drawableEnd="@drawable/section"
+        android:focusable="true"
         android:visibility="gone" />
 
     <Button

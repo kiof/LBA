@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbachat/lbachat.iml" filepath="$PROJECT_DIR$/lbachat/lbachat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbachien/lbachien.iml" filepath="$PROJECT_DIR$/lbachien/lbachien.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" filepath="$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbacraft/lbacraft.iml" filepath="$PROJECT_DIR$/lbacraft/lbacraft.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbainstrument/lbainstrument.iml" filepath="$PROJECT_DIR$/lbainstrument/lbainstrument.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" filepath="$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbaprout/lbaprout.iml" filepath="$PROJECT_DIR$/lbaprout/lbaprout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbarot/lbarot.iml" filepath="$PROJECT_DIR$/lbarot/lbarot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lbatransport/lbatransport.iml" filepath="$PROJECT_DIR$/lbatransport/lbatransport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" group="LBA" />
+      <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" group="LBA/lbaanimal" />
+      <module fileurl="file://$PROJECT_DIR$/lbachat/lbachat.iml" filepath="$PROJECT_DIR$/lbachat/lbachat.iml" group="LBA/lbachat" />
+      <module fileurl="file://$PROJECT_DIR$/lbachien/lbachien.iml" filepath="$PROJECT_DIR$/lbachien/lbachien.iml" group="LBA/lbachien" />
+      <module fileurl="file://$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" filepath="$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" group="LBA/lbacounterstrike" />
+      <module fileurl="file://$PROJECT_DIR$/lbacraft/lbacraft.iml" filepath="$PROJECT_DIR$/lbacraft/lbacraft.iml" group="LBA/lbacraft" />
+      <module fileurl="file://$PROJECT_DIR$/lbainstrument/lbainstrument.iml" filepath="$PROJECT_DIR$/lbainstrument/lbainstrument.iml" group="LBA/lbainstrument" />
+      <module fileurl="file://$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" filepath="$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" group="LBA/lbaklaxon" />
+      <module fileurl="file://$PROJECT_DIR$/lbaprout/lbaprout.iml" filepath="$PROJECT_DIR$/lbaprout/lbaprout.iml" group="LBA/lbaprout" />
+      <module fileurl="file://$PROJECT_DIR$/lbarot/lbarot.iml" filepath="$PROJECT_DIR$/lbarot/lbarot.iml" group="LBA/lbarot" />
+      <module fileurl="file://$PROJECT_DIR$/lbatransport/lbatransport.iml" filepath="$PROJECT_DIR$/lbatransport/lbatransport.iml" group="LBA/lbatransport" />
     </modules>
   </component>
 </project>
-

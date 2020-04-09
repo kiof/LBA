@@ -13,12 +13,6 @@
     <color name="sectionColor">#FFFE0000</color>
     <color name="sectionShadow">#AA000000</color>
     <color name="sectionBg">#66666666</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="black">#FF000000</color>
-    <color name="grey">#FFB3B3B3</color>
-    <color name="button_pressed">#AAFE0000</color>
-    <color name="button_focused">#AAFFAAAA</color>
-    <color name="button_default">#AAAA0000</color>
 
     <string name="Ok">OK</string>
     <string name="quit_title">Quit ?</string>
@@ -27,7 +21,6 @@
     <string name="no">No</string>
     <string name="goingon">The application goes on</string>
 
-    <string name="changelog_title">New</string>
     <string name="about_title">About</string>
 
     <string name="volume_title">Volume ?</string>

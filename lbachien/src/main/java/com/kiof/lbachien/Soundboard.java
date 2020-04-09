@@ -96,7 +96,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
 
         // AdMob
         MobileAds.initialize(getApplicationContext(), getString(R.string.ad_unit_id));
-        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdView adView = this.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
 //                .addTestDevice("53356E870D99B80A68F8E2DBBFCD28FB")
@@ -156,7 +156,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
     protected void onListItemClick(ListView listView, View view, int position, long id) {
         Log.d(TAG, "onListItemClick");
         super.onListItemClick(listView, view, position, id);
-        Button button = (Button) view.findViewById(R.id.button);
+        Button button = view.findViewById(R.id.button);
         // Play sound and start animation on the button
         if (button != null) {
             Animation animClick = AnimationUtils.loadAnimation(this, R.anim.bounce);

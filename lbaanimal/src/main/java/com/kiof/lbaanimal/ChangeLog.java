@@ -1,11 +1,11 @@
-/**
- * Copyright (C) 2011, Karsten Priegnitz
- *
- * Permission to use, copy, modify, and distribute this software for any
- * purpose with or without fee is hereby granted, provided that the above
- * copyright notice and this permission notice appear in all copies.
- *
- * @author: Karsten Priegnitz
+/*
+  Copyright (C) 2011, Karsten Priegnitz
+
+  Permission to use, copy, modify, and distribute this software for any
+  purpose with or without fee is hereby granted, provided that the above
+  copyright notice and this permission notice appear in all copies.
+
+  @author: Karsten Priegnitz
  * @see: http://code.google.com/p/android-change-log/
  */
 
@@ -30,7 +30,7 @@ public class ChangeLog {
      * Retrieves the version names and stores the new version name in
      * SharedPreferences
      */
-    public ChangeLog(Context context) {
+    ChangeLog(Context context) {
 
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
 
@@ -49,7 +49,7 @@ public class ChangeLog {
         // save new version number to preferences
         SharedPreferences.Editor editor = sp.edit();
         editor.putString(VERSION_KEY, this.thisVersion);
-        editor.commit();
+        editor.apply();
     }
 
     /**

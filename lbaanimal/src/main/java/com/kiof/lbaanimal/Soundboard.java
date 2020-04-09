@@ -96,11 +96,8 @@ public class Soundboard extends ListActivity implements SensorEventListener {
 
         // AdMob
         MobileAds.initialize(getApplicationContext(), getString(R.string.ad_unit_id));
-        AdView adView = (AdView) this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-//                .addTestDevice("53356E870D99B80A68F8E2DBBFCD28FB")
-                .build();
+        AdView adView = this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
         setListAdapter(new SoundboardAdapter(this, buttons));
@@ -142,8 +139,10 @@ public class Soundboard extends ListActivity implements SensorEventListener {
 
         // Display change log if new version
         ChangeLog cl = new ChangeLog(this);
-        if (cl.firstRun()) new HtmlAlertDialog(this, R.raw.about, getString(R.string.about_title),
-                android.R.drawable.ic_menu_info_details).show();
+        if (cl.firstRun()) {
+            new HtmlAlertDialog(this, R.raw.about, getString(R.string.about_title),
+                    android.R.drawable.ic_menu_info_details).show();
+        }
 
         // Background music
         if (mSharedPreferences.getBoolean(BGMUSIC, false)) {
@@ -156,7 +155,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
     protected void onListItemClick(ListView listView, View view, int position, long id) {
         Log.d(TAG, "onListItemClick");
         super.onListItemClick(listView, view, position, id);
-        Button button = (Button) view.findViewById(R.id.button);
+        Button button = view.findViewById(R.id.button);
         // Play sound and start animation on the button
         if (button != null) {
             Animation animClick = AnimationUtils.loadAnimation(this, R.anim.bounce);
@@ -371,9 +370,9 @@ public class Soundboard extends ListActivity implements SensorEventListener {
         // Check that external storage is available and writable
         if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) return false;
 
-        String pathName = Environment.getExternalStorageDirectory().toString();
+        String pathName = Environment.getExternalStorageDirectory().getPath();
 //		File path = Environment.getExternalStorageDirectory()+"/media/audio/ringtones";
-        pathName = "/sdcard/media/audio/ringtones/";
+//      pathName = "/sdcard/media/audio/ringtones/";
 
         File path = new File(pathName);
         File file = new File(path, getString(R.string.soundFile));

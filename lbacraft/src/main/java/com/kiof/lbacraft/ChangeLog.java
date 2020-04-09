@@ -1,14 +1,3 @@
-/**
- * Copyright (C) 2011, Karsten Priegnitz
- *
- * Permission to use, copy, modify, and distribute this software for any
- * purpose with or without fee is hereby granted, provided that the above
- * copyright notice and this permission notice appear in all copies.
- *
- * @author: Karsten Priegnitz
- * @see: http://code.google.com/p/android-change-log/
- */
-
 package com.kiof.lbacraft;
 
 import android.content.Context;
@@ -61,15 +50,6 @@ public class ChangeLog {
      */
     public String getLastVersion() {
         return this.lastVersion;
-    }
-
-    /**
-     * manually set the last version name - for testing purposes only
-     *
-     * @param lastVersion
-     */
-    void setLastVersion(String lastVersion) {
-        this.lastVersion = lastVersion;
     }
 
     /**
