@@ -4,9 +4,10 @@ android {
     compileSdk 34
     defaultConfig {
         applicationId 'com.kiof.lbachat'
+        versionCode 8
+        versionName '1.7'
         minSdkVersion 21
-        versionCode 7
-        versionName '1.6'
+        targetSdk 34
     }
     compileOptions {
         sourceCompatibility = 1.8

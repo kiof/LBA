@@ -3,9 +3,10 @@ apply plugin: 'com.android.application'
 android {
     defaultConfig {
         applicationId 'com.kiof.lbachien'
+        versionCode 5
+        versionName '1.4'
         minSdkVersion 21
-        versionCode 4
-        versionName '1.3'
+        targetSdk 34
     }
     compileOptions {
         sourceCompatibility = 1.8
