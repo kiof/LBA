@@ -1,29 +1,28 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdk 34
     defaultConfig {
         applicationId 'com.kiof.lbaprout'
-        minSdkVersion 16
-        targetSdkVersion 28
+        minSdkVersion 21
         versionCode 12
         versionName '1.11'
     }
     compileOptions {
-        targetCompatibility = 1.8
         sourceCompatibility = 1.8
+        targetCompatibility = 1.8
     }
-    buildToolsVersion = '29.0.3'
+    namespace 'com.kiof.lbaprout'
 }
 
 dependencies {
     // AdMob
-    implementation 'com.google.android.gms:play-services-auth:18.0.0'
-    implementation 'com.google.android.gms:play-services-ads:19.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.6.0'
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
     // Firebase
-    implementation 'com.google.firebase:firebase-messaging:20.1.5'
-    implementation 'com.google.firebase:firebase-core:17.3.0'
-    implementation 'com.google.firebase:firebase-ads:19.0.1'
+    implementation 'com.google.firebase:firebase-messaging:23.2.1'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-ads:22.2.0'
     // Analytics
 }
 // Firebase & Analytics

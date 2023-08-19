@@ -2,6 +2,7 @@ package com.kiof.lbaanimal;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.webkit.WebView;
 
@@ -11,7 +12,16 @@ import java.io.InputStreamReader;
 
 public class HtmlAlertDialog extends AlertDialog {
 
-    HtmlAlertDialog(Context context, int resourceId, String title, int iconId) {
+    protected HtmlAlertDialog(Context context, int resourceId) {
+        this(context, resourceId, "", 0);
+    }
+
+    protected HtmlAlertDialog(Context context, int resourceId, String title) {
+        this(context, resourceId, title, 0);
+    }
+
+    protected HtmlAlertDialog(Context context, int resourceId, String title,
+                              int iconId) {
         super(context);
 
         WebView wv = new WebView(context);
@@ -26,19 +36,23 @@ public class HtmlAlertDialog extends AlertDialog {
         if (iconId != 0)
             this.setIcon(iconId);
         this.setView(wv);
-        this.setButton(BUTTON_POSITIVE, context.getResources().getString(R.string.Ok),
-                (dialog, id) -> dialog.cancel()
+        this.setButton(context.getResources().getString(R.string.Ok),
+                new OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                }
         );
     }
 
-    private static String loadRawResourceString(Resources res, int resourceId) {
+    public static String loadRawResourceString(Resources res, int resourceId) {
         StringBuilder builder = new StringBuilder();
         InputStream is = res.openRawResource(resourceId);
         InputStreamReader reader = new InputStreamReader(is);
         char[] buf = new char[1024];
-        int numRead;
+        int numRead = 0;
         try {
-            while (-1 != (numRead = reader.read(buf))) {
+            while ((numRead = reader.read(buf)) != -1) {
                 builder.append(buf, 0, numRead);
             }
         } catch (IOException e) {

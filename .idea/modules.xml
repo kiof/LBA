@@ -2,17 +2,47 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" group="LBA" />
-      <module fileurl="file://$PROJECT_DIR$/lbaanimal/lbaanimal.iml" filepath="$PROJECT_DIR$/lbaanimal/lbaanimal.iml" group="LBA/lbaanimal" />
-      <module fileurl="file://$PROJECT_DIR$/lbachat/lbachat.iml" filepath="$PROJECT_DIR$/lbachat/lbachat.iml" group="LBA/lbachat" />
-      <module fileurl="file://$PROJECT_DIR$/lbachien/lbachien.iml" filepath="$PROJECT_DIR$/lbachien/lbachien.iml" group="LBA/lbachien" />
-      <module fileurl="file://$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" filepath="$PROJECT_DIR$/lbacounterstrike/lbacounterstrike.iml" group="LBA/lbacounterstrike" />
-      <module fileurl="file://$PROJECT_DIR$/lbacraft/lbacraft.iml" filepath="$PROJECT_DIR$/lbacraft/lbacraft.iml" group="LBA/lbacraft" />
-      <module fileurl="file://$PROJECT_DIR$/lbainstrument/lbainstrument.iml" filepath="$PROJECT_DIR$/lbainstrument/lbainstrument.iml" group="LBA/lbainstrument" />
-      <module fileurl="file://$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" filepath="$PROJECT_DIR$/lbaklaxon/lbaklaxon.iml" group="LBA/lbaklaxon" />
-      <module fileurl="file://$PROJECT_DIR$/lbaprout/lbaprout.iml" filepath="$PROJECT_DIR$/lbaprout/lbaprout.iml" group="LBA/lbaprout" />
-      <module fileurl="file://$PROJECT_DIR$/lbarot/lbarot.iml" filepath="$PROJECT_DIR$/lbarot/lbarot.iml" group="LBA/lbarot" />
-      <module fileurl="file://$PROJECT_DIR$/lbatransport/lbatransport.iml" filepath="$PROJECT_DIR$/lbatransport/lbatransport.iml" group="LBA/lbatransport" />
+      <module fileurl="file://$PROJECT_DIR$/LBA.iml" filepath="$PROJECT_DIR$/LBA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaanimal/LBA.lbaanimal.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachat/LBA.lbachat.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbachien/LBA.lbachien.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacounterstrike/LBA.lbacounterstrike.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbacraft/LBA.lbacraft.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.iml" filepath="$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbainstrument/LBA.lbainstrument.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaklaxon/LBA.lbaklaxon.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbaprout/LBA.lbaprout.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.iml" filepath="$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbarot/LBA.lbarot.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.iml" filepath="$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/lbatransport/LBA.lbatransport.unitTest.iml" />
     </modules>
   </component>
 </project>

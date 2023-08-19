@@ -48,8 +48,6 @@ public class PlaySound extends Activity {
             public void onCompletion(MediaPlayer mp) {
                 mp.release();
             }
-
-            ;
         });
         mp.start();
         return mp.getDuration();

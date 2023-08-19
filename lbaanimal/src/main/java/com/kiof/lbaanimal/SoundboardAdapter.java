@@ -35,10 +35,10 @@ public class SoundboardAdapter extends ArrayAdapter<String> {
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater inflater = mContext.getLayoutInflater();
-            convertView = inflater.inflate(R.layout.row, parent, false);
+            convertView = inflater.inflate(R.layout.row, null, true);
             final ViewHolder viewHolder = new ViewHolder();
-            viewHolder.section = convertView.findViewById(R.id.section);
-            viewHolder.button = convertView.findViewById(R.id.button);
+            viewHolder.section = (TextView) convertView.findViewById(R.id.section);
+            viewHolder.button = (Button) convertView.findViewById(R.id.button);
             viewHolder.animation = AnimationUtils.loadAnimation(mContext, R.anim.zoomin);
             convertView.setTag(viewHolder);
         }
@@ -54,7 +54,7 @@ public class SoundboardAdapter extends ArrayAdapter<String> {
             holder.section.setVisibility(LinearLayout.GONE);
         }
         holder.button.setText(textButtons[position]);
-        holder.button.setBackground(pictures.getDrawable(position));
+        holder.button.setBackgroundDrawable(pictures.getDrawable(position));
 //		holder.button.setTag(position);
 //		holder.button.playSoundEffect(android.view.SoundEffectConstants.CLICK);
         // Set random animation on buttons

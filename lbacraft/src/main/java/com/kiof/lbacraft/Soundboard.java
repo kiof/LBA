@@ -67,6 +67,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
     private Resources mResources;
     private SharedPreferences mSharedPreferences;
     private boolean rotationStatus = false;
+    private String[] buttons;
     private TypedArray sounds;
     private int initVolume, maxVolume;
 
@@ -85,7 +86,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
         mContext = getApplicationContext();
         mResources = mContext.getResources();
         sounds = mResources.obtainTypedArray(R.array.sounds);
-        String[] buttons = mResources.getStringArray(R.array.buttons);
+        buttons = mResources.getStringArray(R.array.buttons);
 
         // Get Preferences
         PreferenceManager.setDefaultValues(mContext, R.xml.setting, false);
@@ -94,12 +95,9 @@ public class Soundboard extends ListActivity implements SensorEventListener {
         setContentView(R.layout.main);
 
         // AdMob
-        MobileAds.initialize(getApplicationContext(), getString(R.string.ad_unit_id));
-        AdView adView = this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-//                .addTestDevice("53356E870D99B80A68F8E2DBBFCD28FB")
-                .build();
+        MobileAds.initialize(getApplicationContext());
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
         setListAdapter(new SoundboardAdapter(this, buttons));
@@ -155,7 +153,7 @@ public class Soundboard extends ListActivity implements SensorEventListener {
     protected void onListItemClick(ListView listView, View view, int position, long id) {
         Log.d(TAG, "onListItemClick");
         super.onListItemClick(listView, view, position, id);
-        Button button = view.findViewById(R.id.button);
+        Button button = (Button) view.findViewById(R.id.button);
         // Play sound and start animation on the button
         if (button != null) {
             Animation animClick = AnimationUtils.loadAnimation(this, R.anim.bounce);

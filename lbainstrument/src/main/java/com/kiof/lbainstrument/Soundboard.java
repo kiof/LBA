@@ -95,12 +95,9 @@ public class Soundboard extends ListActivity implements SensorEventListener {
         setContentView(R.layout.main);
 
         // AdMob
-        MobileAds.initialize(getApplicationContext(), getString(R.string.ad_unit_id));
+        MobileAds.initialize(getApplicationContext());
         AdView adView = (AdView) this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-//                .addTestDevice("53356E870D99B80A68F8E2DBBFCD28FB")
-                .build();
+        AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
         setListAdapter(new SoundboardAdapter(this, buttons));

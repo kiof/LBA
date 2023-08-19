@@ -37,7 +37,7 @@ public class HtmlAlertDialog extends AlertDialog {
             this.setIcon(iconId);
         this.setView(wv);
         this.setButton(context.getResources().getString(R.string.Ok),
-                new DialogInterface.OnClickListener() {
+                new OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.cancel();
                     }
