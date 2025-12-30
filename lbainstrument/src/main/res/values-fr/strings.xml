@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sons des Instruments pour Enfants</string>
-    <string name="widget_name">Sons des Instruments pour Enfants</string>
+    <string name="app_name">Son des Instruments</string>
 
-    <string name="soundFile">SonsInstruments.mp3</string>
-    <string name="soundTitle">SonsInstruments</string>
+    <string name="soundFile">SonInstruments.mp3</string>
+    <string name="soundTitle">SonInstruments</string>
 
     <string name="Ok">Ok</string>
     <string name="quit_title">Quitter ?</string>
@@ -20,7 +19,6 @@
     <string name="volume_yes">Oui, mettre à fond!</string>
     <string name="volume_no">Non, laisser comme il est...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Jouer le son</string>
     <string name="ringtone">Mettre en sonnerie</string>
     <string name="ringtoneok">Votre sonnerie a été changé</string>
@@ -56,91 +54,95 @@
     <string name="preference_category_features">Fonctionnement</string>
     <string name="lgclick_title">Appui long</string>
     <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
-    <string name="shake_title">Boite à Meuh</string>
-    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
     <string name="bgmusic_title">Musique d\'introduction</string>
     <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
-    <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
 
     <string-array name="textSections">
         <item>Bois</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Clavier</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Corde</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Cuivre</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Percussion</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Voix</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Divers</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Flute</item>
         <item>Flute Traversiere</item>
         <item>Flute De Pan</item>
@@ -152,6 +154,7 @@
         <item>Saxophone</item>
         <item>Hautbois</item>
         <item>Basson</item>
+        <item />
         <item>Piano</item>
         <item>Synthetiseur</item>
         <item>Clavecin</item>
@@ -159,6 +162,7 @@
         <item>Tympanon</item>
         <item>Cymbalum</item>
         <item>Psalterion</item>
+        <item />
         <item>Violon</item>
         <item>Alto</item>
         <item>Violoncelle</item>
@@ -173,6 +177,7 @@
         <item>Balalaika</item>
         <item>Sarangi</item>
         <item>Harpe</item>
+        <item />
         <item>Trompette</item>
         <item>Trombone</item>
         <item>Clairon</item>
@@ -181,6 +186,7 @@
         <item>Cor</item>
         <item>Didgeridoo</item>
         <item>Cor Des Alpes</item>
+        <item />
         <item>Batterie</item>
         <item>Djembe</item>
         <item>Bongo</item>
@@ -198,12 +204,14 @@
         <item>Gong</item>
         <item>Marimba</item>
         <item>Steel-Drum</item>
+        <item />
         <item>Sopranos</item>
         <item>Mezzo-Sopranos</item>
         <item>Altos</item>
         <item>Tenors</item>
         <item>Barytons</item>
         <item>Basses</item>
+        <item />
         <item>Biniou</item>
         <item>Cornemuse</item>
         <item>Serinette</item>
@@ -216,5 +224,15 @@
         <item>Cithare</item>
         <item>Guimbarde</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Son des Instruments</h1>
+    <p>Appuyez sur un bouton pour jouer un son.</p>
+    <p>Maintenez le doigt sur un bouton pour le définir comme sonnerie ou notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Règles de confidentialité</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

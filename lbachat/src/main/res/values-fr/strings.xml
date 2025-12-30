@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sons de Chat</string>
-    <string name="widget_name">Sons de Chat</string>
 
     <string name="soundFile">SonsDeChat.mp3</string>
-    <string name="soundTitle">Son de Chat</string>
+    <string name="soundTitle">Sons de Chat</string>
 
     <string name="Ok">Ok</string>
     <string name="quit_title">Quitter ?</string>
@@ -20,7 +19,6 @@
     <string name="volume_yes">Oui, mettre à fond!</string>
     <string name="volume_no">Non, laisser comme il est...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Jouer le son</string>
     <string name="ringtone">Mettre en sonnerie</string>
     <string name="ringtoneok">Votre sonnerie a été changé</string>
@@ -56,108 +54,111 @@
     <string name="preference_category_features">Fonctionnement</string>
     <string name="lgclick_title">Appui long</string>
     <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
-    <string name="shake_title">Boite à Meuh</string>
-    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
     <string name="bgmusic_title">Musique d\'introduction</string>
     <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
-    <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
 
     <string-array name="textSections">
         <item>Miaulement</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Ronronnement</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Chaton</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Special</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Méchant !</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Sauvage !!</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Vanille</item>
         <item>Princesse</item>
         <item>Minou</item>
@@ -177,6 +178,7 @@
         <item>Nimbus</item>
         <item>Nini</item>
         <item>Rainbow</item>
+        <item />
         <item>Ronron 1</item>
         <item>Ronron 2</item>
         <item>Ronron 3</item>
@@ -187,6 +189,7 @@
         <item>Ronron 8</item>
         <item>Ronron 9</item>
         <item>Ronron 10</item>
+        <item />
         <item>Chaton 1</item>
         <item>Chaton 2</item>
         <item>Chaton 3</item>
@@ -206,6 +209,7 @@
         <item>Chaton 15</item>
         <item>Chaton 16</item>
         <item>Chatons</item>
+        <item />
         <item>Pleures</item>
         <item>Chatte</item>
         <item>Chatte 2</item>
@@ -222,6 +226,7 @@
         <item>Chats qui discutent</item>
         <item>Cacophonie</item>
         <item>Merry Christmas</item>
+        <item />
         <item>Chat Méchant 1</item>
         <item>Chat Méchant 2</item>
         <item>Chat Méchant 3</item>
@@ -240,6 +245,7 @@
         <item>Chat Méchant 16</item>
         <item>Chat Méchant 17</item>
         <item>Chat Méchant 18</item>
+        <item />
         <item>Feulement 1</item>
         <item>Feulement 2</item>
         <item>Feulement 3</item>
@@ -250,4 +256,15 @@
         <item>Chat Sauvage qui Feule</item>
         <item>Bagarre de Chats</item>
     </string-array>
+
+    <string name="about">
+        <![CDATA[
+        <h1>Sons de Chat</h1>
+        <p>Appuyez sur un bouton pour jouer un son.</p>
+        <p>Maintenez le doigt sur un bouton pour le définir comme sonnerie ou notification</p>
+        <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Règles de confidentialité</a></h2>
+        <h3>Copyright © KioF</h3>
+        ]]>
+    </string>
+
 </resources>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Cat Sounds</string>
-    <string name="widget_name">Cat Sounds</string>
 
     <string name="soundFile">CatSounds.mp3</string>
     <string name="soundTitle">Cat Sounds</string>
@@ -13,6 +12,7 @@
     <color name="sectionColor">#FF7F673A</color>
     <color name="sectionShadow">#FF332917</color>
     <color name="sectionBg">#99999999</color>
+    <color name="white" tools:keep="@color/white">#FFFFFFFF</color>
 
     <string name="Ok">Ok</string>
     <string name="quit_title">Quit ?</string>
@@ -28,7 +28,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,108 +63,111 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Meow</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Purr</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Kitten</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Special</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Evil  !</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Wild !!</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Vanilla</item>
         <item>Princess</item>
         <item>Kitty</item>
@@ -185,6 +187,7 @@
         <item>Nimbus</item>
         <item>Nini</item>
         <item>Rainbow</item>
+        <item />
         <item>Purr 1</item>
         <item>Purr 2</item>
         <item>Purr 3</item>
@@ -195,6 +198,7 @@
         <item>Purr 8</item>
         <item>Purr 9</item>
         <item>Purr 10</item>
+        <item />
         <item>Kitten 1</item>
         <item>Kitten 2</item>
         <item>Kitten 3</item>
@@ -214,6 +218,7 @@
         <item>Kitten 15</item>
         <item>Kitten 16</item>
         <item>Kittens</item>
+        <item />
         <item>Crying</item>
         <item>Pussy</item>
         <item>Pussy 2</item>
@@ -230,6 +235,7 @@
         <item>Cats Talk</item>
         <item>Cacophony</item>
         <item>Merry Christmas</item>
+        <item />
         <item>Naughty Chat 1</item>
         <item>Bad Cat 2</item>
         <item>Bad Cat 3</item>
@@ -248,6 +254,7 @@
         <item>Naughty Chat 16</item>
         <item>Naughty Chat 17</item>
         <item>Naughty Chat 18</item>
+        <item />
         <item>Growls A</item>
         <item>Growls 2</item>
         <item>Growls 3</item>
@@ -258,4 +265,15 @@
         <item>Wild Cat Which Alone</item>
         <item>Brawl Cats</item>
     </string-array>
+
+    <string name="about">
+        <![CDATA[
+        <h1>Cat Sounds</h1>
+        <p>Push a button to play a sound</p>
+        <p>Long press a button to set ringtone or notification</p>
+        <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+        <h3>Copyright © KioF</h3>
+        ]]>
+    </string>
+
 </resources>

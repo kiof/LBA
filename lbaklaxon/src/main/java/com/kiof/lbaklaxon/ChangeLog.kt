@@ -8,92 +8,84 @@
  * @author: Karsten Priegnitz
  * @see: http://code.google.com/p/android-change-log/
  */
+package com.kiof.lbaklaxon
 
-package com.kiof.lbaklaxon;
+import android.content.Context
+import android.content.pm.PackageManager
+import android.util.Log
+import androidx.preference.PreferenceManager
 
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.preference.PreferenceManager;
-import android.util.Log;
-
-public class ChangeLog {
-
-    private static final String TAG = "ChangeLog";
-    // this is the key for storing the version name in SharedPreferences
-    private static final String VERSION_KEY = "PREFS_VERSION_KEY";
-    private String lastVersion, thisVersion;
-
-    /**
-     * Constructor
-     * <p/>
-     * Retrieves the version names and stores the new version name in
-     * SharedPreferences
-     */
-    public ChangeLog(Context context) {
-
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-
-        // get version numbers
-        this.lastVersion = sp.getString(VERSION_KEY, "");
-        Log.d(TAG, "lastVersion: " + lastVersion);
-        try {
-            this.thisVersion = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
-        } catch (NameNotFoundException e) {
-            this.thisVersion = "?";
-            Log.e(TAG, "could not get version name from manifest!");
-            e.printStackTrace();
-        }
-        Log.d(TAG, "appVersion: " + this.thisVersion);
-
-        // save new version number to preferences
-        SharedPreferences.Editor editor = sp.edit();
-        editor.putString(VERSION_KEY, this.thisVersion);
-        editor.commit();
-    }
-
+class ChangeLog(context: Context) {
     /**
      * @return The version name of the last installation of this app (as
      * described in the former manifest). This will be the same as
-     * returned by <code>getThisVersion()</code> from the second time
+     * returned by `getThisVersion()` from the second time
      * this version of the app is launched (more precisely: the second
      * time ChangeLog is instantiated).
      */
-    public String getLastVersion() {
-        return this.lastVersion;
-    }
-
     /**
      * manually set the last version name - for testing purposes only
      *
      * @param lastVersion
      */
-    void setLastVersion(String lastVersion) {
-        this.lastVersion = lastVersion;
-    }
+    var lastVersion: String?
 
     /**
      * @return The version name of this app as described in the manifest.
      */
-    public String getThisVersion() {
-        return this.thisVersion;
+    var thisVersion: String? = null
+        private set
+
+    /**
+     * Constructor
+     *
+     *
+     * Retrieves the version names and stores the new version name in
+     * SharedPreferences
+     */
+    init {
+        val sp = PreferenceManager.getDefaultSharedPreferences(context)
+
+        // get version numbers
+        this.lastVersion = sp.getString(VERSION_KEY, "")
+        Log.d(TAG, "lastVersion: $lastVersion")
+        try {
+            this.thisVersion =
+                context.packageManager.getPackageInfo(context.packageName, 0).versionName
+        } catch (e: PackageManager.NameNotFoundException) {
+            this.thisVersion = "?"
+            Log.e(TAG, "could not get version name from manifest!")
+            e.printStackTrace()
+        }
+        Log.d(TAG, "appVersion: " + this.thisVersion)
+
+        // save new version number to preferences
+        val editor = sp.edit()
+        editor.putString(VERSION_KEY, this.thisVersion)
+        editor.commit()
     }
 
     /**
-     * @return <code>true</code> if this version of your app is started the
+     * @return `true` if this version of your app is started the
      * first time
      */
-    public boolean firstRun() {
-        return !this.lastVersion.equals(this.thisVersion);
+    fun firstRun(): Boolean {
+        return this.lastVersion != this.thisVersion
     }
 
     /**
-     * @return <code>true</code> if your app is started the first time ever.
-     * Also <code>true</code> if your app was deinstalled and installed
+     * @return `true` if your app is started the first time ever.
+     * Also `true` if your app was deinstalled and installed
      * again.
      */
-    public boolean firstRunEver() {
-        return "".equals(this.lastVersion);
+    fun firstRunEver(): Boolean {
+        return "" == this.lastVersion
     }
 
+    companion object {
+        private const val TAG = "ChangeLog"
+
+        // this is the key for storing the version name in SharedPreferences
+        private const val VERSION_KEY = "PREFS_VERSION_KEY"
+    }
 }

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Air Horn</string>
-    <string name="widget_name">Air Horn</string>
 
     <string name="soundFile">AirHorn.mp3</string>
     <string name="soundTitle">Air Horn</string>
@@ -28,7 +27,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,15 +62,12 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Classic</item>
+        <item />
         <item />
         <item />
         <item />
@@ -87,7 +82,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Special</item>
+        <item />
         <item />
         <item />
         <item />
@@ -108,7 +105,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Concert</item>
+        <item />
         <item />
         <item />
         <item />
@@ -118,6 +117,7 @@
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Air Horn</item>
         <item>Several horns</item>
         <item>Old Horn</item>
@@ -125,6 +125,7 @@
         <item>Match</item>
         <item>Very long Horn</item>
         <item>Foghorn</item>
+        <item />
         <item>Horn 1</item>
         <item>Horn 2</item>
         <item>Horn 3</item>
@@ -133,6 +134,7 @@
         <item>Truck</item>
         <item>Bike</item>
         <item>Bus</item>
+        <item />
         <item>Coin coin</item>
         <item>Funny Horn</item>
         <item>Pouet pouet pouet...</item>
@@ -144,6 +146,7 @@
         <item>Big and brief</item>
         <item>Hoarse</item>
         <item>Several Little</item>
+        <item />
         <item>Multiples 1</item>
         <item>Multiples 2</item>
         <item>2 Times High</item>
@@ -154,6 +157,7 @@
         <item>Old Car</item>
         <item>Missed Accident</item>
         <item>Underground</item>
+        <item />
         <item>Car overtaken</item>
         <item>Huge Traffic Jam</item>
         <item>Passing car 1</item>
@@ -163,5 +167,14 @@
         <item>Concert Horn 2</item>
     </string-array>
 
+    <string name="about">
+    <![CDATA[
+    <h1>Air Horn</h1>
+    <p>Push a button to play a sound</p>
+    <p>Long press a button to set ringtone or notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fart Soundbox</string>
-    <string name="widget_name">Fart Soundbox</string>
+    <string name="app_name">Fart Sounds</string>
 
-    <string name="soundFile">FartSoundbox.mp3</string>
-    <string name="soundTitle">Fart Soundbox</string>
+    <string name="soundFile">FartSounds.mp3</string>
+    <string name="soundTitle">Fart Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/4474298008</string>
 
@@ -28,7 +27,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,15 +62,12 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Classic Farts</item>
+        <item />
         <item />
         <item />
         <item />
@@ -96,7 +91,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Special Farts</item>
+        <item />
         <item />
         <item />
         <item />
@@ -116,11 +113,14 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Fart with comment</item>
         <item />
         <item />
         <item />
+        <item />
         <item>Autographed Farts</item>
+        <item />
         <item />
         <item />
         <item />
@@ -154,7 +154,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>English Farts</item>
+        <item />
         <item />
         <item />
         <item />
@@ -171,9 +173,11 @@
         <item />
         <item />
         <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Fart 1</item>
         <item>Fart 2</item>
         <item>Fart 3</item>
@@ -191,6 +195,7 @@
         <item>Fart 15</item>
         <item>Fart 16</item>
         <item>Fart 17</item>
+        <item />
         <item>In water 1</item>
         <item>In water 2</item>
         <item>In water 3</item>
@@ -198,6 +203,7 @@
         <item>In water 5</item>
         <item>In water 6</item>
         <item>In water 7</item>
+        <item />
         <item>Fart foireux</item>
         <item>Frog Fart</item>
         <item>Wet Fart 1</item>
@@ -214,14 +220,17 @@
         <item>Fart Motorbike</item>
         <item>Little Fart</item>
         <item>Mosquito Fart </item>
+        <item />
         <item>Jingle bells</item>
         <item>Christmas song</item>
         <item>Jingle Bells</item>
         <item>Santa Fart</item>
+        <item />
         <item>Hop la, ... Fart!</item>
         <item>Oups, I thought nobody heard ...</item>
         <item>I beg you bring forth the demon lord!!!</item>
         <item>Farts game in bed</item>
+        <item />
         <item>Henry (92)</item>
         <item>Christophe 1 (75)</item>
         <item>Albert (du 28)</item>
@@ -246,7 +255,8 @@
         <item>Ginette (64)</item>
         <item>Gilles (77)</item>
         <item>Julie (33)</item>
-        <item>Girl fille in water</item>
+        <item />
+        <item>Girl in water</item>
         <item>Several Farts</item>
         <item>Fart of the death !</item>
         <item>Fart Very Smelly</item>
@@ -256,6 +266,7 @@
         <item>Big bellyache</item>
         <item>Man pushing</item>
         <item>Big thing</item>
+        <item />
         <item>Girls fart 1</item>
         <item>Girls fart 2</item>
         <item>Girls fart 3</item>
@@ -266,6 +277,7 @@
         <item>Oh no, godness</item>
         <item>Incoming...</item>
         <item>Cat and Pig</item>
+        <item />
         <item>Diarrhea 1</item>
         <item>Diarrhea 2</item>
         <item>Diarrhea 3</item>
@@ -275,5 +287,14 @@
         <item>Diarrhea 7</item>
     </string-array>
 
+    <string name="about">
+    <![CDATA[
+    <h1>Fart Sounds</h1>
+    <p>Push a button to play a sound</p>
+    <p>Long press a button to set ringtone or notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

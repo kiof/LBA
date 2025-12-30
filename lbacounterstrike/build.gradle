@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdk 34
+    compileSdk 36
     defaultConfig {
         applicationId 'com.kiof.lbacounterstrike'
         minSdkVersion 21
@@ -13,7 +13,7 @@ android {
         targetCompatibility = 1.8
     }
     namespace 'com.kiof.lbacounterstrike'
-    compileSdk 34
+    compileSdk 36
 }
 
 dependencies {

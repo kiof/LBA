@@ -1,99 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons" translatable="false">
-        <item>s2500</item>
-        <item>s2909</item>
-        <item>s2911</item>
-        <item>s1807</item>
-        <item>s2919</item>
-        <item>s12557</item>
-        <item>s3003</item>
-        <item>s793</item>
-        <item>s831</item>
-        <item>s963</item>
-        <item>s791</item>
-        <item>s964</item>
-        <item>s1653</item>
-        <item>s821</item>
-        <item>s1545</item>
-        <item>s306</item>
-        <item>s2908</item>
-        <item>s2910</item>
-        <item>s2912</item>
-        <item>s2913</item>
-        <item>s2915</item>
-        <item>s2916</item>
-        <item>s2917</item>
-        <item>s2920</item>
-        <item>s2921</item>
-        <item>s2922</item>
-        <item>s966</item>
-        <item>s967</item>
-        <item>s2918</item>
-        <item>s2924</item>
-        <item>s2925</item>
-        <item>s2926</item>
-        <item>s2927</item>
-        <item>s12729</item>
-        <item>s12735</item>
-        <item>s965</item>
-        <item>s1463</item>
-        <item>s2000</item>
-        <item>s2907</item>
-        <item>s2923</item>
-        <item>s12174</item>
-        <item>s12725</item>
-        <item>s12730</item>
-    </string-array>
-
     <string-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section1</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section2</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section3</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section4</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
     </string-array>
 
     <array name="pictures">
+        <item>0</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>0</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>@drawable/button</item>
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -105,6 +82,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -115,21 +93,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
-        <item>@drawable/button</item>
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -140,6 +104,7 @@
     </array>
 
     <array name="sounds">
+        <item>0</item>
         <item>@raw/s2500</item>
         <item>@raw/s2909</item>
         <item>@raw/s2911</item>
@@ -147,6 +112,7 @@
         <item>@raw/s2919</item>
         <item>@raw/s12557</item>
         <item>@raw/s3003</item>
+        <item>0</item>
         <item>@raw/s793</item>
         <item>@raw/s831</item>
         <item>@raw/s963</item>
@@ -155,6 +121,7 @@
         <item>@raw/s1653</item>
         <item>@raw/s821</item>
         <item>@raw/s1545</item>
+        <item>0</item>
         <item>@raw/s306</item>
         <item>@raw/s2908</item>
         <item>@raw/s2910</item>
@@ -166,6 +133,7 @@
         <item>@raw/s2920</item>
         <item>@raw/s2921</item>
         <item>@raw/s2922</item>
+        <item>0</item>
         <item>@raw/s966</item>
         <item>@raw/s967</item>
         <item>@raw/s2918</item>
@@ -176,6 +144,7 @@
         <item>@raw/s12729</item>
         <item>@raw/s12735</item>
         <item>@raw/s965</item>
+        <item>0</item>
         <item>@raw/s1463</item>
         <item>@raw/s2000</item>
         <item>@raw/s2907</item>

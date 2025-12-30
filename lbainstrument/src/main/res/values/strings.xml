@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Instruments Sound for Kids</string>
-    <string name="widget_name">Instruments Sound for Kids</string>
+    <string name="app_name">Instrument Sounds</string>
 
-    <string name="soundFile">InstrumentsSound.mp3</string>
-    <string name="soundTitle">Instruments Sound</string>
+    <string name="soundFile">InstrumentSounds.mp3</string>
+    <string name="soundTitle">Instrument Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/5811430402</string>
 
@@ -28,7 +27,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,91 +62,95 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Woodwind</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Keyboard</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Strings</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Brass</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Percussion</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Vocal</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Miscellaneous</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Flute</item>
         <item>Transverse Flute</item>
         <item>Pan Flute</item>
@@ -160,6 +162,7 @@
         <item>Saxophone</item>
         <item>Oboe</item>
         <item>Bassoon</item>
+        <item />
         <item>Piano</item>
         <item>Synthesizer</item>
         <item>Harpsichord</item>
@@ -167,6 +170,7 @@
         <item>Dulcimer</item>
         <item>Cimbalom</item>
         <item>Psaltery</item>
+        <item />
         <item>Violin</item>
         <item>Alto</item>
         <item>Cello</item>
@@ -181,6 +185,7 @@
         <item>Balalaika</item>
         <item>Sarangi</item>
         <item>Harp</item>
+        <item />
         <item>Trumpet</item>
         <item>Trombone</item>
         <item>Bugle</item>
@@ -189,6 +194,7 @@
         <item>Horn</item>
         <item>Didgeridoo</item>
         <item>Alphorn</item>
+        <item />
         <item>Battery</item>
         <item>Djembe</item>
         <item>Bongo</item>
@@ -206,12 +212,14 @@
         <item>Gong</item>
         <item>Marimba</item>
         <item>Steel Drum</item>
+        <item />
         <item>Sopranos</item>
         <item>Mezzo-Sopranos</item>
         <item>Violas</item>
         <item>Tenors</item>
         <item>Baritones</item>
         <item>Low</item>
+        <item />
         <item>Biniou</item>
         <item>Pipe</item>
         <item>Serinette</item>
@@ -224,5 +232,15 @@
         <item>Zither</item>
         <item>Jews Harp</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Instrument Sounds</h1>
+    <p>Push a button to play a sound</p>
+    <p>Long press a button to set ringtone or notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

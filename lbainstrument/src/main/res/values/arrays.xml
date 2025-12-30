@@ -1,160 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons" translatable="false">
-        <item>flute</item>
-        <item>flute_traversiere</item>
-        <item>flute_de_pan</item>
-        <item>orgue</item>
-        <item>ocarina</item>
-        <item>harmonica</item>
-        <item>accordeon</item>
-        <item>clarinette</item>
-        <item>saxophone</item>
-        <item>hautbois</item>
-        <item>basson</item>
-        <item>piano</item>
-        <item>synthetiseur</item>
-        <item>clavecin</item>
-        <item>clavicorde</item>
-        <item>tympanon</item>
-        <item>cymbalum</item>
-        <item>psalterion</item>
-        <item>violon</item>
-        <item>alto</item>
-        <item>violoncelle</item>
-        <item>contrebasse</item>
-        <item>vielle_a_roue</item>
-        <item>guitare</item>
-        <item>basse</item>
-        <item>banjo</item>
-        <item>mandoline</item>
-        <item>luth</item>
-        <item>ukulele</item>
-        <item>balalaika</item>
-        <item>sarangi</item>
-        <item>harpe</item>
-        <item>trompette</item>
-        <item>trombone</item>
-        <item>clairon</item>
-        <item>tuba</item>
-        <item>cornet_a_pistons</item>
-        <item>cor</item>
-        <item>didgeridoo</item>
-        <item>cor_des_alpes</item>
-        <item>batterie</item>
-        <item>djembe</item>
-        <item>bongo</item>
-        <item>grosse_caisse</item>
-        <item>caisse_claire</item>
-        <item>tambour</item>
-        <item>tambourin</item>
-        <item>timbale</item>
-        <item>cuica</item>
-        <item>triangle</item>
-        <item>maracas</item>
-        <item>xylophone</item>
-        <item>glockenspiel</item>
-        <item>cymbale</item>
-        <item>gong</item>
-        <item>marimba</item>
-        <item>steeldrum</item>
-        <item>sopranos</item>
-        <item>mezzosopranos</item>
-        <item>altos</item>
-        <item>tenors</item>
-        <item>barytons</item>
-        <item>basses</item>
-        <item>biniou</item>
-        <item>cornemuse</item>
-        <item>serinette</item>
-        <item>boite_a_musique</item>
-        <item>orgue_de_barbarie</item>
-        <item>limonaire</item>
-        <item>claviorganum</item>
-        <item>vuvuzela</item>
-        <item>serpent</item>
-        <item>cithare</item>
-        <item>guimbarde</item>
-    </string-array>
-
     <array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section1</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section2</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section3</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section4</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section5</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section6</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
     </array>
     <array name="pictures">
+        <item>0</item>
         <item>@drawable/flute</item>
         <item>@drawable/flute_traversiere</item>
         <item>@drawable/flute_de_pan</item>
@@ -166,6 +97,7 @@
         <item>@drawable/saxophone</item>
         <item>@drawable/hautbois</item>
         <item>@drawable/basson</item>
+        <item>0</item>
         <item>@drawable/piano</item>
         <item>@drawable/synthetiseur</item>
         <item>@drawable/clavecin</item>
@@ -173,6 +105,7 @@
         <item>@drawable/tympanon</item>
         <item>@drawable/cymbalum</item>
         <item>@drawable/psalterion</item>
+        <item>0</item>
         <item>@drawable/violon</item>
         <item>@drawable/alto</item>
         <item>@drawable/violoncelle</item>
@@ -187,6 +120,7 @@
         <item>@drawable/balalaika</item>
         <item>@drawable/sarangi</item>
         <item>@drawable/harpe</item>
+        <item>0</item>
         <item>@drawable/trompette</item>
         <item>@drawable/trombone</item>
         <item>@drawable/clairon</item>
@@ -195,6 +129,7 @@
         <item>@drawable/cor</item>
         <item>@drawable/didgeridoo</item>
         <item>@drawable/cor_des_alpes</item>
+        <item>0</item>
         <item>@drawable/batterie</item>
         <item>@drawable/djembe</item>
         <item>@drawable/bongo</item>
@@ -212,12 +147,14 @@
         <item>@drawable/gong</item>
         <item>@drawable/marimba</item>
         <item>@drawable/steeldrum</item>
+        <item>0</item>
         <item>@drawable/sopranos</item>
         <item>@drawable/mezzosopranos</item>
         <item>@drawable/altos</item>
         <item>@drawable/tenors</item>
         <item>@drawable/barytons</item>
         <item>@drawable/basses</item>
+        <item>0</item>
         <item>@drawable/biniou</item>
         <item>@drawable/cornemuse</item>
         <item>@drawable/serinette</item>
@@ -231,6 +168,7 @@
         <item>@drawable/guimbarde</item>
     </array>
     <array name="sounds">
+        <item>0</item>
         <item>@raw/flute</item>
         <item>@raw/flute_traversiere</item>
         <item>@raw/flute_de_pan</item>
@@ -242,6 +180,7 @@
         <item>@raw/saxophone</item>
         <item>@raw/hautbois</item>
         <item>@raw/basson</item>
+        <item>0</item>
         <item>@raw/piano</item>
         <item>@raw/synthetiseur</item>
         <item>@raw/clavecin</item>
@@ -249,6 +188,7 @@
         <item>@raw/tympanon</item>
         <item>@raw/cymbalum</item>
         <item>@raw/psalterion</item>
+        <item>0</item>
         <item>@raw/violon</item>
         <item>@raw/alto</item>
         <item>@raw/violoncelle</item>
@@ -263,6 +203,7 @@
         <item>@raw/balalaika</item>
         <item>@raw/sarangi</item>
         <item>@raw/harpe</item>
+        <item>0</item>
         <item>@raw/trompette</item>
         <item>@raw/trombone</item>
         <item>@raw/clairon</item>
@@ -271,6 +212,7 @@
         <item>@raw/cor</item>
         <item>@raw/didgeridoo</item>
         <item>@raw/cor_des_alpes</item>
+        <item>0</item>
         <item>@raw/batterie</item>
         <item>@raw/djembe</item>
         <item>@raw/bongo</item>
@@ -288,12 +230,14 @@
         <item>@raw/gong</item>
         <item>@raw/marimba</item>
         <item>@raw/steeldrum</item>
+        <item>0</item>
         <item>@raw/sopranos</item>
         <item>@raw/mezzosopranos</item>
         <item>@raw/altos</item>
         <item>@raw/tenors</item>
         <item>@raw/barytons</item>
         <item>@raw/basses</item>
+        <item>0</item>
         <item>@raw/biniou</item>
         <item>@raw/cornemuse</item>
         <item>@raw/serinette</item>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Animals Sound for Kids</string>
-    <string name="widget_name">Animals Sound for Kids</string>
+    <string name="app_name">Animal Sounds</string>
 
-    <string name="soundFile">AnimalsSound.mp3</string>
-    <string name="soundTitle">Animals Sound</string>
+    <string name="soundFile">AnimalSounds.mp3</string>
+    <string name="soundTitle">Animal Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/2857964001</string>
 
@@ -29,7 +28,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -44,8 +42,8 @@
 
     <string name="other_link">market://search?q=pub:Kiof</string>
 
-    <string name="menuTitle1">Options</string>
-    <string name="menuTitleCondensed1">Options</string>
+    <string name="menuTitle1">Settings</string>
+    <string name="menuTitleCondensed1">Settings</string>
     <string name="menuTitle2">Send to a friend</string>
     <string name="menuTitleCondensed2">Share</string>
     <string name="menuTitle3">More free applications</string>
@@ -65,19 +63,17 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Pets</item>
         <item />
         <item />
         <item />
+        <item />
         <item>Farm</item>
+        <item />
         <item />
         <item />
         <item />
@@ -93,7 +89,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Marine</item>
+        <item />
         <item />
         <item />
         <item />
@@ -125,7 +123,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Insects</item>
+        <item />
         <item />
         <item />
         <item />
@@ -136,13 +136,16 @@
         <item>Miscellaneous</item>
         <item />
         <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Cat</item>
         <item>Dog</item>
         <item>Fish</item>
         <item>Bird</item>
+        <item />
         <item>Pig</item>
         <item>Cow</item>
         <item>Sheep</item>
@@ -153,12 +156,14 @@
         <item>Rabbit</item>
         <item>Donkey</item>
         <item>Horse</item>
+        <item />
         <item>Mouse</item>
         <item>Hamster</item>
         <item>Cobaye</item>
         <item>Guineapig</item>
         <item>Squirrel</item>
         <item>Beaver</item>
+        <item />
         <item>Dolphin</item>
         <item>Whale</item>
         <item>Orca</item>
@@ -170,6 +175,7 @@
         <item>Seahorse</item>
         <item>Sealion</item>
         <item>Crab</item>
+        <item />
         <item>Elephant</item>
         <item>Hippopotamus</item>
         <item>Rhinoceros</item>
@@ -191,6 +197,7 @@
         <item>Lemuridae</item>
         <item>Chameleon</item>
         <item>Crocodile </item>
+        <item />
         <item>Bee</item>
         <item>Frog</item>
         <item>Snail</item>
@@ -199,8 +206,20 @@
         <item>Fly</item>
         <item>Mosquito</item>
         <item>Butterfly</item>
+        <item />
         <item>Tyrannosaurus</item>
         <item>Dragon</item>
         <item>Monster</item>
     </string-array>
+
+    <string name="about">
+        <![CDATA[
+        <h1>Animal Sounds</h1>
+        <p>Push a button to play a sound</p>
+        <p>Long press a button to set ringtone or notification</p>
+        <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+        <h3>Copyright © KioF</h3>
+        ]]>
+    </string>
+
 </resources>

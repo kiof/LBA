@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">La Boite A Prout</string>
-    <string name="widget_name">La Boite A Prout</string>
+    <string name="app_name">Son de Prouts</string>
 
-    <string name="soundFile">LBAProut.mp3</string>
-    <string name="soundTitle">LBA Prout</string>
+    <string name="soundFile">SonDeProuts.mp3</string>
+    <string name="soundTitle">Son de Prouts</string>
 
     <string name="Ok">OK</string>
     <string name="quit_title">Quitter ?</string>
@@ -20,7 +19,6 @@
     <string name="volume_yes">Oui, mettre à fond!</string>
     <string name="volume_no">Non, laisser comme il est...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Jouer le son</string>
     <string name="ringtone">Mettre en sonnerie</string>
     <string name="ringtoneok">Votre sonnerie a été changé</string>
@@ -56,15 +54,12 @@
     <string name="preference_category_features">Fonctionnement</string>
     <string name="lgclick_title">Appui long</string>
     <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
-    <string name="shake_title">Boite à Meuh</string>
-    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
     <string name="bgmusic_title">Musique d\'introduction</string>
     <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
-    <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
 
     <string-array name="textSections">
         <item>Pets Classique</item>
+        <item />
         <item />
         <item />
         <item />
@@ -88,7 +83,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Pets spéciaux</item>
+        <item />
         <item />
         <item />
         <item />
@@ -108,11 +105,14 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Pets avec commentaires</item>
         <item />
         <item />
         <item />
+        <item />
         <item>Pets dédicacés</item>
+        <item />
         <item />
         <item />
         <item />
@@ -146,7 +146,9 @@
         <item />
         <item />
         <item />
+        <item />
         <item>Pets Anglais</item>
+        <item />
         <item />
         <item />
         <item />
@@ -163,9 +165,11 @@
         <item />
         <item />
         <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Pet 1</item>
         <item>Pet 2</item>
         <item>Pet 3</item>
@@ -183,6 +187,7 @@
         <item>Pet 15</item>
         <item>Pet 16</item>
         <item>Pet 17</item>
+        <item />
         <item>Dans l\'eau 1</item>
         <item>Dans l\'eau 2</item>
         <item>Dans l\'eau 3</item>
@@ -190,6 +195,7 @@
         <item>Dans l\'eau 5</item>
         <item>Dans l\'eau 6</item>
         <item>Dans l\'eau 7</item>
+        <item />
         <item>Pet foireux</item>
         <item>Pet grenouille</item>
         <item>Prout humide 1</item>
@@ -206,14 +212,17 @@
         <item>Pet moto</item>
         <item>Petit pet</item>
         <item>Pet Moustique</item>
+        <item />
         <item>Jingle bells en pétant</item>
         <item>Musique de Noël en pétant</item>
         <item>Vive le vent</item>
         <item>La Chanson du Pet Noël</item>
+        <item />
         <item>Hop la, j\'ai fait un ptit pet là!</item>
         <item>Oups je croyais que çà s\'entendrait pas!</item>
         <item>Je t\'en prie seigneur fais sortir ce démon!!!</item>
         <item>Jeu de pets au lit</item>
+        <item />
         <item>Henry (92)</item>
         <item>Christophe 1 (75)</item>
         <item>Albert (du 28)</item>
@@ -238,6 +247,7 @@
         <item>Ginette (64)</item>
         <item>Gilles (77)</item>
         <item>Julie (33)</item>
+        <item />
         <item>Pet de fille dans l\'eau</item>
         <item>Plusieurs Pets</item>
         <item>Pet de la mort !</item>
@@ -248,6 +258,7 @@
         <item>Gros mal de ventre</item>
         <item>Homme qui pousse</item>
         <item>Gros caca</item>
+        <item />
         <item>Girls fart 1</item>
         <item>Girls fart 2</item>
         <item>Girls fart 3</item>
@@ -258,6 +269,7 @@
         <item>Oh no, godness</item>
         <item>Incoming...</item>
         <item>Cat and Pig</item>
+        <item />
         <item>Diarrhée 1</item>
         <item>Diarrhée 2</item>
         <item>Diarrhée 3</item>
@@ -266,5 +278,15 @@
         <item>Diarrhée 6</item>
         <item>Diarrhée 7</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Son de Prouts</h1>
+    <p>Appuyez sur un bouton pour jouer un son.</p>
+    <p>Maintenez le doigt sur un bouton pour le définir comme sonnerie ou notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Règles de confidentialité</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

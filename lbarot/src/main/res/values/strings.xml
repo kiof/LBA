@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Burp Soundbox</string>
-    <string name="widget_name">Burp Soundbox</string>
+    <string name="app_name">Burp Sounds</string>
 
-    <string name="soundFile">BurpSoundbox.mp3</string>
-    <string name="soundTitle">Burp Soundbox</string>
+    <string name="soundFile">BurpSounds.mp3</string>
+    <string name="soundTitle">Burp Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/1241630005</string>
 
@@ -28,7 +27,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,12 +62,8 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Classic Burps</item>
@@ -90,7 +84,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Special Burps</item>
         <item />
         <item />
@@ -106,7 +100,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Scale</item>
         <item />
         <item />
@@ -114,7 +108,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Long Burps</item>
         <item />
         <item />
@@ -134,7 +128,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Multiple Burps</item>
         <item />
         <item />
@@ -144,7 +138,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Noisy Burps</item>
         <item />
         <item />
@@ -154,7 +148,7 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Short Burps</item>
         <item />
         <item />
@@ -165,13 +159,14 @@
         <item />
         <item />
         <item />
-
+        <item />
         <item>Songs</item>
         <item />
         <item />
         <item />
-
+        <item />
         <item>Strange Burps</item>
+        <item />
         <item />
         <item />
         <item />
@@ -183,6 +178,7 @@
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Burp 1</item>
         <item>Burp 2</item>
         <item>Three Tones</item>
@@ -201,7 +197,7 @@
         <item>Happy Burp</item>
         <item>Strangled</item>
         <item>Beautiful Burp</item>
-
+        <item />
         <item>Hoohaaahe</item>
         <item>Haaaheyy</item>
         <item>Wet</item>
@@ -217,15 +213,15 @@
         <item>I Am A Pig</item>
         <item>Ho, Sorry</item>
         <item>Burp Awake</item>
-
+        <item />
         <item>Do</item>
         <item>Re</item>
         <item>Mi</item>
         <item>Fa</item>
         <item>Sol</item>
-        <item>The</item>
+        <item>La</item>
         <item>Si</item>
-
+        <item />
         <item>Long 1</item>
         <item>Long 2</item>
         <item>Talkative</item>
@@ -245,7 +241,7 @@
         <item>Pig strangled</item>
         <item>Pig Dying</item>
         <item>Long And Up</item>
-
+        <item />
         <item>Burp Suite</item>
         <item>Double Burp</item>
         <item>Ah Burp</item>
@@ -255,17 +251,17 @@
         <item>Owl Burp</item>
         <item>Burp Hard To Do</item>
         <item>Severe Burps</item>
-
+        <item />
         <item>Yawning</item>
         <item>Heavy</item>
         <item>Tights</item>
         <item>Noisy</item>
-        <item>No Camel Content</item>
-        <item>Camel Content</item>
+        <item>Camel Not Happy</item>
+        <item>Camel Happy</item>
         <item>Burp or not</item>
         <item>Burp Which Relieves</item>
         <item>Hyper Noisy</item>
-
+        <item />
         <item>Stealthy</item>
         <item>Concise</item>
         <item>Hyper Classic</item>
@@ -276,12 +272,12 @@
         <item>Ahhh</item>
         <item>Brief</item>
         <item>Short Amount</item>
-
+        <item />
         <item>Mozart Concerto In Major Burp!</item>
         <item>Beethovens 5th Minor Burp!</item>
         <item>Burp Acclaimed</item>
         <item>Composition (Very) Original</item>
-
+        <item />
         <item>Bizarre</item>
         <item>Extravagant</item>
         <item>Curious</item>
@@ -292,5 +288,15 @@
         <item>Bizzaroide</item>
         <item>Funny</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Burp Sounds</h1>
+    <p>Push a button to play a sound</p>
+    <p>Long press a button to set ringtone or notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

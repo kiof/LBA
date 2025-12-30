@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preference_category_volume">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="checkvolume"
+            android:summary="@string/checkvolume_summary"
+            android:title="@string/checkvolume_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:dependency="checkvolume"
+            android:key="volumemax"
+            android:summary="@string/volumemax_summary"
+            android:title="@string/volumemax_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:dependency="volumemax"
+            android:key="volumerestore"
+            android:summary="@string/volumerestore_summary"
+            android:title="@string/volumerestore_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_features">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="lgclick"
+            android:summary="@string/lgclick_summary"
+            android:title="@string/lgclick_title" />
+
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="bgmusic"
+            android:summary="@string/bgmusic_summary"
+            android:title="@string/bgmusic_title" />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

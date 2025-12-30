@@ -1,142 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons" translatable="false">
-        <item>cat</item>
-        <item>dog</item>
-        <item>fish</item>
-        <item>bird</item>
-        <item>pig</item>
-        <item>cow</item>
-        <item>sheep</item>
-        <item>goat</item>
-        <item>cock</item>
-        <item>chicken</item>
-        <item>duck</item>
-        <item>rabbit</item>
-        <item>donkey</item>
-        <item>horse</item>
-        <item>mouse</item>
-        <item>hamster</item>
-        <item>cobaye</item>
-        <item>guineapig</item>
-        <item>squirrel</item>
-        <item>beaver</item>
-        <item>dolphin</item>
-        <item>whale</item>
-        <item>orca</item>
-        <item>elephantseal</item>
-        <item>shark</item>
-        <item>piranha</item>
-        <item>batoidea</item>
-        <item>swordfish</item>
-        <item>seahorse</item>
-        <item>sealion</item>
-        <item>crab</item>
-        <item>elephant</item>
-        <item>hippopotamus</item>
-        <item>rhinoceros</item>
-        <item>camel</item>
-        <item>lion</item>
-        <item>tiger</item>
-        <item>panthera</item>
-        <item>fox</item>
-        <item>wolf</item>
-        <item>snake</item>
-        <item>bear</item>
-        <item>owl</item>
-        <item>llama</item>
-        <item>zebra</item>
-        <item>kangaroo</item>
-        <item>koala</item>
-        <item>panda</item>
-        <item>monkey</item>
-        <item>lemuridae</item>
-        <item>chameleon</item>
-        <item>crocodile </item>
-        <item>bee</item>
-        <item>frog</item>
-        <item>snail</item>
-        <item>cricket</item>
-        <item>cicada</item>
-        <item>fly</item>
-        <item>mosquito</item>
-        <item>butterfly</item>
-        <item>tyrannosaurus</item>
-        <item>dragon</item>
-        <item>monster</item>
-    </string-array>
-    <string-array name="pictureSections" translatable="false">
+    <integer-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section1</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section2</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section3</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section4</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section5</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section6</item>
-        <item />
-        <item />
-    </string-array>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
 
-    <array name="pictures">
+    <integer-array name="pictures" translatable="false">
+        <item>0</item>
         <item>@drawable/cat</item>
         <item>@drawable/dog</item>
         <item>@drawable/fish</item>
         <item>@drawable/bird</item>
+        <item>0</item>
         <item>@drawable/pig</item>
         <item>@drawable/cow</item>
         <item>@drawable/sheep</item>
@@ -147,12 +91,14 @@
         <item>@drawable/rabbit</item>
         <item>@drawable/donkey</item>
         <item>@drawable/horse</item>
+        <item>0</item>
         <item>@drawable/mouse</item>
         <item>@drawable/hamster</item>
         <item>@drawable/cobaye</item>
         <item>@drawable/guineapig</item>
         <item>@drawable/squirrel</item>
         <item>@drawable/beaver</item>
+        <item>0</item>
         <item>@drawable/dolphin</item>
         <item>@drawable/whale</item>
         <item>@drawable/orca</item>
@@ -164,6 +110,7 @@
         <item>@drawable/seahorse</item>
         <item>@drawable/sealion</item>
         <item>@drawable/crab</item>
+        <item>0</item>
         <item>@drawable/elephant</item>
         <item>@drawable/hippopotamus</item>
         <item>@drawable/rhinoceros</item>
@@ -185,6 +132,7 @@
         <item>@drawable/lemuridae</item>
         <item>@drawable/chameleon</item>
         <item>@drawable/crocodile</item>
+        <item>0</item>
         <item>@drawable/bee</item>
         <item>@drawable/frog</item>
         <item>@drawable/snail</item>
@@ -193,15 +141,19 @@
         <item>@drawable/fly</item>
         <item>@drawable/mosquito</item>
         <item>@drawable/butterfly</item>
+        <item>0</item>
         <item>@drawable/tyrannosaurus</item>
         <item>@drawable/dragon</item>
         <item>@drawable/monster</item>
-    </array>
-    <array name="sounds">
+    </integer-array>
+
+    <integer-array name="sounds" translatable="false">
+        <item>0</item>
         <item>@raw/cat</item>
         <item>@raw/dog</item>
         <item>@raw/fish</item>
         <item>@raw/bird</item>
+        <item>0</item>
         <item>@raw/pig</item>
         <item>@raw/cow</item>
         <item>@raw/sheep</item>
@@ -212,12 +164,14 @@
         <item>@raw/rabbit</item>
         <item>@raw/donkey</item>
         <item>@raw/horse</item>
+        <item>0</item>
         <item>@raw/mouse</item>
         <item>@raw/hamster</item>
         <item>@raw/cobaye</item>
         <item>@raw/guineapig</item>
         <item>@raw/squirrel</item>
         <item>@raw/beaver</item>
+        <item>0</item>
         <item>@raw/dolphin</item>
         <item>@raw/whale</item>
         <item>@raw/orca</item>
@@ -229,6 +183,7 @@
         <item>@raw/seahorse</item>
         <item>@raw/sealion</item>
         <item>@raw/crab</item>
+        <item>0</item>
         <item>@raw/elephant</item>
         <item>@raw/hippopotamus</item>
         <item>@raw/rhinoceros</item>
@@ -250,6 +205,7 @@
         <item>@raw/lemuridae</item>
         <item>@raw/chameleon</item>
         <item>@raw/crocodile</item>
+        <item>0</item>
         <item>@raw/bee</item>
         <item>@raw/frog</item>
         <item>@raw/snail</item>
@@ -258,9 +214,10 @@
         <item>@raw/fly</item>
         <item>@raw/mosquito</item>
         <item>@raw/butterfly</item>
+        <item>0</item>
         <item>@raw/tyrannosaurus</item>
         <item>@raw/dragon</item>
         <item>@raw/monster</item>
-    </array>
+    </integer-array>
 
 </resources>

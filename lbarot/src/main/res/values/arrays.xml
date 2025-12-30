@@ -1,228 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="buttons" translatable="false">
-        <item>s101143_awkwardbelch3</item>
-        <item>s101144_awkwardbelch4</item>
-        <item>s101150_belch14</item>
-        <item>s101151_belch15</item>
-        <item>s101160_classicbelch1</item>
-        <item>s101161_classicbelch2</item>
-        <item>s101162_classicbelch3</item>
-        <item>s11811</item>
-        <item>s12730_pingel_burp</item>
-        <item>s26762_belch1</item>
-        <item>s3116</item>
-        <item>s32661_burp_4</item>
-        <item>s51803_kyles_burp</item>
-        <item>s63472_burp</item>
-        <item>s63473_burpclipped</item>
-        <item>s63474_burpgaie</item>
-        <item>s63475_burpgurgler</item>
-        <item>s63476_burpnice</item>
-
-        <item>s101177_talkbelch1</item>
-        <item>s101178_talkbelch2</item>
-        <item>s101179_wetbelch1</item>
-        <item>s101180_wetbelch2</item>
-        <item>s101181_wetbelch3</item>
-        <item>s101182_wetbelch4</item>
-        <item>s11809orgy</item>
-        <item>s11810_porte</item>
-        <item>s11812caverne</item>
-        <item>s474yahourt</item>
-        <item>s475boite</item>
-        <item>s58020_burpgurgle</item>
-        <item>s61934_imapig</item>
-        <item>s61938_sessionburpsorry</item>
-        <item>s66320_kaiodeleis_burp</item>
-
-        <item>s32001_burp006_do</item>
-        <item>s32002_burp005_re</item>
-        <item>s32003_burp002_mi</item>
-        <item>s32004_burp003_fa</item>
-        <item>s32005_burp004_sol</item>
-        <item>s32006_burp001_la</item>
-        <item>s32007_burp007_si</item>
-
-        <item>s101145_belch1</item>
-        <item>s101146_belch10</item>
-        <item>s101147_belch11</item>
-        <item>s101148_belch12</item>
-        <item>s101149_belch13</item>
-        <item>s101152_belch2</item>
-        <item>s101153_belch3</item>
-        <item>s101154_belch4</item>
-        <item>s101155_belch5</item>
-        <item>s101156_belch6</item>
-        <item>s101157_belch7</item>
-        <item>s101158_belch8</item>
-        <item>s101159_belch9</item>
-        <item>s101164_longbelch1</item>
-        <item>s11805</item>
-        <item>s11806</item>
-        <item>s11807</item>
-        <item>s11808</item>
-        <item>s61356_burp</item>
-
-        <item>s101141_awkwardbelch1</item>
-        <item>s101163_doublebelch</item>
-        <item>s11814</item>
-        <item>s26763_belch_3_wolves</item>
-        <item>s3117</item>
-        <item>s43884_zappburpingnoise</item>
-        <item>s58983_burp_10</item>
-        <item>s63479_burpsequence</item>
-        <item>s63481_byrpserious</item>
-
-        <item>s101142_awkwardbelch2</item>
-        <item>s101165_powerbelch1</item>
-        <item>s101166_powerbelch2</item>
-        <item>s101167_powerbelch3</item>
-        <item>s57811_burp_camel</item>
-        <item>s57867_burp_camel</item>
-        <item>s63478_burpreetarjay</item>
-        <item>s63480_burpslomo</item>
-        <item>s66638_ccaaajf_burp</item>
-
-        <item>s15864_burpus</item>
-        <item>s16753_belch_sample</item>
-        <item>s3115</item>
-        <item>s32660_burp_3</item>
-        <item>s476</item>
-        <item>s477</item>
-        <item>s478</item>
-        <item>s479</item>
-        <item>s63477_burpquick</item>
-        <item>s64158_raceburp</item>
-
-        <item>s11815</item>
-        <item>s11816</item>
-        <item>s11817</item>
-        <item>s61577_0001b_burbs</item>
-
-        <item>s101168_strangebelch1</item>
-        <item>s101169_strangebelch2</item>
-        <item>s101170_strangebelch3</item>
-        <item>s101171_strangebelch43</item>
-        <item>s101172_strangebelch5</item>
-        <item>s101173_strangebelch6</item>
-        <item>s101174_strangebelch7</item>
-        <item>s101175_strangebelch8</item>
-        <item>s101176_strangebelch9</item>
-    </string-array>
     <string-array name="pictureSections" translatable="false">
         <item>@drawable/section0</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section1</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section2</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section3</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section4</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section5</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section6</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section7</item>
-        <item />
-        <item />
-        <item />
-
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
         <item>@drawable/section8</item>
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
-        <item />
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
     </string-array>
 
     <array name="pictures">
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -241,7 +133,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -257,7 +149,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -265,7 +157,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -285,7 +177,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -295,7 +187,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -305,7 +197,7 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -316,12 +208,12 @@
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
-
+        <item>0</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
         <item>@drawable/button</item>
@@ -333,6 +225,7 @@
         <item>@drawable/button</item>
     </array>
     <array name="sounds">
+        <item>0</item>
         <item>@raw/s101143_awkwardbelch3</item>
         <item>@raw/s101144_awkwardbelch4</item>
         <item>@raw/s101150_belch14</item>
@@ -351,7 +244,7 @@
         <item>@raw/s63474_burpgaie</item>
         <item>@raw/s63475_burpgurgler</item>
         <item>@raw/s63476_burpnice</item>
-
+        <item>0</item>
         <item>@raw/s101177_talkbelch1</item>
         <item>@raw/s101178_talkbelch2</item>
         <item>@raw/s101179_wetbelch1</item>
@@ -367,7 +260,7 @@
         <item>@raw/s61934_imapig</item>
         <item>@raw/s61938_sessionburpsorry</item>
         <item>@raw/s66320_kaiodeleis_burp</item>
-
+        <item>0</item>
         <item>@raw/s32001_burp006_do</item>
         <item>@raw/s32002_burp005_re</item>
         <item>@raw/s32003_burp002_mi</item>
@@ -375,7 +268,7 @@
         <item>@raw/s32005_burp004_sol</item>
         <item>@raw/s32006_burp001_la</item>
         <item>@raw/s32007_burp007_si</item>
-
+        <item>0</item>
         <item>@raw/s101145_belch1</item>
         <item>@raw/s101146_belch10</item>
         <item>@raw/s101147_belch11</item>
@@ -395,7 +288,7 @@
         <item>@raw/s11807</item>
         <item>@raw/s11808</item>
         <item>@raw/s61356_burp</item>
-
+        <item>0</item>
         <item>@raw/s101141_awkwardbelch1</item>
         <item>@raw/s101163_doublebelch</item>
         <item>@raw/s11814</item>
@@ -405,7 +298,7 @@
         <item>@raw/s58983_burp_10</item>
         <item>@raw/s63479_burpsequence</item>
         <item>@raw/s63481_byrpserious</item>
-
+        <item>0</item>
         <item>@raw/s101142_awkwardbelch2</item>
         <item>@raw/s101165_powerbelch1</item>
         <item>@raw/s101166_powerbelch2</item>
@@ -415,7 +308,7 @@
         <item>@raw/s63478_burpreetarjay</item>
         <item>@raw/s63480_burpslomo</item>
         <item>@raw/s66638_ccaaajf_burp</item>
-
+        <item>0</item>
         <item>@raw/s15864_burpus</item>
         <item>@raw/s16753_belch_sample</item>
         <item>@raw/s3115</item>
@@ -426,12 +319,12 @@
         <item>@raw/s479</item>
         <item>@raw/s63477_burpquick</item>
         <item>@raw/s64158_raceburp</item>
-
+        <item>0</item>
         <item>@raw/s11815</item>
         <item>@raw/s11816</item>
         <item>@raw/s11817</item>
         <item>@raw/s61577_0001b_burbs</item>
-
+        <item>0</item>
         <item>@raw/s101168_strangebelch1</item>
         <item>@raw/s101169_strangebelch2</item>
         <item>@raw/s101170_strangebelch3</item>

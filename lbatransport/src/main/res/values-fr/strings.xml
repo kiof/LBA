@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sons des Vehicules pour Enfants</string>
-    <string name="widget_name">Sons des Vehicules pour Enfants</string>
+    <string name="app_name">Sons des Vehicules</string>
 
-    <string name="soundFile">VehiculesEnfants.mp3</string>
-    <string name="soundTitle">Vehicules Enfants</string>
+    <string name="soundFile">SonsDesVehicules.mp3</string>
+    <string name="soundTitle">Sons des Vehicules</string>
 
     <string name="Ok">Ok</string>
     <string name="quit_title">Quitter ?</string>
@@ -20,7 +19,6 @@
     <string name="volume_yes">Oui, mettre à fond!</string>
     <string name="volume_no">Non, laisser comme il est...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Jouer le son</string>
     <string name="ringtone">Mettre en sonnerie</string>
     <string name="ringtoneok">Votre sonnerie a été changé</string>
@@ -56,125 +54,161 @@
     <string name="preference_category_features">Fonctionnement</string>
     <string name="lgclick_title">Appui long</string>
     <string name="lgclick_summary">Ouvre un menu contextuel en cas d\'appui long sur un son</string>
-    <string name="shake_title">Boite à Meuh</string>
-    <string name="shake_summary">Jouer un son aléatoire en secouant ou retournant le téléphone</string>
     <string name="bgmusic_title">Musique d\'introduction</string>
     <string name="bgmusic_summary">Jouer une courte musique d\'introduction au lancement de l\'application</string>
-    <string name="save_setting">Enregistrer les paramètres</string>
-    <string name="setting_saved">Paramètres enregistrés</string>
 
     <string-array name="textSections">
         <item>Voiture</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Transport</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Agricole</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Chantier</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Train</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Militaire</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Vélo</item>
-        <item></item>
+        <item />
+        <item />
         <item>Moto</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Divers</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Voile</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Bateau</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Avion</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Hélicoptère</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Fusée</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Extra-Terrestre</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Ancienne Voiture</item>
         <item>Voiture de Luxe</item>
         <item>Voiture de Course</item>
         <item>Voiture</item>
+        <item />
         <item>Bus de Voyage</item>
         <item>Bus de Ligne</item>
         <item>Camion</item>
         <item>Truck</item>
+        <item />
         <item>Tracteur</item>
         <item>Engin Agricole</item>
         <item>Moissonneuse Batteuse</item>
+        <item />
         <item>Camion de Chantier</item>
         <item>Bulldozer</item>
         <item>Camion Grue</item>
         <item>Chargeur</item>
+        <item />
         <item>Metro</item>
         <item>Train Régional</item>
         <item>TGV</item>
         <item>Train Vapeur</item>
         <item>Tram</item>
+        <item />
         <item>Char</item>
         <item>Char US</item>
         <item>Véhicule Blindee</item>
         <item>Véhicule d\'Infanterie</item>
+        <item />
         <item>Vélo de Course</item>
         <item>VTT</item>
+        <item />
         <item>Moto de Course</item>
         <item>Moto Cross</item>
         <item>Moto de Grand Prix</item>
         <item>Quad</item>
         <item>Quad Cross</item>
+        <item />
         <item>Charrette</item>
         <item>Diligence</item>
         <item>Dragster</item>
         <item>Dragster Burn</item>
+        <item />
         <item>Plaisance</item>
         <item>Voilier</item>
         <item>Trois Mats</item>
+        <item />
         <item>Bateau</item>
         <item>Chalutier</item>
         <item>Cargo</item>
+        <item />
         <item>Avion de Ligne</item>
         <item>Long Courrier</item>
         <item>Concorde</item>
+        <item />
         <item>Hélicoptère</item>
         <item>Hélico de Sauvetage</item>
         <item>Hélico Militaire</item>
+        <item />
         <item>Ariane 4</item>
         <item>Ariane 5</item>
         <item>Fusee</item>
         <item>Fusee Vega</item>
+        <item />
         <item>Vaisseau Spatial</item>
         <item>Vaisseau Futuriste</item>
         <item>XWing</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Sons des Vehicules</h1>
+    <p>Appuyez sur un bouton pour jouer un son.</p>
+    <p>Maintenez le doigt sur un bouton pour le définir comme sonnerie ou notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Règles de confidentialité</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>

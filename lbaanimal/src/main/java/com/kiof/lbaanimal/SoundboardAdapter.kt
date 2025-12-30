@@ -1,75 +1,55 @@
-package com.kiof.lbaanimal;
+package com.kiof.lbaanimal
 
-import android.app.Activity;
-import android.content.res.Resources;
-import android.content.res.TypedArray;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.view.animation.AnimationUtils
+import androidx.recyclerview.widget.RecyclerView
+import com.kiof.lbaanimal.databinding.ListItemBinding
 
-public class SoundboardAdapter extends ArrayAdapter<String> {
-    private final Activity mContext;
-    private Resources mResources;
-    private TypedArray pictures, pictureSections;
-    private String[] textSections, textButtons;
+class SoundboardAdapter(val items: List<Item>, val onClick: (View, Int) -> Unit, val onLongClick: (View, Int) -> Unit) :
+    RecyclerView.Adapter<SoundboardAdapter.MyViewHolder>() {
 
-    public SoundboardAdapter(Activity context, String[] names) {
-        super(context, R.layout.row, names);
+    inner class MyViewHolder(
+        val binding: ListItemBinding
+    ) : RecyclerView.ViewHolder(binding.root) {
 
-        mContext = context;
-        mResources = mContext.getResources();
-
-        pictures = mResources.obtainTypedArray(R.array.pictures);
-        pictureSections = mResources.obtainTypedArray(R.array.pictureSections);
-        textSections = mResources.getStringArray(R.array.textSections);
-        textButtons = mResources.getStringArray(R.array.textButtons);
+        init {
+            binding.listItemButton.setOnClickListener {
+                onClick(binding.root, bindingAdapterPosition)
+            }
+            binding.listItemButton.setOnLongClickListener {
+                onLongClick(binding.root, bindingAdapterPosition)
+                return@setOnLongClickListener true
+            }
+        }
     }
 
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        if (convertView == null) {
-            LayoutInflater inflater = mContext.getLayoutInflater();
-            convertView = inflater.inflate(R.layout.row, null, true);
-            final ViewHolder viewHolder = new ViewHolder();
-            viewHolder.section = (TextView) convertView.findViewById(R.id.section);
-            viewHolder.button = (Button) convertView.findViewById(R.id.button);
-            viewHolder.animation = AnimationUtils.loadAnimation(mContext, R.anim.zoomin);
-            convertView.setTag(viewHolder);
-        }
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+        val binding = ListItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return MyViewHolder(binding)
+    }
 
-        ViewHolder holder = (ViewHolder) convertView.getTag();
-        if (!textSections[position].equals("")) {
-            holder.section.setVisibility(View.VISIBLE);
-            holder.section.setText(textSections[position]);
-            holder.section.setCompoundDrawablesWithIntrinsicBounds(
-                    pictureSections.getDrawable(position), null,
-                    pictureSections.getDrawable(position), null);
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        val currentItem = items[position]
+        holder.binding.listItemSection.text = currentItem.sectionText
+        holder.binding.listItemSection.setCompoundDrawablesWithIntrinsicBounds(
+            currentItem.sectionImage, 0,
+            currentItem.sectionImage, 0
+        )
+        holder.binding.listItemButton.text = currentItem.buttonText
+        holder.binding.listItemButton.setBackgroundResource(currentItem.buttonImage)
+        if (currentItem.sectionText != "") {
+            holder.binding.listItemSection.visibility = View.VISIBLE
+            holder.binding.listItemButton.visibility = View.GONE
         } else {
-            holder.section.setVisibility(LinearLayout.GONE);
+            holder.binding.listItemSection.visibility = View.GONE
+            holder.binding.listItemButton.visibility = View.VISIBLE
+            holder.binding.listItemButton.startAnimation(AnimationUtils.loadAnimation(holder.itemView.context, R.anim.zoomin))
         }
-        holder.button.setText(textButtons[position]);
-        holder.button.setBackgroundDrawable(pictures.getDrawable(position));
-//		holder.button.setTag(position);
-//		holder.button.playSoundEffect(android.view.SoundEffectConstants.CLICK);
-        // Set random animation on buttons
-        // animation.setStartOffset(new Random().nextInt(500));
-        holder.button.clearAnimation();
-        holder.button.startAnimation(holder.animation);
-        // Register for long click action
-//		mContext.registerForContextMenu(holder.button);
-
-        return convertView;
     }
 
-    static class ViewHolder {
-        protected TextView section;
-        protected Button button;
-        protected Animation animation;
+    override fun getItemCount(): Int {
+        return items.size
     }
 }

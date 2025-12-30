@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vehicles Sound for Kids</string>
-    <string name="widget_name">Vehicles Sound for Kids</string>
+    <string name="app_name">Vehicle Sounds</string>
 
-    <string name="soundFile">VehiclesSound.mp3</string>
-    <string name="soundTitle">Vehicles Sound</string>
+    <string name="soundFile">VehicleSounds.mp3</string>
+    <string name="soundTitle">Vehicle Sounds</string>
 
     <string name="ad_unit_id" translatable="false">ca-app-pub-3294765052683520/7427764402</string>
 
@@ -28,7 +27,6 @@
     <string name="volume_yes">Yes, set to max!</string>
     <string name="volume_no">No, do not change volume...</string>
 
-    <string name="actions">Actions</string>
     <string name="play">Play sound</string>
     <string name="ringtone">Set as Ringtone</string>
     <string name="ringtoneok">Your ringtone have been changed</string>
@@ -64,125 +62,161 @@
     <string name="preference_category_features">Features</string>
     <string name="lgclick_title">Long press feature</string>
     <string name="lgclick_summary">Open a contextual menu when long press on a sound</string>
-    <string name="shake_title">Play on shake</string>
-    <string name="shake_summary">Play a random sound when shaking or rolling the device</string>
     <string name="bgmusic_title">Startup music</string>
     <string name="bgmusic_summary">Play a short music on startup</string>
-    <string name="save_setting">Save settings</string>
-    <string name="setting_saved">Settings saved</string>
 
     <string-array name="textSections">
         <item>Car</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Transport</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Farming</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Yard</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Train</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Military</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Bike</item>
-        <item></item>
+        <item />
+        <item />
         <item>Motorbike</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Miscellaneous</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Sail</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Boat</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Plane</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Helicopter</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
         <item>Space</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
+        <item />
         <item>Alien</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
+        <item />
     </string-array>
 
     <string-array name="textButtons">
+        <item />
         <item>Old Car</item>
         <item>Luxury Car</item>
         <item>Race Car</item>
         <item>Car</item>
+        <item />
         <item>Bus Travel</item>
         <item>Bus Line</item>
         <item>Truck</item>
         <item>Truck US</item>
+        <item />
         <item>Tractor</item>
         <item>Agricultural Machine</item>
         <item>Combine Harvester</item>
+        <item />
         <item>Truck Yard</item>
         <item>Bulldozer</item>
         <item>Truck Crane</item>
         <item>Charger</item>
+        <item />
         <item>Metro</item>
         <item>Regional Train</item>
         <item>Fast Train</item>
         <item>Steam Train</item>
         <item>Tram</item>
+        <item />
         <item>Tank</item>
         <item>Char US</item>
         <item>Armored Vehicle</item>
         <item>Infantry Vehicle</item>
+        <item />
         <item>Racer</item>
         <item>Mountain Bike</item>
+        <item />
         <item>Motorcycle Racing</item>
         <item>Motocross</item>
         <item>Motorcycle GP</item>
         <item>Quad</item>
         <item>Quad Cross</item>
+        <item />
         <item>Charette</item>
         <item>Diligence</item>
         <item>Dragster</item>
         <item>Dragster Burn</item>
+        <item />
         <item>Pleasure boat</item>
         <item>Yacht</item>
         <item>Three Mats</item>
+        <item />
         <item>Boat</item>
         <item>Trawler</item>
         <item>Cargo</item>
+        <item />
         <item>Airliner</item>
         <item>Long Haul</item>
         <item>Concorde</item>
+        <item />
         <item>Helicopter</item>
         <item>Helicopter Rescue</item>
         <item>Military Helicopter</item>
+        <item />
         <item>Ariane 4</item>
         <item>Ariane 5</item>
         <item>Rocket</item>
         <item>Vega Rocket</item>
+        <item />
         <item>Spacecraft</item>
         <item>Futuristic Ship</item>
         <item>Xwing</item>
     </string-array>
+
+    <string name="about">
+    <![CDATA[
+    <h1>Vehicle Sounds</h1>
+    <p>Push a button to play a sound</p>
+    <p>Long press a button to set ringtone or notification</p>
+    <h2><a href="http://kioffree.blogspot.fr/2017/02/regles-de-confidentialite.html">Privacy policy</a></h2>
+    <h3>Copyright © KioF</h3>
+    ]]>
+</string>
 
 </resources>
